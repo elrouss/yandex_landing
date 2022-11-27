@@ -1,0 +1,10 @@
+.btn {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: var(--btn-bg-color);
+  color: var(--btn-txt-color);
+  width: var(--btn-width);
+  height: var(--btn-height);
+  border-radius: var(--btn-border-radius);
+}
