@@ -1,0 +1,12 @@
+.social-items__item {
+    color: black;
+    vertical-align: top;
+}
+
+.social-items__item:hover {
+    text-decoration: underline;
+}
+
+.social-items__item:visited {
+    color: black;
+}

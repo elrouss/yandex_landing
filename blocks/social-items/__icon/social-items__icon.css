@@ -1,0 +1,10 @@
+.social-items__icon {
+    width: 34px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+}
+
+.social-items__icon:hover {
+    opacity: .6;
+}
