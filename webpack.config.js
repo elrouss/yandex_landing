@@ -18,11 +18,12 @@ module.exports = {
     port: 8080,
     open: true
   },
+  devtool: 'eval-source-map',
   module: {
     rules: [
       {
         test: /\.js$/,
-        use: 'babel-loader',
+        use: ['babel-loader', 'source-map-loader'],
         exclude: '/node_modules/'
       },
       {
