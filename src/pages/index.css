@@ -16,3 +16,26 @@
 @import url(../blocks/intro/__tags/intro__tags.css);
 @import url(../blocks/intro/__tag/intro__tag.css);
 @import url(../blocks/btn/btn.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer-container/footer-container.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/link/link.css);
+
+@import url(../blocks/contacts/__phone/contacts__phone.css);
+@import url(../blocks/contacts/__phone-subheader/contacts__phone-subheader.css);
+@import url(../blocks/social-items/social-items.css);
+@import url(../blocks/social-items/__item/social-items__item.css);
+@import url(../blocks/social-items/__icon/social-items__icon.css);
+
+@import url(../blocks/footer-container-column/footer-container-column.css);
+@import url(../blocks/footer-container-column/__item/footer-container-column__item.css);
+
+@import url(../blocks/disclaimer/disclaimer.css);
+@import url(../blocks/disclaimer/__text/disclaimer__text.css);
+@import url(../blocks/disclaimer/__text/_underline/disclaimer__text_link.css);
+
+@import url(../blocks/copyright/copyright.css);
+@import url(../blocks/copyright/__item/copyright__item.css);
