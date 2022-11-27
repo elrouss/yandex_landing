@@ -1,0 +1,9 @@
+.tasks {
+  display: grid;
+  grid-template-columns: minmax(391px, 705px) minmax(391px, 705px);
+  column-gap: 30px;
+  grid-template-rows: minmax(463px, auto) minmax(115px, auto);
+  grid-template-areas:
+  'mentor reviewer'
+  'button button';
+}
