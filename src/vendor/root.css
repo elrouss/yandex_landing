@@ -8,6 +8,13 @@
 	--background-color-main: #ffffff;
   --text-color-main: #000000;
 	--main-theme-color: #999999;
+
+  /* BUTTONS */
+  --btn-width: 315px;
+  --btn-height: 55px;
+  --btn-border-radius: 15px;
+  --btn-bg-color: #1A1B22;
+  --btn-txt-color: #fff;
 }
 
 
