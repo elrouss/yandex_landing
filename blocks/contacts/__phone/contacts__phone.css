@@ -3,5 +3,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    line-height: 1;
+    line-height: 32px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.contacts__phone:hover {
+    color: black;
 }
