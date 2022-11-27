@@ -2,7 +2,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: { main: './src/scripts/pages/index.js' },
@@ -44,10 +43,7 @@ module.exports = {
           {
             loader: 'simple-nunjucks-loader',
             options: {
-              searchPaths: [
-                'django_app_a/templates',
-                'django_app_b/templates'
-              ]
+
             }
           }
         ]
@@ -60,11 +56,5 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
-    new HTMLWebpackPlugin({
-      template: 'template.njk',
-      templateParameters: {
-          username: 'Joe'
-      }
-    })
   ],
 }
