@@ -1,0 +1,7 @@
+.header {
+  padding-top: 25px;
+  margin-left: calc(145 / 1440 * 100%);
+  margin-right: calc(145 / 1440 * 100%);
+  display: flex;
+  column-gap: 395px;
+}

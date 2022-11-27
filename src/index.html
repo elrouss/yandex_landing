@@ -11,8 +11,19 @@
   <meta name="referrer" content="no-referrer-when-downgrade">
   <title>Открытые предложения в сопровождении Яндекс.Практикума</title>
 </head>
-<body>
-  <header></header>
+
+<body class="page">
+  <header class="header">
+    <img src="<%=require('./images/logo-yandex.svg')%>") alt="Логотип Яндекс Практикума" class="header__logo">
+    <nav class="header__nav">
+      <ul class="header__links">
+        <li><a href="#" class="header__link">Что делают наставник и ревьюер</a></li>
+        <li><a href="#" class="header__link">Открытые предложения</a></li>
+        <li><a href="#" class="header__link">Оставить заявку</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <main>
     <section class="intro">
       <h1 class="intro__title">Обучай студентов вместе с Яндекс Практикумом</h1>
@@ -26,8 +37,9 @@
       <p class="intro__text">Стань наставником или ревьюером и делись своим опытом в программировании, анализе данных, менеджменте, маркетинге или дизайне и получай дополнительный доход</p>
       <button class="btn">Хочу делиться знаниями</button>
     </section>
-
+    
   </main>
+  
   <footer></footer>
 </body>
 </html>
