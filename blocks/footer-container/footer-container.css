@@ -1,4 +1,4 @@
-.footer-top {
+.footer-container {
     display: grid;
     grid-column-gap: 98px;
     grid-template-columns: 263px 197px 462px;

@@ -1,8 +1,7 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer-top/footer-top.css);
-@import url(../blocks/footer-bottom/footer-bottom.css);
+@import url(../blocks/footer-container/footer-container.css);
 
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/link/link.css);
@@ -13,13 +12,13 @@
 @import url(../blocks/social-items/__item/social-items__item.css);
 @import url(../blocks/social-items/__icon/social-items__icon.css);
 
-@import url(../blocks/footer-top-column/footer-top-column.css);
-@import url(../blocks/footer-top-column/__item/footer-top-column__item.css);
+@import url(../blocks/footer-container-column/footer-container-column.css);
+@import url(../blocks/footer-container-column/__item/footer-container-column__item.css);
 
-@import url(../blocks/footer-bottom-columns/footer-bottom-columns.css);
-@import url(../blocks/footer-bottom-columns/__copyright/footer-bottom-columns__copyright.css);
-@import url(../blocks/footer-bottom-columns/__text/footer-bottom-columns__text.css);
 
 @import url(../blocks/disclaimer/disclaimer.css);
 @import url(../blocks/disclaimer/__text/disclaimer__text.css);
 @import url(../blocks/disclaimer/__text/_underline/disclaimer__text_link.css);
+
+@import url(../blocks/copyright/copyright.css);
+@import url(../blocks/copyright/__item/copyright__item.css);
