@@ -1,0 +1,15 @@
+.team-card-section {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 72px;
+    /* overflow-x: scroll; */
+    overflow: auto;
+    gap: 30px;
+    padding: 0 calc((100vw - 1150px)/2);
+}
+
+.team-card-section::-webkit-scrollbar {
+    width: 0;
+  }

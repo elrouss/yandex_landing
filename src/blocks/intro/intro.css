@@ -1,11 +1,13 @@
 .intro {
   padding-top: 88px;
   padding-bottom: 92px;
-  margin-left: calc(243 / 1440 * 100%);
-  margin-right: calc(243 / 1440 * 100%);
+  /* margin-left: calc(243 / 1440 * 100%);
+  margin-right: calc(243 / 1440 * 100%); */
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   row-gap: 30px;
+  max-width: 1150px;
 }
