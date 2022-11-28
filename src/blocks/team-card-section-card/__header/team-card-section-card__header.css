@@ -1,0 +1,9 @@
+.team-card-section-card__header {
+    font-family:'YS Display', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.18;
+    height: 52px;
+    margin: 0 0 24px 0;
+}

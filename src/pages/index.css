@@ -77,7 +77,7 @@
 @import url(../blocks/copyright/__item/copyright__item.css);
 @import url(../blocks/btn/btn.css);
 
-/* mentor-or-reviewer  */
+/* MENTOR-OR-REVIEWER  */
 @import url(../blocks/mentor-or-reviewer/mentor-or-reviewer.css);
 @import url(../blocks/section-header/section-header.css);
 @import url(../blocks/section-subheader/section-subheader.css);
@@ -90,4 +90,13 @@
 @import url(../blocks/about-praktikum/about-praktikum.css);
 @import url(../blocks/about-grid/__big-element/about-grid__big-element.css);
 @import url(../blocks/about-grid/__squared-element/about-grid__squared-element.css);
-@import url(../blocks/about-grid/__squared-element/_with-arrow/about-grid__squared-element_with-arrow.css)
+@import url(../blocks/about-grid/__squared-element/_with-arrow/about-grid__squared-element_with-arrow.css);
+
+/* TEAM-HELPS */
+@import url(../blocks/team-helps/team-helps.css);
+@import url(../blocks/team-helps-container/team-helps-container.css);
+@import url(../blocks/team-card-section/team-card-section.css);
+@import url(../blocks/team-card-section-card/team-card-section-card.css);
+@import url(../blocks/team-card-section-card/__image/team-card-section-card__image.css);
+@import url(../blocks/team-card-section-card/__header/team-card-section-card__header.css);
+@import url(../blocks/team-card-section-card/__description/team-card-section-card__description.css);

@@ -1,0 +1,12 @@
+.team-card-section {
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 72px;
+    overflow-x: scroll;
+}
+
+.team-card-section::-webkit-scrollbar {
+    width: 0;
+  }

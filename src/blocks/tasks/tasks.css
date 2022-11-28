@@ -6,4 +6,6 @@
   grid-template-areas:
   'mentor reviewer'
   'button button';
+  max-width: 1150px;
+  margin: 0 auto;
 }

@@ -1,0 +1,6 @@
+.team-helps-container {
+    /* max-width: 1150px; */
+    /* margin-left: calc((100vw - 1150px)/2); */
+    margin: 0 0 0 calc((100vw - 1150px)/2);
+    padding: 0;
+}
