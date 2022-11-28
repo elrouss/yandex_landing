@@ -61,9 +61,10 @@
 .about-grid__squared-element{align-items:center;background-color:#f0f2f3;border-radius:25px;display:flex;font-family:YS Display,Arial,sans-serif;font-size:28px;font-style:normal;font-weight:500;justify-content:center;line-height:.86;position:relative}
 .about-grid__squared-element_with-arrow:after{bottom:25px;content:url(94d1c71583fa68753f89.svg);position:absolute;right:-15px;z-index:2}
 .team-helps{background-color:#f8f8f8;margin:0 auto;overflow:hidden;padding:100px 0}
-.team-helps-container{margin:0 0 0 calc(50vw - 575px);padding:0}
-.team-card-section{align-items:flex-start;display:flex;justify-content:flex-start;margin:72px 0 0;overflow-x:scroll}.team-card-section::-webkit-scrollbar{width:0}
-.team-card-section-card{margin:0 30px 0 0;max-width:265px;min-width:265px}
+.team-helps-container{margin:0;padding:0}
+.team-helps-container__header{margin-left:calc(50vw - 575px)}
+.team-card-section{align-items:flex-start;display:flex;gap:30px;justify-content:flex-start;margin:72px 0 0;overflow:auto;padding:0 calc(50vw - 575px)}.team-card-section::-webkit-scrollbar{width:0}
+.team-card-section-card{margin:0;max-width:265px;min-width:265px}
 .team-card-section-card__image{margin-bottom:28px;-o-object-position:center;object-position:center;width:100%}
 .team-card-section-card__header{font-family:YS Display,Arial,sans-serif;font-size:22px;font-style:normal;font-weight:500;height:52px;line-height:1.18;margin:0 0 24px}
 .team-card-section-card__description{font-family:YS Display,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:300;line-height:1.5;margin:0}
