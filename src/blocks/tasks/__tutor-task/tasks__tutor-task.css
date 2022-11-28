@@ -1,0 +1,10 @@
+.tasks__tutor-task {
+  max-width: 453px;
+  display: flex;
+  column-gap: 27px;
+}
+
+.tasks__tutor-task > p {
+  margin: 0;
+  max-width: 300px;
+}
