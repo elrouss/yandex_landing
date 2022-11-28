@@ -1,0 +1,7 @@
+.application__agreement-data {
+  max-width: 371px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: calc(18 / 10 * 100%);
+}

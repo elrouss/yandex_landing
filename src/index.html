@@ -85,8 +85,93 @@
       <button class="btn tasks__btn">Посмотреть предложения</button>
     </section>
     
+    <section class="application">
+      <div class="application__container">
+        <h2 class="section__title application__title">Станьте <span class="application__title_text_accent">наставником или ревьюером</span></h2>
+        <p class="application__description">Оставьте заявку, чтобы стать частью команды Яндекс Практикума</p>
+        <form name="applicationTutors" class="application__form">
+          <input id="input-phone" name="applicationPhone" type="tel" value="" placeholder="+7 --- --- -- --" placeholder="" minlength="16" maxlength="16" required class="application__input">
+          <input id="input-name" name="applicationName" type="text" value="" placeholder="Имя" minlength="2" maxlength="48" required class="application__input">
+          <input id="input-email" name="applicationEmail" type="email" value="" placeholder="ivanivanov@yandex.ru" minlength="2" maxlength="48" required class="application__input">
+          <div class="application__custom-select">
+            <select>
+              <option value="0" disabled selected>Роль</option>
+              <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
+              <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
+              <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
+              <option value="4">Наставник на курс &laquo;Android-разработчик&raquo;</option>
+            </select>
+          </div>
+          <div class="application__custom-select">
+            <select>
+              <option value="0" disabled selected>Факультет</option>
+              <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
+              <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
+              <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
+              <option value="4">Наставник на курс &laquo;Android-разработчик&raquo;</option>
+            </select>
+          </div>
+          <input id="input-link" name="applicationLinkResume" type="url" value="" placeholder="Ссылка на резюме" minlength="2" maxlength="120" required class="application__input">
+          <div class="application__agreement">
+            <input type="checkbox" class="application__checkbox" required>
+            <p class="application__agreement-data">
+              Я даю согласие АНО ДПО «ШАД» и ООО «ЯНДЕКС» на <a href="" class="application__link">обработку указанных данных</a> для целей рассмотрения анкеты и обратной связи по ней.
+            </p>
+          </div>
+          <button type="submit" class="btn application__submit-btn">Отправить</button>
+        </form>
+      </div>
+    </section>
   </main>
+  
+  <footer class="footer">
+    <div class="footer-container">
+      <ul class="footer-container-column contacts">
+        <li class="footer-container-column__item"><a href="tel:88007009329" class="contacts__phone">8-800-700-93-29</a>
+        </li>
+        <li class="contacts__phone-subheader">Звонок по России бесплатный</li>
+        <li class="footer-container-column__item">
+        <li class="social-items">
+          <a href="" class="social-items__item">Журнал</a>
+          <img src="<%=require('./images/vk-icon.svg')%>" alt="Иконка социальной сети %22ВКонтакте%22" class="social-items__icon">
+          
+          <img src="<%=require('./images/telegram-icon.svg')%>" alt="Иконка социальной сети %22Телеграм%22" class="social-items__icon">
+        </li>
+        </li>
+        <li class="copyright">
+          <p class="copyright__item">АНО ДПО «ШАД», ООО «Яндекс»</p>
+          <p class="copyright__item">©<time>2022</time></p>
+        </li>
 
-  <footer></footer>
+      </ul>
+      <ul class="footer-container-column">
+        <li class="footer-container-column__item"><a href="" class="link">Помощь</a></li>
+        <li class="footer-container-column__item"><a href="" class="link">Вакансии</a></li>
+        <li class="footer-container-column__item"><a href="" class="link">Лицензия</a></li>
+        <li class="footer-container-column__item"><a href="" class="link">Правовая информация</a></li>
+        <li class="footer-container-column__item"><a href="" class="link">Для работодателей</a></li>
+        <li class="footer-container-column__item"><a href="" class="link">Отзывы</a></li>
+      </ul>
+      <div class="disclaimer">
+        <div class="disclaimer__text">
+          Информация на данной странице описывает возможные варианты получения дополнительного дохода в месяц (т.н.
+          подработка). Не является предложением о работе. Размещенные объявления о потребности в тех или иных услугах
+          не являются вакансиями.
+        </div>
+        <div class="disclaimer__text">
+          Образовательные услуги оказываются АНО ДПО «ШАД». ШАД — это <a href="https://yandexdataschool.ru/"
+            class="disclaimer__text_underline link">Школа анализа данных</a>, основанная Яндексом и
+          оказывающая образовательные услуги на основании <a href="" class="disclaimer__text_underline link">Лицензии
+            № 036031</a> от 24 марта 2015 года.
+        </div>
+        <div class="disclaimer__text">
+          Сертификат о прохождении обучения по программе дополнительного профессионального образования также выдается
+          АНО ДПО «ШАД».
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  
 </body>
 </html>

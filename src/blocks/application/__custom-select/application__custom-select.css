@@ -1,0 +1,43 @@
+.application__custom-select {
+  padding: 0;
+  width: 321px;
+  height: 60px;
+  border: 2px solid #DBDBDB;
+  border-radius: 14px;
+  cursor: pointer;
+  background-color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(20 / 18 * 100%);
+  color: #787878;
+  display: grid;
+  position: relative;
+}
+
+.application__custom-select::after {
+  content: '';
+  width: 16px;
+  height: 9.41px;
+  background-color: var(--select-arrow);
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  position: absolute;
+  top: 24px;
+  left: 295px;
+}
+
+.application__custom-select > select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  width: 100%;
+  padding: 18px 0 18px 12px;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  color: inherit;
+  outline: none;
+}
