@@ -1,0 +1,11 @@
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+       "about-praktikum about-praktikum big-element big-element"
+       "item-1 item-2 item-3 item-3";
+    grid-gap: 30px;
+    grid-template-rows: 251px 251px;
+    margin: 72px auto 88px auto;
+    max-width: 1150px;
+}
