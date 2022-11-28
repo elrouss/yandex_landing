@@ -66,3 +66,10 @@
 
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/__item/copyright__item.css);
+@import url(../blocks/btn/btn.css);
+
+/* mentor-or-reviewer  */
+@import url(../blocks/mentor-or-reviewer/mentor-or-reviewer.css);
+@import url(../blocks/section-header/section-header.css);
+@import url(../blocks/section-subheader/section-subheader.css);
+@import url(../blocks/mentor-or-reviewer/__image/mentor-or-reviewer__image.css);
