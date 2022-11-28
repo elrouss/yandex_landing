@@ -26,7 +26,7 @@
 @import url(../blocks/about-praktikum/about-praktikum.css);
 @import url(../blocks/about-grid/__big-element/about-grid__big-element.css);
 @import url(../blocks/about-grid/__squared-element/about-grid__squared-element.css);
-@import url(../blocks/about-grid/__squared-element/_with-arrow/about-grid__squared-element_with-arrow.css)
+@import url(../blocks/about-grid/__squared-element/_with-arrow/about-grid__squared-element_with-arrow.css);
 
 /* MENTOR-OR-REVIEWER  */
 @import url(../blocks/mentor-or-reviewer/mentor-or-reviewer.css);
