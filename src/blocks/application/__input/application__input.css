@@ -1,0 +1,43 @@
+.application__input {
+  margin: 0;
+  padding: 0;
+  width: 309px;
+  height: 60px;
+  background: #fff;
+  border: 2px solid #DBDBDB;
+  border-radius: 14px;
+  padding-left: 12px;
+}
+
+.application__input::placeholder {
+  padding: 18px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(20 / 18 * 100%);
+  color: #787878;
+}
+
+.application__input:nth-child(1) {
+  grid-area: phone;
+}
+
+.application__input:nth-child(2) {
+  grid-area: name;
+}
+
+.application__input:nth-child(3) {
+  grid-area: email;
+}
+
+.application__input:nth-child(4) {
+  grid-area: job;
+}
+
+.application__input:nth-child(5) {
+  grid-area: department;
+}
+
+.application__input:nth-child(6) {
+  grid-area: resume;
+}

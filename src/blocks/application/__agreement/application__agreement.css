@@ -1,0 +1,7 @@
+.application__agreement {
+  display: flex;
+  column-gap: 15px;
+  grid-area: agreement;
+  padding-top: 22px;
+  align-items: flex-start;
+}
