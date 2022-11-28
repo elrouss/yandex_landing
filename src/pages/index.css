@@ -95,6 +95,7 @@
 /* TEAM-HELPS */
 @import url(../blocks/team-helps/team-helps.css);
 @import url(../blocks/team-helps-container/team-helps-container.css);
+@import url(../blocks/team-helps-container/__header/team-helps-container__header.css);
 @import url(../blocks/team-card-section/team-card-section.css);
 @import url(../blocks/team-card-section-card/team-card-section-card.css);
 @import url(../blocks/team-card-section-card/__image/team-card-section-card__image.css);
