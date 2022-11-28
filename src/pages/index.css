@@ -19,15 +19,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__tags/intro__tags.css);
 @import url(../blocks/intro/__tag/intro__tag.css);
-
 @import url(../blocks/btn/btn.css);
-
-/* mentor-or-reviewer  */
-@import url(../blocks/mentor-or-reviewer/mentor-or-reviewer.css);
-@import url(../blocks/section-header/section-header.css);
-@import url(../blocks/section-subheader/section-subheader.css);
-@import url(../blocks/mentor-or-reviewer/__image/mentor-or-reviewer__image.css);
-
 
 /* TASKS */
 @import url(../blocks/tasks/tasks.css);
@@ -77,12 +69,19 @@
 @import url(../blocks/copyright/__item/copyright__item.css);
 @import url(../blocks/btn/btn.css);
 
-/* MENTOR-OR-REVIEWER  */
+/* MENTOR-OR-REVIEWER */
 @import url(../blocks/mentor-or-reviewer/mentor-or-reviewer.css);
+@import url(../blocks/mentor-or-reviewer-container/mentor-or-reviewer-container.css);
 @import url(../blocks/section-header/section-header.css);
 @import url(../blocks/section-subheader/section-subheader.css);
-@import url(../blocks/mentor-or-reviewer/__image/mentor-or-reviewer__image.css);
+@import url(../blocks/mentor-or-reviewer-container/__image/mentor-or-reviewer-container__image.css);
 @import url(../blocks/mentor-or-reviewer-column/mentor-or-reviewer-column.css);
+/* quiz */
+@import url(../blocks/quiz/quiz.css);
+@import url(../blocks/quiz/__header/quiz__header.css);
+@import url(../blocks/radio-container/radio-container.css);
+@import url(../blocks/quiz/__close-button/quiz__close-button.css);
+@import url(../blocks/quiz/__page-number/quiz__page-number.css);
 
 /* ABOUT */
 @import url(../blocks/about/about.css);

@@ -106,13 +106,32 @@
     </section>
 
     <section class="mentor-or-reviewer">
-      <div class="mentor-or-reviewer-column">
-        <h2 class="section-header">Наставник или ревьюер, вот в чем вопрос</h2>
-        <h3 class="section-subheader">Пройдите опрос и узнай, какая роль подойдет вам больше</h3>
-        <button class="btn">Пройти опрос</button>
+      <div class="mentor-or-reviewer-container">
+        <div class="mentor-or-reviewer-column">
+          <h2 class="section-header">Наставник или ревьюер, вот в чем вопрос</h2>
+          <h3 class="section-subheader">Пройдите опрос и узнай, какая роль подойдет вам больше</h3>
+          <button class="btn">Пройти опрос</button>
+        </div>
+        <img src="<%=require('./images/dilemma.png')%>" alt="" class="mentor-or-reviewer-container__image">
       </div>
-      <img src="<%=require('./images/dilemma.png')%>" alt="" class="mentor-or-reviewer__image">
+      <div class="quiz">
+        <h4 class="quiz__header">Что вам нравится больше?</h4>
+        <label class="radio-container">
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+          Помогать студентам ставить цели, рефлексировать и делать выводы
+        </label>
+        <label class="radio-container">
+          <input type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+          Проверять код и проекты студентов
+        </label>
+        <button class="quiz__close-button"></button>
+        <p class="quiz__page-number">1/4</p>
+      </div>
+      
     </section>
+    
 
     <section class="team-helps">
       <div class="team-helps-container">
