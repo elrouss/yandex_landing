@@ -1,0 +1,9 @@
+.tasks__mentor {
+  grid-area: mentor;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8F8F8;
+  border-radius: 0 25px 25px 0;
+}

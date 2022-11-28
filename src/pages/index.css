@@ -20,6 +20,16 @@
 @import url(../blocks/intro/__tags/intro__tags.css);
 @import url(../blocks/intro/__tag/intro__tag.css);
 
+/* TASKS */
+@import url(../blocks/tasks/tasks.css);
+@import url(../blocks/tasks/__title/tasks__title.css);
+@import url(../blocks/tasks/__tutor-tasks/tasks__tutor-tasks.css);
+@import url(../blocks/tasks/__tutor-task/tasks__tutor-task.css);
+@import url(../blocks/tasks/__mentor/tasks__mentor.css);
+@import url(../blocks/tasks/__reviewer/tasks__reviewer.css);
+@import url(../blocks/tasks/__tutor-task-icon/tasks__tutor-task-icon.css);
+@import url(../blocks/tasks/__btn/tasks__btn.css);
+
 /* APPLICATION */
 @import url(../blocks/application/application.css);
 @import url(../blocks/application/__container/application__container.css);
