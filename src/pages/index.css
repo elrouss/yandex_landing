@@ -20,6 +20,15 @@
 @import url(../blocks/intro/__tags/intro__tags.css);
 @import url(../blocks/intro/__tag/intro__tag.css);
 
+@import url(../blocks/btn/btn.css);
+
+/* mentor-or-reviewer  */
+@import url(../blocks/mentor-or-reviewer/mentor-or-reviewer.css);
+@import url(../blocks/section-header/section-header.css);
+@import url(../blocks/section-subheader/section-subheader.css);
+@import url(../blocks/mentor-or-reviewer/__image/mentor-or-reviewer__image.css);
+
+
 /* TASKS */
 @import url(../blocks/tasks/tasks.css);
 @import url(../blocks/tasks/__title/tasks__title.css);
@@ -66,3 +75,4 @@
 
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/__item/copyright__item.css);
+
