@@ -82,4 +82,12 @@
 @import url(../blocks/section-header/section-header.css);
 @import url(../blocks/section-subheader/section-subheader.css);
 @import url(../blocks/mentor-or-reviewer/__image/mentor-or-reviewer__image.css);
+@import url(../blocks/mentor-or-reviewer-column/mentor-or-reviewer-column.css);
 
+/* ABOUT */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about-grid/about-grid.css);
+@import url(../blocks/about-praktikum/about-praktikum.css);
+@import url(../blocks/about-grid/__big-element/about-grid__big-element.css);
+@import url(../blocks/about-grid/__squared-element/about-grid__squared-element.css);
+@import url(../blocks/about-grid/__squared-element/_with-arrow/about-grid__squared-element_with-arrow.css)

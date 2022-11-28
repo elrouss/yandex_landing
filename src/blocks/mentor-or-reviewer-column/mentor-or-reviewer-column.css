@@ -1,0 +1,8 @@
+.mentor-or-reviewer-column {
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

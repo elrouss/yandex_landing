@@ -6,8 +6,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right; */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around; */
     position: relative;
 }
