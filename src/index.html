@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author"
-    content="Дизайн: Юлия Анастасьина, Рэд Бушетара, Кристина Громова; фронтенд-разработка: Борис Зашляпин, Александр Кайгородов, Анастасия Теслина">
+    content="Дизайн: Юлия Анастасьина, Рэд Бушетара, Кристина Громова; фронтенд-разработка: Валерий Громов, Борис Зашляпин, Александр Кайгородов">
   <meta name="description"
     content="Яндекс.Практикум — сервис для подготовки интернет-специалистов. Мы помогаем тем,
   кто решил изменить свою жизнь и найти призвание в IT. Над сервисом работают десятки специалистов из разных областей, наша команда постоянно растет. Вы можете присоединиться к ней, если вам близки наши цели.">
@@ -42,13 +42,6 @@
       <button class="btn">Хочу делиться знаниями</button>
     </section>
 
-    <section class="mentor-or-reviewer">
-
-        <h2 class="section-header">Наставник или ревьюер, вот в чем вопрос</h2>
-        <h3 class="section-subheader">Пройдите опрос и узнай, какая роль подойдет вам больше</h3>
-        <button class="btn">Пройти опрос</button>
-        <img src="<%=require('./images/dilemma.png')%>" alt="" class="mentor-or-reviewer__image">
-    <section/>
     <section class="tasks">
       <div class="tasks__mentor">
         <h2 class="section__title tasks__title">Задачи наставника</h2>
@@ -96,13 +89,14 @@
 
       <button class="btn tasks__btn">Посмотреть предложения</button>
     </section>
-    <section class="mentor-or-reviewer">
 
+    <section class="mentor-or-reviewer">
       <h2 class="section-header">Наставник или ревьюер, вот в чем вопрос</h2>
       <h3 class="section-subheader">Пройдите опрос и узнай, какая роль подойдет вам больше</h3>
       <button class="btn">Пройти опрос</button>
       <img src="<%=require('./images/dilemma.png')%>" alt="" class="mentor-or-reviewer__image">
     </section>
+
     <section class="application">
       <div class="application__container">
         <h2 class="section__title application__title">Станьте <span class="application__title_text_accent">наставником
@@ -110,7 +104,7 @@
         <p class="application__description">Оставьте заявку, чтобы стать частью команды Яндекс Практикума</p>
         <form name="applicationTutors" class="application__form">
           <input id="input-phone" name="applicationPhone" type="tel" value="" placeholder="+7 --- --- -- --"
-            placeholder="" minlength="16" maxlength="16" required class="application__input">
+            minlength="16" maxlength="16" required class="application__input">
           <input id="input-name" name="applicationName" type="text" value="" placeholder="Имя" minlength="2"
             maxlength="48" required class="application__input">
           <input id="input-email" name="applicationEmail" type="email" value="" placeholder="ivanivanov@yandex.ru"
@@ -146,7 +140,6 @@
         </form>
       </div>
     </section>
-
   </main>
 
   <footer class="footer">
@@ -163,7 +156,6 @@
 
           <img src="<%=require('./images/telegram-icon.svg')%>" alt="Иконка социальной сети %22Телеграм%22"
             class="social-items__icon">
-        </li>
         </li>
         <li class="copyright">
           <p class="copyright__item">АНО ДПО «ШАД», ООО «Яндекс»</p>
@@ -203,5 +195,3 @@
 </body>
 
 </html>
-
-<!-- ТЕСТ ПУША -->
