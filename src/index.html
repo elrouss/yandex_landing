@@ -37,7 +37,44 @@
       <p class="intro__text">Стань наставником или ревьюером и делись своим опытом в программировании, анализе данных, менеджменте, маркетинге или дизайне и получай дополнительный доход</p>
       <button class="btn">Хочу делиться знаниями</button>
     </section>
-    
+
+    <section class="application">
+      <div class="application__container">
+        <h2 class="section__title application__title">Станьте <span class="application__title_text_accent">наставником или ревьюером</span></h2>
+        <p class="application__description">Оставьте заявку, чтобы стать частью команды Яндекс Практикума</p>
+        <form name="applicationTutors" class="application__form">
+          <input id="input-phone" name="applicationPhone" type="tel" value="" placeholder="+7 --- --- -- --" placeholder="" minlength="16" maxlength="16" required class="application__input">
+          <input id="input-name" name="applicationName" type="text" value="" placeholder="Имя" minlength="2" maxlength="48" required class="application__input">
+          <input id="input-email" name="applicationEmail" type="email" value="" placeholder="ivanivanov@yandex.ru" minlength="2" maxlength="48" required class="application__input">
+          <div class="application__custom-select">
+            <select>
+              <option value="0" disabled selected>Роль</option>
+              <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
+              <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
+              <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
+              <option value="4">Наставник на курс &laquo;Android-разработчик&raquo;</option>
+            </select>
+          </div>
+          <div class="application__custom-select">
+            <select>
+              <option value="0" disabled selected>Факультет</option>
+              <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
+              <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
+              <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
+              <option value="4">Наставник на курс &laquo;Android-разработчик&raquo;</option>
+            </select>
+          </div>
+          <input id="input-link" name="applicationLinkResume" type="url" value="" placeholder="Ссылка на резюме" minlength="2" maxlength="120" required class="application__input">
+          <div class="application__agreement">
+            <input type="checkbox" class="application__checkbox" required>
+            <p class="application__agreement-data">
+              Я даю согласие АНО ДПО «ШАД» и ООО «ЯНДЕКС» на <a href="" class="application__link">обработку указанных данных</a> для целей рассмотрения анкеты и обратной связи по ней.
+            </p>
+          </div>
+          <button type="submit" class="btn application__submit-btn">Отправить</button>
+        </form>
+      </div>
+    </section>
   </main>
   
   <footer class="footer">
