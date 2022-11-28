@@ -3,6 +3,10 @@
 */
 
 :root {
+  /* COLOR PALETTE */
+  --background-color-card: #F0F2F3;
+
+  
 	--gerberaRegular: 'Gerbera Regular', sans-serif; /* Пример со шрифтом */
   --padding-default-mobile: 20px; /* Пример с отступом, можно дальше задавать такое значение в нужном месте */
 	--background-color-main: #ffffff;

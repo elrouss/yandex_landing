@@ -39,6 +39,18 @@
 @import url(../blocks/tasks/__tutor-task-icon/tasks__tutor-task-icon.css);
 @import url(../blocks/tasks/__btn/tasks__btn.css);
 
+/* TEAM-STORIES */
+@import url(../blocks/team-stories/team-stories.css);
+@import url(../blocks/team-stories/__container/team-stories__container.css);
+@import url(../blocks/team-stories/__intro/team-stories__intro.css);
+@import url(../blocks/team-stories/__cards/team-stories__cards.css);
+@import url(../blocks/team-stories/__card/team-stories__card.css);
+@import url(../blocks/team-stories/__card-photo.css/team-stories__card-photo.css);
+@import url(../blocks/team-stories/__text-block/team-stories__text-block.css);
+@import url(../blocks/team-stories/__card-text/team-stories__card-text.css);
+@import url(../blocks/team-stories/__card-author/team-stories__card-author.css);
+@import url(../blocks/team-stories/__card-job/team-stories__card-job.css);
+
 /* APPLICATION */
 @import url(../blocks/application/application.css);
 @import url(../blocks/application/__container/application__container.css);

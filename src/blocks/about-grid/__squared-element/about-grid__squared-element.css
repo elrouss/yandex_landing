@@ -1,5 +1,5 @@
 .about-grid__squared-element {
-    background-color: #F0F2F3;
+    background-color: var(--background-color-card);
     border-radius: 25px;
     font-family: 'YS Display', Arial, sans-serif;
     font-style: normal;
