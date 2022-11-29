@@ -3,17 +3,25 @@
 @import url(../blocks/page/page.css);
 
 /* RECURRING ELEMENTS */
-@import url(../blocks/url/url.css);
+/* Links */
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_type/link_type_accent.css);
+/* Titles and subtitles */
+/* Тут еще подумать!!! */
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section-paragraph/section-paragraph.css);
+/* Buttons */
 @import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/_size/btn_size_xl.css);
+@import url(../blocks/btn/_size/btn_size_l.css);
+@import url(../blocks/btn/_size/btn_size_s.css);
+@import url(../blocks/btn/_size/btn_size_xs.css);
 
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__link/header__link.css);
 
 /* INTRO */
 @import url(../blocks/intro/intro.css);
@@ -90,7 +98,6 @@
 @import url(../blocks/footer-container/footer-container.css);
 
 @import url(../blocks/contacts/contacts.css);
-@import url(../blocks/link/link.css);
 
 @import url(../blocks/contacts/__phone/contacts__phone.css);
 @import url(../blocks/contacts/__phone-subheader/contacts__phone-subheader.css);

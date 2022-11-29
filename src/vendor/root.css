@@ -65,8 +65,4 @@
   /* Additional 16 */
   --additional-16-font-size: 16px;
   --additional-16-line-height: calc(24 / 16 * 100%);
-
-  /* BUTTON */
-  --button-font-size: 16px;
-  --button-line-height: calc(20 / 16 * 100%);
 }

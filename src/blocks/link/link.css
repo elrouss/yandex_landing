@@ -1,10 +1,12 @@
 .link {
-    color: black;
+    color: inherit;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.link:hover {
+/* .link:hover {
     color: #264BE1;
     text-decoration: underline;
-    /* В макете, наверное, другой оттенок у ховера */
+    В макете, наверное, другой оттенок у ховера
 }
+*/
