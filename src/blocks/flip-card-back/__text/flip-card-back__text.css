@@ -1,0 +1,10 @@
+.flip-card-back__text {
+    font-family: 'YS Text', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
