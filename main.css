@@ -3,23 +3,23 @@
 :root{--basic-first-tint-color:#1a1b21;--basic-second-tint-color:#787878;--basic-third-tint-color:#dbdbdb;--basic-fourth-tint-color:#f0f2f3;--basic-fifth-tint-color:#f8f8f8;--accent-first-tint-color:#275cf6;--accent-second-tint-color:#c9defc;--accent-third-tint-color:#e9f4fe;--complementary-first-tint-color:#192c61;--complementary-second-tint-color:rgba(25,44,97,.5);--complementary-third-tint-color:rgba(26,27,33,.1);--complementary-fourth-tint-color:#555;--critical-true-color:#1c9c75;--critical-false-color:#e36563;--font-weight-bold:700;--font-weight-medium:500;--font-weight-regular:400;--font-weight-light:300;--h1-font-size:64px;--h1-line-height:117.1875%;--h2-font-size:48px;--h2-line-height:114.58333%;--h3-font-size:36px;--h3-line-height:116.66667%;--h4-font-size:28px;--h4-line-height:85.71429%;--h5-font-size:20px;--h5-line-height:90%;--body-bold-font-size:22px;--body-bold-line-height:117.18182%;--body-regular-22-font-size:22px;--body-regular-22-line-height:130%;--body-regular-20-font-size:20px;--body-regular-20-line-height:130%;--body-small-font-size:18px;--body-small-line-height:150%;--additional-font-size:18px;--additional-line-height:111.11111%;--additional-16-font-size:16px;--additional-16-line-height:150%}
 .page{font-family:YS Display,Arial,Helvetica,sans-serif;font-style:normal;font-weight:var(--font-weight-regular);margin:0 auto}
 .link{color:inherit;cursor:pointer;text-decoration:none}
-.link_type_accent{background-color:var(--basic-first-tint-color);border-radius:15px;color:#fff;font-family:YS Text;font-size:16px;font-weight:var(--font-weight-medium);line-height:125%;padding:13.25px 42.75px}.link_type_accent:hover{background-color:var(--complementary-fourth-tint-color)}.link_type_accent:active{background-color:var(--basic-second-tint-color)}
+.link_type_accent{background-color:var(--basic-first-tint-color);border-radius:15px;color:#fff;font-family:YS Text;font-size:16px;font-weight:var(--font-weight-medium);line-height:125%;padding:13.25px 35.75px}.link_type_accent:hover{background-color:var(--complementary-fourth-tint-color)}.link_type_accent:active{background-color:var(--basic-second-tint-color)}
 .section__title{margin:0}
 .section-paragraph{color:var(--basic-first-tint-color);font-size:var(--body-regular-22-font-size);line-height:129%;margin:0}
 .btn_size_xl{max-width:325px}
 .btn_size_l{max-width:317px}
 .btn_size_s{max-width:230px}
 .btn_size_xs{height:45px;max-width:197px}
-.header{align-items:center;display:flex;justify-content:space-between;margin:0 auto;max-width:1150px;padding-top:21px}
+.header{align-items:center;display:flex;justify-content:space-between;margin:0 auto;max-width:1150px;padding-bottom:12px;padding-top:21px}
 .header__logo{width:160px}
 
-.header__links{color:var(--basic-second-tint-color);-moz-column-gap:65px;column-gap:65px;display:flex;font-size:var(--additional-16-font-size);line-height:var(150%);list-style-type:none;margin:0;padding:0}
-.intro{align-items:center;display:flex;flex-direction:column;justify-content:center;margin:0 auto;max-width:1150px;padding-bottom:92px;padding-top:88px}
+.header__links{color:var(--basic-second-tint-color);-moz-column-gap:51px;column-gap:51px;display:flex;font-size:var(--additional-16-font-size);line-height:var(--additional-16-line-height);list-style-type:none;margin:0;padding:0}
+.intro{align-items:center;box-shadow:0 2px 14px rgba(0,0,0,.05);display:flex;flex-direction:column;justify-content:center;padding:96px 16.875% 100px}
 .intro__title{color:var(--basic-first-tint-color);font-size:var(--h1-font-size);font-weight:var(--font-weight-bold);line-height:var(--h1-line-height);margin:0;max-width:833px;text-align:center}
-.intro__paragraph{max-width:646px;padding:32px 0 56px;text-align:center}
+.intro__paragraph{max-width:646px;padding:32px 0 86px;text-align:center}
 .intro__paragraph_accent_color{font-weight:var(--font-weight-bold)}
-.intro__tags{align-items:center;color:var(--basic-second-tint-color);-moz-column-gap:30px;column-gap:30px;display:flex;font-size:var(--body-regular-20-font-size);justify-content:center;line-height:var(--body-regular-20-line-height);list-style-type:none;margin:0;padding:38px 0 0}
-.intro__tag{max-width:167px}
+.intro__tags{align-items:center;color:var(--basic-second-tint-color);-moz-column-gap:78px;column-gap:78px;display:flex;font-size:var(--body-regular-22-font-size);justify-content:center;line-height:var(--body-regular-22-line-height);list-style-type:none;margin:0;max-width:954px;padding:38px 0 0}
+.intro__tag{max-width:167px}.intro__tag:first-child{margin-left:34px}
 .about{margin:0 auto}
 .about-grid{grid-gap:30px;display:grid;grid-template-areas:"about-praktikum about-praktikum big-element big-element" "item-1 item-2 item-3 item-3";grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:251px 251px;margin:72px auto 88px;max-width:1150px}
 .about-praktikum{display:flex;flex-direction:column;grid-area:about-praktikum;justify-content:space-around}
@@ -29,9 +29,9 @@
 .flip-card{background-color:transparent;perspective:1000px;position:relative}.flip-card:hover .flip-card-inner{transform:rotateY(180deg)}
 .flip-card-inner{border-radius:25px;height:100%;position:relative;text-align:center;transform-style:preserve-3d;transition:transform .6s;width:100%}
 .flip-card-front{align-items:center;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:var(--basic-fourth-tint-color);border-radius:25px;box-sizing:border-box;color:#000;cursor:pointer;display:flex;height:100%;justify-content:center;padding:21px;position:absolute;width:100%}
-.flip-card-back{-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:var(--basic-fourth-tint-color);border-radius:25px;box-sizing:border-box;color:#000;display:flex;flex-direction:column;height:100%;justify-content:space-between;padding:21px;position:absolute;transform:rotateY(180deg);width:100%}
+.flip-card-back{align-items:center;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:var(--basic-fourth-tint-color);border-radius:25px;box-sizing:border-box;color:#000;display:flex;flex-direction:column;height:100%;justify-content:space-between;padding:21px;position:absolute;transform:rotateY(180deg);width:100%}
 .flip-card-back__text{font-family:YS Text,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left}
-.flip-card-back__button{align-self:center;width:197px}
+.flip-card-back__button{width:197px}
 .mentor-or-reviewer{margin:160px auto;max-width:1150px}
 .section-header{font-size:48px;font-weight:var(--font-weight-bold);line-height:56px;margin:0}
 .section-subheader{font-size:22px;line-height:1.29;margin:0;text-align:left}
