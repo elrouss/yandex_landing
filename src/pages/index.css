@@ -40,12 +40,28 @@
 @import url(../blocks/about-grid/__squared-element/about-grid__squared-element.css);
 @import url(../blocks/about-grid/__squared-element/_with-arrow/about-grid__squared-element_with-arrow.css);
 
-/* MENTOR-OR-REVIEWER  */
+/* MENTOR-OR-REVIEWER */
 @import url(../blocks/mentor-or-reviewer/mentor-or-reviewer.css);
 @import url(../blocks/section-header/section-header.css);
 @import url(../blocks/section-subheader/section-subheader.css);
-@import url(../blocks/mentor-or-reviewer/__image/mentor-or-reviewer__image.css);
+@import url(../blocks/mentor-or-reviewer-container/mentor-or-reviewer-container.css);
+@import url(../blocks/mentor-or-reviewer-container/__image/mentor-or-reviewer-container__image.css);
 @import url(../blocks/mentor-or-reviewer-column/mentor-or-reviewer-column.css);
+/* quiz */
+@import url(../blocks/quiz/quiz.css);
+@import url(../blocks/quiz/__header/quiz__header.css);
+@import url(../blocks/quiz/__close-button/quiz__close-button.css);
+@import url(../blocks/quiz/__page-number/quiz__page-number.css);
+@import url(../blocks/quiz/__back-button/quiz__back-button.css);
+@import url(../blocks/radio-container/radio-container.css);
+@import url(../blocks/radio-container/__radio/radio-container__radio.css);
+@import url(../blocks/radio-container/__checkmark/radio-container__checkmark.css);
+@import url(../blocks/radio-container/__text/radio-container__text.css);
+/* quiz-result */
+@import url(../blocks/quiz-result/quiz-result.css);
+@import url(../blocks/quiz-result/__header/quiz-result__header.css);
+@import url(../blocks/quiz-result/__header/_accent/quiz-result__header_accent.css);
+@import url(../blocks/quiz-result/__restart-button/quiz-result__restart-button.css);
 
 /* TASKS */
 @import url(../blocks/tasks/tasks.css);
@@ -115,3 +131,4 @@
 
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/__item/copyright__item.css);
+@import url(../blocks/btn/btn.css);

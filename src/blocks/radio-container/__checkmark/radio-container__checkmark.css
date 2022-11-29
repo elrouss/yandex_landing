@@ -1,0 +1,25 @@
+.radio-container__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    /* background-color: #eee; */
+    border-radius: 50%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.radio-container__checkmark:after  {
+    top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+input:checked ~ .radio-container__checkmark {
+    background: no-repeat 2px 2px url('../../../images/radio-inside-dot.svg');
+  }

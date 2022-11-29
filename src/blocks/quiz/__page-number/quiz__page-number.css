@@ -1,0 +1,14 @@
+.quiz__page-number {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    right: 60px;
+    bottom: 60px;
+    font-family: 'YS Display', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.3;
+    text-align: right;
+}

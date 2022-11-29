@@ -1,0 +1,6 @@
+.radio-container__radio {
+    /* Hide the browser's default radio button */
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
