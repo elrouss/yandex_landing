@@ -39,6 +39,13 @@
 @import url(../blocks/about-grid/__big-element/about-grid__big-element.css);
 @import url(../blocks/about-grid/__squared-element/about-grid__squared-element.css);
 @import url(../blocks/about-grid/__squared-element/_with-arrow/about-grid__squared-element_with-arrow.css);
+/* flip-cards */
+@import url(../blocks/flip-card/flip-card.css);
+@import url(../blocks/flip-card-inner/flip-card-inner.css);
+@import url(../blocks/flip-card-front/flip-card-front.css);
+@import url(../blocks/flip-card-back/flip-card-back.css);
+@import url(../blocks/flip-card-back/__text/flip-card-back__text.css);
+@import url(../blocks/flip-card-back/__button/flip-card-back__button.css);
 
 /* MENTOR-OR-REVIEWER */
 @import url(../blocks/mentor-or-reviewer/mentor-or-reviewer.css);
