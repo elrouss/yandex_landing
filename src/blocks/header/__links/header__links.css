@@ -4,4 +4,8 @@
   list-style-type: none;
   display: flex;
   column-gap: 65px;
+  font-family: 'YS Text';
+  font-size: var(--additional-16-font-size);
+  line-height: var(--additional-16-line-height);
+  scroll-behavior: smooth;
 }

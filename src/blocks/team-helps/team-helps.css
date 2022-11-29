@@ -1,6 +1,6 @@
 .team-helps {
     margin: 0 auto;
     padding: 100px 0;
-    background-color: #F8F8F8;
+    background-color: var(--basic-fifth-tint-color);
     overflow: hidden;
 }

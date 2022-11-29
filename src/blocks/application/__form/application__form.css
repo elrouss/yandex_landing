@@ -6,7 +6,7 @@
   row-gap: 20px;
   column-gap: 20px;
   grid-template:
-  'phone name email'
+  'name phone email'
   'job department resume'
   'agreement agreement button';
 }

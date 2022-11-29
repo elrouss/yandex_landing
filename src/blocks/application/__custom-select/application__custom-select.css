@@ -2,7 +2,7 @@
   padding: 0;
   width: 321px;
   height: 60px;
-  border: 2px solid #DBDBDB;
+  border: 2px solid var(--basic-third-tint-color);
   border-radius: 14px;
   cursor: pointer;
   background-color: #fff;
@@ -19,7 +19,7 @@
   content: '';
   width: 16px;
   height: 9.41px;
-  background-color: var(--select-arrow);
+  background-color: var(--basic-third-tint-color);
   clip-path: polygon(100% 0%, 0 0%, 50% 100%);
   position: absolute;
   top: 24px;

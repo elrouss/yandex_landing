@@ -1,4 +1,9 @@
 .intro__title {
   margin: 0;
-  max-width: 816px;
+  max-width: 833px;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--h1-font-size);
+  line-height: var(--h1-line-height);
+  text-align: center;
+  color: var(--basic-first-tint-color);
 }
