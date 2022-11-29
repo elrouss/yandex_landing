@@ -10,11 +10,12 @@
 .btn_size_l{max-width:317px}
 .btn_size_s{max-width:230px}
 .btn_size_xs{height:45px;max-width:197px}
-.header{align-items:center;display:flex;justify-content:space-between;margin:0 auto;max-width:1150px;padding-bottom:12px;padding-top:21px}
+.header{background-color:#fff;box-shadow:0 2px 14px rgba(0,0,0,.05);padding-bottom:12px;padding-top:21px;position:fixed;top:0;width:100%;z-index:2000}
+.header__menu{align-items:center;display:flex;justify-content:space-between;padding-left:10.06944%;padding-right:10.06944%}
 .header__logo{width:160px}
 
 .header__links{color:var(--basic-second-tint-color);-moz-column-gap:51px;column-gap:51px;display:flex;font-size:var(--additional-16-font-size);line-height:var(--additional-16-line-height);list-style-type:none;margin:0;padding:0}
-.intro{align-items:center;box-shadow:0 2px 14px rgba(0,0,0,.05);display:flex;flex-direction:column;justify-content:center;padding:96px 16.875% 100px}
+.intro{align-items:center;display:flex;flex-direction:column;justify-content:center;padding:96px 16.875% 100px}
 .intro__title{color:var(--basic-first-tint-color);font-size:var(--h1-font-size);font-weight:var(--font-weight-bold);line-height:var(--h1-line-height);margin:0;max-width:833px;text-align:center}
 .intro__paragraph{max-width:646px;padding:32px 0 86px;text-align:center}
 .intro__paragraph_accent_color{font-weight:var(--font-weight-bold)}
