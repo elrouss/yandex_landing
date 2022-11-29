@@ -3,8 +3,8 @@
   padding: 0;
   list-style-type: none;
   display: flex;
-  column-gap: 65px;
+  column-gap: 42px;
   color: var(--basic-second-tint-color);
   font-size: var(--additional-16-font-size);
-  line-height: var(calc(24 / 16 * 100%));
+  line-height: var(--additional-16-line-height);
 }

@@ -1,11 +1,12 @@
 .intro__tags {
   margin: 0;
   padding: 38px 0 0;
+  max-width: 954px;
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 73px;
   font-size: var(--body-regular-20-font-size);
   line-height: var(--body-regular-20-line-height);
   color: var(--basic-second-tint-color);
