@@ -1,27 +1,72 @@
-/* Далее в стилям пишем к примеру: color: var(--text-color-main);
-или background-color: var(--background-color-main);
-*/
-
 :root {
   /* COLOR PALETTE */
-  --background-color-card: #F0F2F3;
+  /* Basic Colors */
+  --basic-first-tint-color: #1A1B21;
+  --basic-second-tint-color: #787878;
+  --basic-third-tint-color: #DBDBDB;
+  --basic-fourth-tint-color: #F0F2F3;
+  --basic-fifth-tint-color: #F8F8F8;
+  /* Accent Colors */
+  --accent-first-tint-color: #275CF6;
+  --accent-second-tint-color: #C9DEFC;
+  --accent-third-tint-color: #E9F4FE;
+  /* Complementary Colors */
+  --complementary-first-tint-color: #192C61;
+  --complementary-second-tint-color: rgba(25, 44, 97, .5);
+  --complementary-third-tint-color: rgba(26, 27, 33, .1);
+  --complementary-fourth-tint-color: #555555;
+  /* Critical Colors */
+  --critical-true-color: #1C9C75;
+  --critical-false-color: #E36563;
 
-  
-	--gerberaRegular: 'Gerbera Regular', sans-serif; /* Пример со шрифтом */
-  --padding-default-mobile: 20px; /* Пример с отступом, можно дальше задавать такое значение в нужном месте */
-	--background-color-main: #ffffff;
-  --text-color-main: #000000;
-	--main-theme-color: #999999;
+  /* TYPOGRAPHY */
+  /* General Properties */
+  /* Font-weight */
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-weight-light: 300;
 
-  /* BUTTONS */
-  --btn-width: 315px;
-  --btn-height: 55px;
-  --btn-border-radius: 15px;
-  --btn-bg-color: #1A1B22;
-  --btn-txt-color: #fff;
+  /* HEADER */
+  /* H1 */
+  --h1-font-size: 64px;
+  --h1-line-height: calc(75 / 64 * 100%);
+  /* H2 */
+  --h2-font-size: 48px;
+  --h2-line-height: calc(55 / 48 * 100%);
+  /* H3 */
+  --h3-font-size: 36px;
+  --h3-line-height: calc(42 / 36 * 100%);
+  /* H4 */
+  --h4-font-size: 28px;
+  --h4-line-height: calc(24 / 28 * 100%);
+  /* H5 */
+  --h5-font-size: 20px;
+  --h5-line-height: calc(18 / 20 * 100%);
 
-  /* INPUTS - ARROWS */
-  --select-arrow: #DBDBDB;
+  /* BODY */
+  /* Body Bold */
+  --body-bold-font-size: 22px;
+  --body-bold-line-height: calc(25.78 / 22 * 100%);
+  /* Body Regular 22 */
+  --body-regular-22-font-size: 22px;
+  --body-regular-22-line-height: calc(28.6 / 22 * 100%);
+  /* Body Regular 20 */
+  --body-regular-20-font-size: 20px;
+  --body-regular-20-line-height: calc(26 / 20 * 100%);
+  /* Body Small */
+  --body-small-font-size: 18px;
+  --body-small-line-height: calc(27 / 18 * 100%);
+
+  /* ADDITIONAL */
+  /* Additional 18 */
+  --additional-font-size: 18px;
+  --additional-line-height: calc(20 / 18 * 100%);
+  /* Additional 16 */
+  --additional-16-font-size: 16px;
+  --additional-16-line-height: calc(24 / 16 * 100%);
+
+  /* BUTTON */
+  --button-font-size: 16px;
+  --button-line-height: calc(20 / 16 * 100%);
 }
-
-

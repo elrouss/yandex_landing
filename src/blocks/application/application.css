@@ -1,5 +1,5 @@
 .application {
-  padding: 80px 145px;
-  background-color: #1A1B21;
+  padding: 407px 0 80px;
+  background-color: var(--basic-first-tint-color);
   margin: 0 auto;
 }

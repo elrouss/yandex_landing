@@ -6,4 +6,5 @@
 .link:hover {
     color: #264BE1;
     text-decoration: underline;
+    /* В макете, наверное, другой оттенок у ховера */
 }

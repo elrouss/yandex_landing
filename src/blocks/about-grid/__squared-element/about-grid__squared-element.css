@@ -1,5 +1,5 @@
 .about-grid__squared-element {
-    background-color: var(--background-color-card);
+    background-color: var(--basic-fourth-tint-color);
     border-radius: 25px;
     font-family: 'YS Display', Arial, sans-serif;
     font-style: normal;
@@ -10,4 +10,5 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    cursor: pointer;
 }

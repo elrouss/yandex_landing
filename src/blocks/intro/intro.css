@@ -8,6 +8,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 30px;
   max-width: 1150px;
 }

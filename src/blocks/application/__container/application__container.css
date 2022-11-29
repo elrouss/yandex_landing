@@ -6,4 +6,12 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  position: relative;
+}
+
+.application__container::after {
+  content: url(../../../images/Content.svg);
+  position: absolute;
+  left: -6px;
+  top: -300px;
 }

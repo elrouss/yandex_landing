@@ -4,7 +4,7 @@
   width: 309px;
   height: 60px;
   background: #fff;
-  border: 2px solid #DBDBDB;
+  border: 2px solid var(--basic-third-tint-color);
   border-radius: 14px;
   padding-left: 12px;
 }
@@ -15,15 +15,15 @@
   font-weight: 400;
   font-size: 18px;
   line-height: calc(20 / 18 * 100%);
-  color: #787878;
+  color: var(--basic-second-tint-color);
 }
 
 .application__input:nth-child(1) {
-  grid-area: phone;
+  grid-area: name;
 }
 
 .application__input:nth-child(2) {
-  grid-area: name;
+  grid-area: phone;
 }
 
 .application__input:nth-child(3) {
