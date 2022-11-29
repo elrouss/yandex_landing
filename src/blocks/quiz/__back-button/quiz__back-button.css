@@ -1,0 +1,20 @@
+.quiz__back-button {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 14.73px;
+    width: 24.4px;    
+    border: none;
+    background: transparent;
+    background-image: url('../../../images/arrow-back.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 40px;
+    top: 76px;
+}
+
+.quiz__back-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

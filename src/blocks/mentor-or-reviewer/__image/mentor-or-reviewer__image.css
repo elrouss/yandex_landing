@@ -1,8 +1,0 @@
-.mentor-or-reviewer__image {
-    position: absolute;
-    background-size: contain;
-    background-position: right;
-    z-index: -1;
-    right: -120px;
-    top: 0;
-}

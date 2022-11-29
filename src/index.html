@@ -40,7 +40,9 @@
         <li class="intro__tag">#для сеньоров</li>
       </ul>
       <p class="section-paragraph intro__paragraph">
-        <span class="intro__paragraph_accent_color">Станьте наставником или ревьюером</span> и&nbsp;делитесь своим опытом в&nbsp;программировании, анализе данных, менеджменте, маркетинге или дизайне и&nbsp;получайте дополнительный доход
+        <span class="intro__paragraph_accent_color">Станьте наставником или ревьюером</span> и&nbsp;делитесь своим
+        опытом в&nbsp;программировании, анализе данных, менеджменте, маркетинге или дизайне и&nbsp;получайте
+        дополнительный доход
       </p>
       <button class="btn">Хочу делиться знаниями</button>
     </section>
@@ -118,21 +120,32 @@
       <div class="quiz">
         <h4 class="quiz__header">Что вам нравится больше?</h4>
         <label class="radio-container">
-          <input type="radio" checked="checked" name="radio">
-          <span class="checkmark"></span>
-          Помогать студентам ставить цели, рефлексировать и делать выводы
+          <input class="radio-container__radio" type="radio" checked="checked" name="radio">
+          <span class="radio-container__checkmark"></span>
+          <p class="radio-container__text">Помогать студентам ставить цели, рефлексировать и делать выводы</p>
         </label>
         <label class="radio-container">
-          <input type="radio" checked="checked" name="radio">
-          <span class="checkmark"></span>
-          Проверять код и проекты студентов
+          <input class="radio-container__radio" type="radio" checked="checked" name="radio">
+          <span class="radio-container__checkmark"></span>
+          <p class="radio-container__text">Проверять код и проекты студентов</p>
         </label>
         <button class="quiz__close-button"></button>
         <p class="quiz__page-number">1/4</p>
+        <button class="quiz__back-button"></button>
       </div>
-      
+
+      <!-- ДЛЯ РАЗРАБОТКИ -->
+      <div style="margin: 0 auto; padding: 0; height: 50px; width: 100%;"></div> 
+      <!-- ДЛЯ РАЗРАБОТКИ -->
+
+      <div class="quiz quiz-result">
+        <h4 class="quiz__header quiz-result__header">Вот это да!<br><span class="quiz-result__header_accent">Вы на 100%
+            ревьюер</span></h4>
+        <button class="btn">Что вы можете мне предложить?</button>
+        <button class="quiz-result__restart-button"></button>
+      </div>
     </section>
-    
+
 
     <section class="team-helps">
       <div class="team-helps-container">
@@ -176,7 +189,7 @@
               тысяч в месяц, график выбираете сами</p>
           </div>
         </div>
-       </section>
+    </section>
 
     <section class="team-stories">
       <div class="team-stories__container">
@@ -195,7 +208,9 @@
             <img src="<%=require('./images/team-2.jpg')%>" alt="Максим Чечнев" class="team-stories__card-photo">
             <div class="team-stories__text-block">
               <p class="team-stories__card-text">
-                Когда я учился писать код, не было онлайн-курсов и площадок с наставниками, и было сложно ориентироваться, что действительно важно знать и уметь, а что нет. Сейчас я делюсь своим опытом и, мне кажется, делаю мир чуть-чуть лучше :)
+                Когда я учился писать код, не было онлайн-курсов и площадок с наставниками, и было сложно
+                ориентироваться, что действительно важно знать и уметь, а что нет. Сейчас я делюсь своим опытом и, мне
+                кажется, делаю мир чуть-чуть лучше :)
               </p>
               <h3 class="team-stories__card-author">Максим Чечнев</h3>
               <p class="team-stories__card-job">Наставник курса «Веб-разработчик»</p>
@@ -205,7 +220,8 @@
             <img src="<%=require('./images/team-1.jpg')%>" alt="Зоя Король" class="team-stories__card-photo">
             <div class="team-stories__text-block">
               <p class="team-stories__card-text">
-                Мне безумно нравится делиться знаниями, а еще больше радуюсь, когда мои студенты находят работу и успешно проходят испытательный срок
+                Мне безумно нравится делиться знаниями, а еще больше радуюсь, когда мои студенты находят работу и
+                успешно проходят испытательный срок
               </p>
               <h3 class="team-stories__card-author">Зоя Король</h3>
               <p class="team-stories__card-job">Наставник курса «Инженер по тестированию»</p>
@@ -215,7 +231,8 @@
             <img src="<%=require('./images/team-4.jpg')%>" alt="Артем Евсяков" class="team-stories__card-photo">
             <div class="team-stories__text-block">
               <p class="team-stories__card-text">
-                Работа код-ревьюера с гибким графиком, благодаря ей я получаю дополнительный доход и могу делиться своим опытом. Ведь при написании кода важно не только большое количество практики, но и поддержка коллег
+                Работа код-ревьюера с гибким графиком, благодаря ей я получаю дополнительный доход и могу делиться своим
+                опытом. Ведь при написании кода важно не только большое количество практики, но и поддержка коллег
               </p>
               <h3 class="team-stories__card-author">Артем Евсяков</h3>
               <p class="team-stories__card-job">Старший код-ревьюер веб-факультета</p>
@@ -225,7 +242,9 @@
             <img src="<%=require('./images/team-3.jpg')%>" alt="Толя Крестенко" class="team-stories__card-photo">
             <div class="team-stories__text-block">
               <p class="team-stories__card-text">
-                С Практикумом меня объединяют любовь к технологиям, вера в онлайн-образование и желание помогать людям покорять новые горизонты. Сам почти полностью осваивал профессию онлайн, поэтому хочу и другим людям помочь в получении новых навыков
+                С Практикумом меня объединяют любовь к технологиям, вера в онлайн-образование и желание помогать людям
+                покорять новые горизонты. Сам почти полностью осваивал профессию онлайн, поэтому хочу и другим людям
+                помочь в получении новых навыков
               </p>
               <h3 class="team-stories__card-author">Толя Крестенко</h3>
               <p class="team-stories__card-job">Наставник курса «Data Science»</p>
