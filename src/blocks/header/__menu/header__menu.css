@@ -1,0 +1,7 @@
+.header__menu {
+  padding-left: calc(145 / 1440 * 100%);
+  padding-right: calc(145 / 1440 * 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
