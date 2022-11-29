@@ -1,3 +1,7 @@
 .intro__tag {
   max-width: 167px;
 }
+
+.intro__tag:nth-child(1) {
+  margin-left: 34px;
+}
