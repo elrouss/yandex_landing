@@ -1,5 +1,6 @@
 .header {
   padding-top: 21px;
+  padding-bottom: 12px;
   /* margin-left: calc(145 / 1440 * 100%);
   margin-right: calc(145 / 1440 * 100%); */
   display: flex;
