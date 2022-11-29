@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(./YS-Display-Bold.ttf) format('ttf');
+  src: url(./YS-Display-Bold.ttf) format('truetype');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(./YS-Display-Medium.ttf) format('ttf');
+  src: url(./YS-Display-Medium.ttf) format('truetype');
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(./YS-Display-Regular.ttf) format('ttf');
+  src: url(./YS-Display-Regular.ttf) format('truetype');
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(./YS-Text-Medium.ttf) format('ttf');
+  src: url(./YS-Text-Medium.ttf) format('truetype');
 }
 
 @font-face {
@@ -35,5 +35,5 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(./YS-Display-Regular.ttf) format('ttf');
+  src: url(./YS-Display-Regular.ttf) format('truetype');
 }
