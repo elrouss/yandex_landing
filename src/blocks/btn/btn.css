@@ -2,10 +2,21 @@
   margin: 0;
   padding: 0;
   border: none;
-  background-color: var(--btn-bg-color);
-  color: var(--btn-txt-color);
-  width: var(--btn-width);
-  height: var(--btn-height);
-  border-radius: var(--btn-border-radius);
+  background-color: var(--basic-first-tint-color);
+  color: #fff;
+  width: 315px;
+  height: 55px;
+  border-radius: 15px;
   cursor: pointer;
+  font-family: 'YS Text';
+  font-weight: var(--font-weight-medium);
+  font-size: var(--button-font-size);
+  line-height: var( --button-line-height);
+  transition: background-color .3s ease;
+}
+.btn:hover {
+  background-color: var(--complementary-fourth-tint-color);
+}
+.btn:active {
+  background-color: var(--basic-second-tint-color);
 }

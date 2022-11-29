@@ -1,0 +1,4 @@
+.team-stories__card-photo {
+  max-width: 364px;
+  object-fit: cover;
+}

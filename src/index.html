@@ -17,19 +17,21 @@
 
 <body class="page">
   <header class="header">
-    <img src="<%=require('./images/logo-yandex.svg')%>" ) alt="Логотип Яндекс Практикума" class="header__logo">
+    <a href="https://practicum.yandex.ru/" class="url" target="_blank">
+      <img src="<%=require('./images/logo-yandex.svg')%>" alt="Логотип Яндекс Практикума" class="header__logo">
+    </a>
     <nav class="header__nav">
       <ul class="header__links">
-        <li><a href="#" class="header__link">Что делают наставник и ревьюер</a></li>
+        <li><a href="#tasks" class="header__link">Что делают наставник и ревьюер</a></li>
         <li><a href="#" class="header__link">Открытые предложения</a></li>
-        <li><a href="#" class="header__link">Оставить заявку</a></li>
+        <li><a href="#application" class="header__link btn">Оставить заявку</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section class="intro">
-      <h1 class="intro__title">Обучай студентов вместе с Яндекс Практикумом</h1>
+      <h1 class="intro__title">Обучай студентов вместе с&nbsp;Яндекс Практикумом</h1>
       <ul class="intro__tags">
         <li class="intro__tag">#онлайн</li>
         <li class="intro__tag">#парт-тайм</li>
@@ -37,8 +39,9 @@
         <li class="intro__tag">#для мидлов</li>
         <li class="intro__tag">#для сеньоров</li>
       </ul>
-      <p class="intro__text">Стань наставником или ревьюером и делись своим опытом в программировании, анализе данных,
-        менеджменте, маркетинге или дизайне и получай дополнительный доход</p>
+      <p class="section-paragraph intro__paragraph">
+        <span class="intro__paragraph_accent_color">Станьте наставником или ревьюером</span> и&nbsp;делитесь своим опытом в&nbsp;программировании, анализе данных, менеджменте, маркетинге или дизайне и&nbsp;получайте дополнительный доход
+      </p>
       <button class="btn">Хочу делиться знаниями</button>
     </section>
 
@@ -57,12 +60,12 @@
       </div>
     </section>
 
-    <section class="tasks">
+    <section class="tasks" id="tasks">
       <div class="tasks__mentor">
         <h2 class="section__title tasks__title">Задачи наставника</h2>
         <ul class="tasks__tutor-tasks">
           <li class="tasks__tutor-task">
-            <div class="tasks__tutor-task-icon"></div>
+            <div class="tasks__tutor-task-icon tasks__tutor-task-icon_type_vector-right"></div>
             <p>Делиться опытом и мотивировать</p>
           </li>
           <li class="tasks__tutor-task">
@@ -70,7 +73,7 @@
             <p>Давать обратную связь в чате и на звонках</p>
           </li>
           <li class="tasks__tutor-task">
-            <div class="tasks__tutor-task-icon"></div>
+            <div class="tasks__tutor-task-icon tasks__tutor-task-icon_type_vector-left"></div>
             <p>Проводить вебинары 2 раза в месяц</p>
           </li>
           <li class="tasks__tutor-task">
@@ -84,7 +87,7 @@
         <h2 class="section__title tasks__title">Задачи ревьюера</h2>
         <ul class="tasks__tutor-tasks">
           <li class="tasks__tutor-task">
-            <div class="tasks__tutor-task-icon"></div>
+            <div class="tasks__tutor-task-icon tasks__tutor-task-icon_type_vector-right"></div>
             <p>Проверять код и проекты студентов</p>
           </li>
           <li class="tasks__tutor-task">
@@ -92,7 +95,7 @@
             <p>Простыми словами объяснять им их ошибки</p>
           </li>
           <li class="tasks__tutor-task">
-            <div class="tasks__tutor-task-icon"></div>
+            <div class="tasks__tutor-task-icon tasks__tutor-task-icon_type_vector-left"></div>
             <p>Давать корректирующую обратную связь</p>
           </li>
           <li class="tasks__tutor-task">
@@ -101,8 +104,6 @@
           </li>
         </ul>
       </div>
-
-      <button class="btn tasks__btn">Посмотреть предложения</button>
     </section>
 
     <section class="mentor-or-reviewer">
@@ -175,24 +176,80 @@
               тысяч в месяц, график выбираете сами</p>
           </div>
         </div>
+       </section>
+
+    <section class="team-stories">
+      <div class="team-stories__container">
+        <div class="team-stories__intro">
+          <h2 class="section-title">
+            Истории ребят
+            из нашей команды
+          </h2>
+          <p class="section-description">
+            Они стали крутыми профессионалами сами и изменили жизни десятков людей &mdash; у вас тоже это получится!
+          </p>
+          <button class="btn">Стать частью команды</button>
+        </div>
+        <div class="team-stories__cards">
+          <article class="team-stories__card">
+            <img src="<%=require('./images/team-2.jpg')%>" alt="Максим Чечнев" class="team-stories__card-photo">
+            <div class="team-stories__text-block">
+              <p class="team-stories__card-text">
+                Когда я учился писать код, не было онлайн-курсов и площадок с наставниками, и было сложно ориентироваться, что действительно важно знать и уметь, а что нет. Сейчас я делюсь своим опытом и, мне кажется, делаю мир чуть-чуть лучше :)
+              </p>
+              <h3 class="team-stories__card-author">Максим Чечнев</h3>
+              <p class="team-stories__card-job">Наставник курса «Веб-разработчик»</p>
+            </div>
+          </article>
+          <article class="team-stories__card">
+            <img src="<%=require('./images/team-1.jpg')%>" alt="Зоя Король" class="team-stories__card-photo">
+            <div class="team-stories__text-block">
+              <p class="team-stories__card-text">
+                Мне безумно нравится делиться знаниями, а еще больше радуюсь, когда мои студенты находят работу и успешно проходят испытательный срок
+              </p>
+              <h3 class="team-stories__card-author">Зоя Король</h3>
+              <p class="team-stories__card-job">Наставник курса «Инженер по тестированию»</p>
+            </div>
+          </article>
+          <article class="team-stories__card">
+            <img src="<%=require('./images/team-4.jpg')%>" alt="Артем Евсяков" class="team-stories__card-photo">
+            <div class="team-stories__text-block">
+              <p class="team-stories__card-text">
+                Работа код-ревьюера с гибким графиком, благодаря ей я получаю дополнительный доход и могу делиться своим опытом. Ведь при написании кода важно не только большое количество практики, но и поддержка коллег
+              </p>
+              <h3 class="team-stories__card-author">Артем Евсяков</h3>
+              <p class="team-stories__card-job">Старший код-ревьюер веб-факультета</p>
+            </div>
+          </article>
+          <article class="team-stories__card">
+            <img src="<%=require('./images/team-3.jpg')%>" alt="Толя Крестенко" class="team-stories__card-photo">
+            <div class="team-stories__text-block">
+              <p class="team-stories__card-text">
+                С Практикумом меня объединяют любовь к технологиям, вера в онлайн-образование и желание помогать людям покорять новые горизонты. Сам почти полностью осваивал профессию онлайн, поэтому хочу и другим людям помочь в получении новых навыков
+              </p>
+              <h3 class="team-stories__card-author">Толя Крестенко</h3>
+              <p class="team-stories__card-job">Наставник курса «Data Science»</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="application">
+    <section class="application" id="application">
       <div class="application__container">
         <h2 class="section__title application__title">Станьте <span class="application__title_text_accent">наставником
             или ревьюером</span></h2>
         <p class="application__description">Оставьте заявку, чтобы стать частью команды Яндекс Практикума</p>
         <form name="applicationTutors" class="application__form">
-          <input id="input-phone" name="applicationPhone" type="tel" value="" placeholder="+7 --- --- -- --"
-            minlength="16" maxlength="16" required class="application__input">
           <input id="input-name" name="applicationName" type="text" value="" placeholder="Имя" minlength="2"
             maxlength="48" required class="application__input">
+          <input id="input-phone" name="applicationPhone" type="tel" value="" placeholder="Номер телефона"
+            minlength="16" maxlength="16" required class="application__input">
           <input id="input-email" name="applicationEmail" type="email" value="" placeholder="ivanivanov@yandex.ru"
             minlength="2" maxlength="48" required class="application__input">
           <div class="application__custom-select">
             <select>
-              <option value="0" disabled selected>Роль</option>
+              <option value="0" disabled selected>Какая роль вам ближе?</option>
               <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
               <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
               <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
@@ -201,7 +258,7 @@
           </div>
           <div class="application__custom-select">
             <select>
-              <option value="0" disabled selected>Факультет</option>
+              <option value="0" disabled selected>Выберите факультет</option>
               <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
               <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
               <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
@@ -240,7 +297,7 @@
         </li>
         <li class="copyright">
           <p class="copyright__item">АНО ДПО «ШАД», ООО «Яндекс»</p>
-          <p class="copyright__item">©<time>2022</time></p>
+          <p class="copyright__item">©<time> 2022</time></p>
         </li>
 
       </ul>

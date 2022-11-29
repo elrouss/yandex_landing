@@ -1,4 +1,7 @@
 .page {
   /* max-width: 1440px; */
   margin: 0 auto;
+  font-family: 'YS Display', 'Arial', 'Helvetica', sans-serif;
+  font-weight: var(--font-weight-regular);
+  font-style: normal;
 }

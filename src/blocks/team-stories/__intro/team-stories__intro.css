@@ -1,0 +1,18 @@
+.team-stories__intro {
+  max-width: 600px;
+}
+
+.team-stories__intro > h2 {
+  margin: 0;
+
+}
+
+.team-stories__intro > p {
+  margin: 0;
+  padding-top: 26px;
+}
+
+.team-stories__intro > .btn {
+  width: 525px;
+  margin-top: 78px;
+}
