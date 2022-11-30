@@ -1,5 +1,6 @@
 .team-stories__card {
   max-width: 364px;
+  padding-bottom: 50px;
   background-color: var(--basic-fourth-tint-color);
   border-radius: 0 0 25px 25px;
 }

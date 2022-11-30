@@ -1,5 +1,4 @@
 .tasks__reviewer {
-  grid-area: reviewer;
   display: flex;
   flex-direction: column;
   justify-content: center;

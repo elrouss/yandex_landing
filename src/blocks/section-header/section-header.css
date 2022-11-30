@@ -1,7 +1,7 @@
 .section-header {
-    font-weight: var(--font-weight-bold);
-    font-size: 48px;
-    line-height: 56px;
-    /* max-width: 50%; */
-    margin: 0;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--h2-font-size);
+  line-height: var(--h2-line-height);
+  /* max-width: 50%; */
+  margin: 0;
 }

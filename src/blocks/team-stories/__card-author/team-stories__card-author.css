@@ -1,3 +1,6 @@
 .team-stories__card-author {
   margin: 0;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--body-regular-20-font-size);
+  line-height: var(--body-regular-20-line-height);
 }

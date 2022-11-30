@@ -1,7 +1,7 @@
 .team-card-section-card__header {
-    font-weight: var(--font-weight-medium);
-    font-size: 22px;
-    line-height: 1.18;
-    height: 52px;
-    margin: 0 0 24px 0;
+  font-weight: var(--font-weight-medium);
+  font-size: 22px;
+  line-height: 1.18;
+  height: 52px;
+  margin: 0 0 24px 0;
 }
