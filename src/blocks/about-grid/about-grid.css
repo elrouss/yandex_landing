@@ -5,7 +5,18 @@
        "about-praktikum about-praktikum big-element big-element"
        "item-1 item-2 item-3 item-3";
     grid-gap: 30px;
-    grid-template-rows: 251px 251px;
-    margin: 72px auto 0 auto;
+    /* grid-template-rows: 251px 251px; */
+    grid-template-rows: min(calc((100vw - 60px - 60px - 90px)/4), 251px) min(calc((100vw - 60px - 60px - 90px)/4), 251px);
+    /* margin: 72px auto 0 auto; */
+    margin: 0 auto;
     max-width: 1150px;
+    padding: 0;
 }
+
+@media screen and (max-width: 1280px) {
+    .about-grid {
+        grid-gap: 20px;
+    }
+}
+
+

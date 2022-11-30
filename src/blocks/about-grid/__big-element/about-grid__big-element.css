@@ -16,13 +16,17 @@
 }
 
 .about-grid__big-element::after {
-  content: url('../../../images/arrow-big.svg');
+  content: '';
+  background-image: url('../../../images/arrow-big.svg');
   position: absolute;
-  left: 127px;
+  left: min(calc((100vw - 60px - 60px - 90px) * 127 / (4 * 251)), 127px);
   top: 15px;
-  /* box-shadow: 1px 1px 5px #000; */
   opacity: 1;
   transition: opacity .6s, visibility 0s;
+  background-size: contain;
+    width: min(calc((100vw - 60px - 60px - 90px) * 560 / (4 * 251)), 560px);
+    height: min(calc((100vw - 60px - 60px - 90px)/4), 251px);
+    background-repeat: no-repeat;
 }
 
 .about-grid__big-element:hover::after {

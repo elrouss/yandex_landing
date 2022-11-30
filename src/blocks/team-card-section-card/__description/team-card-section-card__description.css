@@ -5,3 +5,9 @@
   color: var(--basic-first-tint-color);
   font-family: 'YS Text';
 }
+
+@media screen and (max-width: 860px) {
+  .team-card-section-card__description {
+      font-size: 15px;
+  }
+}

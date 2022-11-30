@@ -5,3 +5,11 @@
   height: 52px;
   margin: 0 0 24px 0;
 }
+
+@media screen and (max-width: 860px) {
+  .team-card-section-card__header {
+    font-size: 17px;
+    height: 44px;
+    margin-bottom: 16px;
+  }
+}
