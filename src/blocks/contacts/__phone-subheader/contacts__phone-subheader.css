@@ -6,3 +6,9 @@
     line-height: 1.11;
     list-style-type: none;
 }
+
+@media screen and (max-width: 425px) {
+    .contacts__phone-subheader {
+        font-size: 15px;
+    }
+}
