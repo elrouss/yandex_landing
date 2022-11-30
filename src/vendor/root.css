@@ -2,7 +2,7 @@
   /* COLOR PALETTE */
   /* Basic Colors */
   --basic-first-tint-color: #1A1B21;
-  --basic-second-tint-color: #787878;
+  --basic-second-tint-color: #6C6C6C;
   --basic-third-tint-color: #DBDBDB;
   --basic-fourth-tint-color: #F0F2F3;
   --basic-fifth-tint-color: #F8F8F8;
@@ -11,7 +11,7 @@
   --accent-second-tint-color: #C9DEFC;
   --accent-third-tint-color: #E9F4FE;
   /* Complementary Colors */
-  --complementary-first-tint-color: #192C61;
+  --complementary-first-tint-color: #051E64;;
   --complementary-second-tint-color: rgba(25, 44, 97, .5);
   --complementary-third-tint-color: rgba(26, 27, 33, .1);
   --complementary-fourth-tint-color: #555555;

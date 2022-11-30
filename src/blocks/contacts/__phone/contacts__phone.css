@@ -1,9 +1,12 @@
 .contacts__phone {
     font-size: 32px;
     line-height: 32px;
-    color: black;
+    color: inherit;
     margin-bottom: 12px;
     text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--h4-font-size);
+    line-height: var(--h4-line-height);
 }
 
 .contacts__phone:hover {

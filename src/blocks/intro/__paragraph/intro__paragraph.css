@@ -1,5 +1,7 @@
 .intro__paragraph {
-  max-width: 646px;
-  padding: 32px 0 86px;
+  max-width: 715px;
+  padding: 20px 0 40px;
+  font-size: var(--body-regular-20-font-size);
+  line-height: var(--body-regular-20-line-height);
   text-align: center;
 }
