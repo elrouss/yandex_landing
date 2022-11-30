@@ -347,12 +347,16 @@ background-color: rgba(26, 27, 33, .1);
   margin: 30px 0 0 0;
 }
 
+.offers__card-container {
+  width: 757px;
+}
+
 .offers__card {
 
 }
 
 .card {
-  max-width: 757px;
+  width: 100%;
   background-color: white;
   border-radius: 25px;
   padding: 40px 35px;
