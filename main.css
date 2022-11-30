@@ -22,7 +22,7 @@
 .intro__paragraph_accent_color{font-weight:var(--font-weight-bold)}
 .intro__tags{align-items:center;color:var(--basic-second-tint-color);-moz-column-gap:78px;column-gap:78px;display:flex;font-size:var(--body-regular-22-font-size);justify-content:center;line-height:var(--body-regular-22-line-height);list-style-type:none;margin:0;max-width:954px;padding:38px 0 0}
 .intro__tag{max-width:167px}.intro__tag:first-child{margin-left:34px}
-.about{margin:0 auto}
+.about{margin:0 auto;overflow-x:hidden}
 .about-grid{grid-gap:30px;display:grid;grid-template-areas:"about-praktikum about-praktikum big-element big-element" "item-1 item-2 item-3 item-3";grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:251px 251px;margin:72px auto 0;max-width:1150px}
 .about-praktikum{display:flex;flex-direction:column;grid-area:about-praktikum;justify-content:space-between;padding-bottom:24px}
 .about-grid__big-element{align-items:center;background-color:var(--basic-fourth-tint-color);border-radius:25px;cursor:pointer;display:flex;font-family:YS Display,Arial,sans-serif;font-size:28px;font-style:normal;font-weight:500;grid-area:big-element;justify-content:center;line-height:.86;position:relative}.about-grid__big-element:after{content:url(c25bc00fc9c3a1992db6.svg);left:127px;opacity:1;position:absolute;top:15px;transition:opacity .6s,visibility 0s}.about-grid__big-element:hover:after{opacity:0;transition:opacity .6s,visibility 0s .6s;visibility:hidden}
@@ -34,10 +34,10 @@
 .flip-card-back{align-items:center;-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:var(--basic-fourth-tint-color);border-radius:25px;box-sizing:border-box;color:#000;display:flex;flex-direction:column;height:100%;justify-content:space-between;padding:21px;position:absolute;transform:rotateY(180deg);width:100%}
 .flip-card-back__text{font-family:YS Text,Arial,sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:1.5;margin:0;padding:0;text-align:left}
 .flip-card-back__button{align-self:center;height:45px;width:197px}
-.mentor-or-reviewer{margin:0 auto;max-width:1150px;padding-top:72px}
+.mentor-or-reviewer{margin:0 auto;overflow-x:hidden;padding-top:72px}
 .section-header{font-size:var(--h2-font-size);font-weight:var(--font-weight-bold);line-height:var(--h2-line-height);margin:0}
 .section-subheader{font-size:var(--body-regular-22-font-size);font-weight:400;line-height:1.29;margin:0;text-align:left}
-.mentor-or-reviewer-container{display:flex;flex-direction:column;height:467px;justify-content:center;margin-bottom:70px;position:relative}
+.mentor-or-reviewer-container{display:flex;flex-direction:column;height:467px;justify-content:center;margin:0 auto;max-width:1150px;position:relative}
 .mentor-or-reviewer-container__image{background-position:100%;background-size:contain;position:absolute;right:-127px;top:-26px;z-index:-1}
 .mentor-or-reviewer-column{display:flex;flex-direction:column;height:100%;justify-content:space-between;margin:0;max-height:326px;width:50%}
 .mentor-or-reviewer-column__subheader{max-width:450px}
@@ -65,7 +65,7 @@
 .tasks__tutor-task-icon_type_vector-left{background-image:url(73cffc59e7b0113b2c0d.svg);height:38px;width:27px}
 .team-helps{background-color:var(--basic-fifth-tint-color);margin:0 auto;overflow:hidden;padding:100px 0}
 .team-helps-container{margin:0;padding:0}
-.team-helps-container__header{margin-left:calc(50vw - 575px)}
+.team-helps-container__header{margin-left:calc(50vw - 575px)}@media screen and (max-width:1024px){.team-helps-container__header{margin-left:60px}}@media screen and (max-width:425px){.team-helps-container__header{margin-left:18px}}
 .team-card-section{align-items:flex-start;display:flex;gap:30px;justify-content:flex-start;margin:72px 0 0;overflow:auto;padding:0 calc(50vw - 575px)}.team-card-section::-webkit-scrollbar{width:0}
 .team-card-section-card{margin:0;max-width:265px;min-width:265px}
 .team-card-section-card__image{margin-bottom:28px;-o-object-position:center;object-position:center;width:100%}
@@ -82,7 +82,7 @@
 .team-stories__text-block{display:flex;flex-direction:column;height:50%;padding:17px 17px 40px}
 .team-stories__card-author{font-size:var(--body-regular-20-font-size);font-weight:var(--font-weight-medium);line-height:var(--body-regular-20-line-height);margin:0}
 .team-stories__card-job{color:var(--basic-second-tint-color);font-family:YS Text;font-size:var(--additional-16-font-size);line-height:var(--additional-16-line-height);margin:0}
-.application{background-color:var(--basic-first-tint-color);margin:0 auto;padding:407px 0 80px}
+.application{background-color:var(--basic-first-tint-color);margin:0 auto;overflow-x:hidden;padding:407px 0 80px}
 .application__container{align-items:center;background-color:#fff;border-radius:25px;display:flex;flex-direction:column;margin:0 auto;max-width:1150px;position:relative}.application__container:after{content:url(6437f43fbdd452aabb99.svg);left:-6px;position:absolute;top:-300px}
 .application__input{background:#fff;border:2px solid var(--basic-third-tint-color);border-radius:14px;height:60px;margin:0;padding:0 0 0 12px;width:309px}.application__input::-moz-placeholder{color:var(--basic-second-tint-color);font-size:18px;font-style:normal;font-weight:400;line-height:111.11111%;padding:18px 0}.application__input::placeholder{color:var(--basic-second-tint-color);font-size:18px;font-style:normal;font-weight:400;line-height:111.11111%;padding:18px 0}.application__input:first-child{grid-area:name}.application__input:nth-child(2){grid-area:phone}.application__input:nth-child(3){grid-area:email}.application__input:nth-child(4){grid-area:job}.application__input:nth-child(5){grid-area:department}.application__input:nth-child(6){grid-area:resume}
 .application__custom-select{background-color:#fff;border:2px solid var(--basic-third-tint-color);border-radius:14px;color:#787878;cursor:pointer;display:grid;font-size:18px;font-style:normal;font-weight:400;height:60px;line-height:111.11111%;padding:0;position:relative;width:321px}.application__custom-select:after{background-color:var(--basic-third-tint-color);-webkit-clip-path:polygon(100% 0,0 0,50% 100%);clip-path:polygon(100% 0,0 0,50% 100%);content:"";height:9.41px;left:295px;position:absolute;top:24px;width:16px}.application__custom-select>select{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border:none;color:inherit;cursor:inherit;font-family:inherit;font-size:inherit;font-style:inherit;line-height:inherit;margin:0;outline:none;padding:18px 0 18px 12px;width:100%}
