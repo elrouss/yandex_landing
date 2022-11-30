@@ -6,3 +6,21 @@
     line-height: .86;
     text-align: center;
 }
+
+@media screen and (max-width: 1280px) {
+    .flip-card-front__header {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .flip-card-front__header {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flip-card-front__header {
+        font-size: 17px;
+    }
+}
