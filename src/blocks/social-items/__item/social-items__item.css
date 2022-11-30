@@ -1,13 +1,11 @@
 .social-items__item {
-    color: black;
-    vertical-align: top;
-    text-decoration: none;
+  color: inherit;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: var(--body-small-font-size);
 }
 
 .social-items__item:hover {
-    text-decoration: underline;
-}
-
-.social-items__item:visited {
-    color: black;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
 }

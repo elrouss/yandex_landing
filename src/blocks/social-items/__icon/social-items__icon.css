@@ -5,7 +5,3 @@
     padding: 0;
     cursor: pointer;
 }
-
-.social-items__icon:hover {
-    opacity: .6;
-}

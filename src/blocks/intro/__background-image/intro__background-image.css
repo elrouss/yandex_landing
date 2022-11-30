@@ -1,0 +1,12 @@
+.intro__background-image {
+  background: url(../../../images/intro-decorative-image.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1151px;
+	max-height: 666.68px;
+  height: 100%;
+  position: absolute;
+  top: 456px;
+  left: 144px;
+  z-index: -1;
+}

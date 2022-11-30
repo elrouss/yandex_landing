@@ -31,11 +31,12 @@
 
 /* INTRO */
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__paragraph/intro__paragraph.css);
-@import url(../blocks/intro/__paragraph/_accent/intro__paragraph_accent_color.css);
 @import url(../blocks/intro/__tags/intro__tags.css);
 @import url(../blocks/intro/__tag/intro__tag.css);
+@import url(../blocks/intro/__background-image/intro__background-image.css);
 
 /* ABOUT */
 @import url(../blocks/about/about.css);
