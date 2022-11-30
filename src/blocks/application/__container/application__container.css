@@ -7,11 +7,12 @@
   align-items: center;
   margin: 0 auto;
   position: relative;
+  padding-top: 67px;
 }
 
 .application__container::after {
   content: url(../../../images/Content.svg);
   position: absolute;
-  left: -6px;
-  top: -300px;
+  left: 0;
+  top: -299px;
 }

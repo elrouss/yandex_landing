@@ -1,0 +1,7 @@
+.application__text-steps {
+  position: relative;
+  z-index: 4100;
+  display: flex;
+  padding-top: 122px;
+  padding-bottom: 105px;
+}

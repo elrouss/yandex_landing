@@ -1,0 +1,9 @@
+.application__form-counter {
+  margin: 0;
+  font-size: var(--additional-font-size);
+  line-height: var(--additional-line-height);
+  color: var(--basic-second-tint-color);
+  position: absolute;
+  top: 112px;
+  left: 590px;
+}
