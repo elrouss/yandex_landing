@@ -1,7 +1,7 @@
 .about__header {
     display: none;
     grid-area: about__header;
-    max-width: 48%;
+    width: 48%;
     margin-bottom: 40px;
 }
 
@@ -21,5 +21,12 @@
 @media screen and (max-width: 925px) {
     .about__header {
         font-size: 30px;
+        min-width: 312px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .about__header {
+        font-size: 26px;
+        min-width: 300px;
     }
 }
