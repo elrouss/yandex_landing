@@ -4,8 +4,3 @@
   text-decoration: none;
   font-size: var(--body-small-font-size);
 }
-
-.social-items__item:hover {
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-}

@@ -1,7 +1,16 @@
 .social-items__icon {
-    width: 34px;
-    height: 34px;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
+  width: 34px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.social-items__icon:hover {
+  opacity: .7;
+}
+
+.social-items__icon:active {
+  opacity: .6;
 }
