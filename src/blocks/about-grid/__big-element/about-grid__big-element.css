@@ -18,7 +18,7 @@
 .about-grid__big-element::after {
   content: url('../../../images/arrow-big.svg');
   position: absolute;
-  left: 120px;
+  left: 127px;
   top: 15px;
   /* box-shadow: 1px 1px 5px #000; */
   opacity: 1;

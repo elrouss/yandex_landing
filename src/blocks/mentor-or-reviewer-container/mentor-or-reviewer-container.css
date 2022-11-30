@@ -2,4 +2,7 @@
     height: 467px;
     position: relative;
     margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

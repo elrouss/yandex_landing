@@ -54,6 +54,7 @@
 @import url(../blocks/mentor-or-reviewer-container/mentor-or-reviewer-container.css);
 @import url(../blocks/mentor-or-reviewer-container/__image/mentor-or-reviewer-container__image.css);
 @import url(../blocks/mentor-or-reviewer-column/mentor-or-reviewer-column.css);
+@import url(../blocks/mentor-or-reviewer-column/__subheader/mentor-or-reviewer-column__subheader.css);
 /* quiz */
 @import url(../blocks/quiz/quiz.css);
 @import url(../blocks/quiz/__header/quiz__header.css);
@@ -138,4 +139,3 @@
 
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/__item/copyright__item.css);
-@import url(../blocks/btn/btn.css);
