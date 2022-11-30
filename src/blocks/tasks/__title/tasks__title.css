@@ -3,4 +3,7 @@
   padding-left: 167px;
   padding-bottom: 44px;
   align-self: flex-start;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--h3-font-size);
+  line-height: var(--h3-line-height);
 }

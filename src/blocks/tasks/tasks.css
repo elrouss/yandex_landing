@@ -1,11 +1,8 @@
 .tasks {
+  padding-top: 88px;
   display: grid;
-  grid-template-columns: minmax(391px, 705px) minmax(391px, 705px);
+  grid-template-columns: minmax(300px, 1500px) minmax(300px, 1500px);
   column-gap: 30px;
-  grid-template-rows: minmax(463px, auto) minmax(115px, auto);
-  grid-template-areas:
-  'mentor reviewer'
-  'button button';
-  max-width: 1150px;
-  margin: 0 auto;
+  grid-template-rows: minmax(463px, auto);
+  justify-content: space-between;
 }

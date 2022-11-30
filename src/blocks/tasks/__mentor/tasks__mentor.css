@@ -1,5 +1,4 @@
 .tasks__mentor {
-  grid-area: mentor;
   display: flex;
   flex-direction: column;
   justify-content: center;

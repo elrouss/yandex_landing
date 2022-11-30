@@ -91,16 +91,17 @@
 @import url(../blocks/team-card-section-card/__image/team-card-section-card__image.css);
 @import url(../blocks/team-card-section-card/__header/team-card-section-card__header.css);
 @import url(../blocks/team-card-section-card/__description/team-card-section-card__description.css);
+@import url(../blocks/team-card-section-card/__description/_content/team-card-section-card__description_content_grow.css);
 
 /* TEAM-STORIES */
 @import url(../blocks/team-stories/team-stories.css);
 @import url(../blocks/team-stories/__container/team-stories__container.css);
 @import url(../blocks/team-stories/__intro/team-stories__intro.css);
+@import url(../blocks/team-stories/__paragraph/team-stories__paragraph.css);
 @import url(../blocks/team-stories/__cards/team-stories__cards.css);
 @import url(../blocks/team-stories/__card/team-stories__card.css);
 @import url(../blocks/team-stories/__card-photo.css/team-stories__card-photo.css);
 @import url(../blocks/team-stories/__text-block/team-stories__text-block.css);
-@import url(../blocks/team-stories/__card-text/team-stories__card-text.css);
 @import url(../blocks/team-stories/__card-author/team-stories__card-author.css);
 @import url(../blocks/team-stories/__card-job/team-stories__card-job.css);
 
@@ -139,4 +140,3 @@
 
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/__item/copyright__item.css);
-@import url(../blocks/btn/btn.css);
