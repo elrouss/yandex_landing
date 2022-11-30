@@ -14,11 +14,13 @@
 @media screen and (max-width: 768px) {
     .footer {
         margin: 0 calc(1px + ((100vw - 425px)/(768 - 425) * 43));
+        padding-top: calc(44px + ((100vw - 425px)/(768 - 425) * 18));
     }
 }
 
 @media screen and (max-width: 425px) {
     .footer {
         margin: 0 1px;
+        padding-top: 44px;
     }
 }
