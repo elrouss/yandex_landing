@@ -17,6 +17,9 @@
 @import url(../blocks/btn/_size/btn_size_l.css);
 @import url(../blocks/btn/_size/btn_size_s.css);
 @import url(../blocks/btn/_size/btn_size_xs.css);
+/* Headers */
+@import url(../blocks/section-header/section-header.css);
+@import url(../blocks/section-subheader/section-subheader.css);
 
 /* HEADER */
 @import url(../blocks/header/header.css);
@@ -35,8 +38,12 @@
 
 /* ABOUT */
 @import url(../blocks/about/about.css);
+@import url(../blocks/about-container/about-container.css);
+@import url(../blocks/about/__header/about__header.css);
 @import url(../blocks/about-grid/about-grid.css);
 @import url(../blocks/about-praktikum/about-praktikum.css);
+@import url(../blocks/about-praktikum/__header/about-praktikum__header.css);
+@import url(../blocks/about-praktikum/__subheader/about-praktikum__subheader.css);
 @import url(../blocks/about-grid/__big-element/about-grid__big-element.css);
 @import url(../blocks/about-grid/__squared-element/about-grid__squared-element.css);
 @import url(../blocks/about-grid/__squared-element/_with-arrow/about-grid__squared-element_with-arrow.css);
@@ -44,14 +51,13 @@
 @import url(../blocks/flip-card/flip-card.css);
 @import url(../blocks/flip-card-inner/flip-card-inner.css);
 @import url(../blocks/flip-card-front/flip-card-front.css);
+@import url(../blocks/flip-card-front/__header/flip-card-front__header.css);
 @import url(../blocks/flip-card-back/flip-card-back.css);
 @import url(../blocks/flip-card-back/__text/flip-card-back__text.css);
 @import url(../blocks/flip-card-back/__button/flip-card-back__button.css);
 
 /* MENTOR-OR-REVIEWER */
 @import url(../blocks/mentor-or-reviewer/mentor-or-reviewer.css);
-@import url(../blocks/section-header/section-header.css);
-@import url(../blocks/section-subheader/section-subheader.css);
 @import url(../blocks/mentor-or-reviewer-container/mentor-or-reviewer-container.css);
 @import url(../blocks/mentor-or-reviewer-container/__image/mentor-or-reviewer-container__image.css);
 @import url(../blocks/mentor-or-reviewer-column/mentor-or-reviewer-column.css);

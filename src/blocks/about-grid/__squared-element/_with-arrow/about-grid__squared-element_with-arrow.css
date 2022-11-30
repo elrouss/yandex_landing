@@ -3,13 +3,20 @@
 }
 
 .about-grid__squared-element_with-arrow::after {
-    content: url('../../../../images/arrow-small.svg');
+    content: '';
+    background-image: url('../../../../images/arrow-small.svg');
     position: absolute;
     right: -15px;
-    bottom: 25px;
+    /* bottom: 25px; */
+    bottom: min(calc((100vw - 60px - 60px - 90px) * 25 / (4 * 251)), 25px);
     z-index: 2;
     opacity: 1;
     transition: opacity .6s, visibility 0s;
+    background-size: contain;
+    width: min(calc((100vw - 60px - 60px - 90px) * 112 / (4 * 251)), 112px);
+    height: min(calc((100vw - 60px - 60px - 90px) * 51 / (4 * 251)), 51px);
+
+    background-repeat: no-repeat;
 }
 
 .about-grid__squared-element_with-arrow:hover::after {
