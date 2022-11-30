@@ -1,5 +1,5 @@
 .intro {
-  padding-top: 96px;
+  padding-top: 158px;
   padding-bottom: 100px;
   padding-left: calc(243 / 1440 * 100%);
   padding-right: calc(243 / 1440 * 100%);
@@ -7,6 +7,4 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1150px;
-  box-shadow: 0 2px 14px rgba(0, 0, 0, .05);
 }

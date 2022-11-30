@@ -1,5 +1,5 @@
 .team-stories__container {
-  padding: 100px 0;
-  margin-left: calc(144 / 1440 * 100%);
+  padding: 120px 0 154px;
+  margin-left: calc(145 / 1440 * 100%);
   display: flex;
 }

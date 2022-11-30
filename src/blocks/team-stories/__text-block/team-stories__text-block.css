@@ -1,5 +1,6 @@
 .team-stories__text-block {
-  padding: 20px 15px 40px;
+  padding: 17px 17px 40px;
   display: flex;
   flex-direction: column;
+  height: 50%;
 }

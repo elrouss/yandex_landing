@@ -1,3 +1,7 @@
 .team-stories__card-job {
   margin: 0;
+  color: var(--basic-second-tint-color);
+  font-size: var(--additional-16-font-size);
+  line-height: var(--additional-16-line-height);
+  font-family: 'YS Text';
 }
