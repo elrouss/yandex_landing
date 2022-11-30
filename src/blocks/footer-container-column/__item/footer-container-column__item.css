@@ -5,3 +5,9 @@
     margin-bottom: 12px;
     list-style-type: none;
 }
+
+@media screen and (max-width: 425px) {
+    .footer-container-column__item {
+        font-size: 15px;
+    }
+}

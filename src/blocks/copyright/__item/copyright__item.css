@@ -4,3 +4,9 @@
     text-align: left;
     margin: 4px 0;
 }
+
+@media screen and (max-width: 425px) {
+    .copyright__item {
+        font-size: 15px;
+    }
+}

@@ -1,6 +1,4 @@
 .contacts__phone {
-    font-size: 32px;
-    line-height: 32px;
     color: inherit;
     margin-bottom: 12px;
     text-decoration: none;
@@ -11,4 +9,10 @@
 
 .contacts__phone:hover {
     color: black;
+}
+
+@media screen and (max-width: 669px) {
+    .contacts__phone {
+        font-size: 24px;
+    }
 }
