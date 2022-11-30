@@ -4,7 +4,7 @@
   box-shadow: 0 2px 14px rgba(0, 0, 0, .05);
   position: fixed;
   top: 0;
-  z-index: 2000;
+  z-index: 10000;
   background-color: #fff;
   width: 100%;
 }
