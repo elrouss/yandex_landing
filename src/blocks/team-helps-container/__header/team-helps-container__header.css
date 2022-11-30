@@ -1,3 +1,15 @@
 .team-helps-container__header {
     margin-left: calc((100vw - 1150px)/2);
 }
+
+@media screen and (max-width: 1024px) {
+    .team-helps-container__header {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .team-helps-container__header {
+        margin-left: 18px;
+    }
+}

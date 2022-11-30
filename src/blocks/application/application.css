@@ -2,4 +2,5 @@
   padding: 407px 0 80px;
   background-color: var(--basic-first-tint-color);
   margin: 0 auto;
+  overflow-x: hidden;
 }
