@@ -1,4 +1,6 @@
 .application__description {
   margin: 0;
   padding: 16px 0 40px;
+  font-size: var(--additional-font-size);
+  line-height: var(--additional-line-height);
 }

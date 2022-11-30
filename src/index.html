@@ -8,8 +8,7 @@
   <meta name="author"
     content="Дизайн: Юлия Анастасьина, Рэд Бушетара, Кристина Громова; фронтенд-разработка: Валерий Громов, Борис Зашляпин, Александр Кайгородов">
   <meta name="description"
-    content="Яндекс.Практикум — сервис для подготовки интернет-специалистов. Мы помогаем тем,
-  кто решил изменить свою жизнь и найти призвание в IT. Над сервисом работают десятки специалистов из разных областей, наша команда постоянно растет. Вы можете присоединиться к ней, если вам близки наши цели.">
+    content="Яндекс.Практикум — сервис для подготовки интернет-специалистов. Мы помогаем тем, кто решил изменить свою жизнь и найти призвание в IT. Над сервисом работают десятки специалистов из разных областей, наша команда постоянно растет. Вы можете присоединиться к ней, если вам близки наши цели.">
   <meta name="keywords" content="яндекс, практикум, работа, вакансии, наставник, ревьюер">
   <meta name="referrer" content="no-referrer-when-downgrade">
   <title>Открытые предложения в сопровождении Яндекс.Практикума</title>
@@ -25,7 +24,7 @@
         <ul class="header__links">
           <li><a href="#tasks" class="link">Что делают наставник и&nbsp;ревьюер</a></li>
           <li><a href="#" class="link">Открытые предложения</a></li>
-          <li><a href="#application" class="link link_type_accent">Оставить заявку</a></li>
+          <li><a href="#application" class="link link_type_accent-btn">Оставить заявку</a></li>
         </ul>
       </nav>
     </div>
@@ -124,7 +123,7 @@
 
     <section class="tasks" id="tasks">
       <div class="tasks__mentor">
-        <h2 class="section__title tasks__title">Задачи наставника</h2>
+        <h2 class="tasks__title">Задачи наставника</h2>
         <ul class="tasks__tutor-tasks">
           <li class="tasks__tutor-task">
             <div class="tasks__tutor-task-icon tasks__tutor-task-icon_type_vector-right"></div>
@@ -315,9 +314,16 @@
     </section>
 
     <section class="application" id="application">
+      <div class="application__text">
+        <h2 class="application__title application__title_padding-left">Как стать экспертом?</h2>
+        <div class="application__text-steps">
+          <p class="section-paragraph section-paragraph_color_white">Выберите роль и&nbsp;оставьте заявку</p>
+          <p class="section-paragraph section-paragraph_color_white">Пройдите отбор и&nbsp;бесплатное обучение</p>
+          <p class="section-paragraph section-paragraph_color_white">Начните делиться знаниями со&nbsp;студентами</p>
+        </div>
+      </div>
       <div class="application__container">
-        <h2 class="section__title application__title">Станьте <span class="application__title_text_accent">наставником
-            или ревьюером</span></h2>
+        <h3 class="application__title">Станьте <span class="application__title_text_accent">наставником&nbsp;или ревьюером</span></h3>
         <p class="application__description">Оставьте заявку, чтобы стать частью команды Яндекс Практикума</p>
         <form name="applicationTutors" class="application__form">
           <input id="input-name" name="applicationName" type="text" value="" placeholder="Имя" minlength="2"
@@ -326,7 +332,9 @@
             minlength="16" maxlength="16" required class="application__input">
           <input id="input-email" name="applicationEmail" type="email" value="" placeholder="ivanivanov@yandex.ru"
             minlength="2" maxlength="48" required class="application__input">
-          <div class="application__custom-select">
+
+          <!-- Для второй страницы формы! -->
+          <!-- <div class="application__custom-select">
             <select>
               <option value="0" disabled selected>Какая роль вам ближе?</option>
               <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
@@ -345,15 +353,20 @@
             </select>
           </div>
           <input id="input-link" name="applicationLinkResume" type="url" value="" placeholder="Ссылка на резюме"
-            minlength="2" maxlength="120" required class="application__input">
-          <div class="application__agreement">
+            minlength="2" maxlength="120" required class="application__input"> -->
+            <!-- Для второй страницы формы! -->
+
+          <!-- Для второй страницы формы! -->
+          <!-- <div class="application__agreement">
             <input type="checkbox" class="application__checkbox" required>
             <p class="application__agreement-data">
-              Я даю согласие АНО ДПО «ШАД» и ООО «ЯНДЕКС» на <a href="" class="application__link">обработку указанных
-                данных</a> для целей рассмотрения анкеты и обратной связи по ней.
+              Я&nbsp;даю согласие АНО ДПО &laquo;ШАД&raquo; и&nbsp;ООО &laquo;ЯНДЕКС&raquo; на&nbsp;<a href="" class="link link_type_underline">обработку указанных
+                данных</a> для целей рассмотрения анкеты и&nbsp;обратной связи по&nbsp;ней.
             </p>
-          </div>
-          <button type="submit" class="btn application__submit-btn">Отправить</button>
+          </div>-->
+          <!-- Для второй страницы формы! -->
+          <span class="application__form-counter">Шаг 1 из 2</span>
+          <button type="submit" class="btn btn_size_xl application__submit-btn">Продолжить</button>
         </form>
       </div>
     </section>

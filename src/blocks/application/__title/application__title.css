@@ -1,3 +1,6 @@
 .application__title {
-  padding-top: 56px;
+  margin: 0;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--h3-font-size);
+  line-height: var(--h3-line-height);
 }

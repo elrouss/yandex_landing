@@ -1,0 +1,16 @@
+.section-paragraph_color_white {
+  color: #fff;
+  max-width: 237px;
+}
+
+.section-paragraph_color_white:nth-child(1) {
+  padding-left: calc(252 / 1440 * 100%);
+}
+
+.section-paragraph_color_white:nth-child(2) {
+  padding-left: calc(156 / 1440 * 100%);
+}
+
+.section-paragraph_color_white:nth-child(3) {
+  padding-left: calc(167 / 1440 * 100%);
+}

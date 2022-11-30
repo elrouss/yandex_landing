@@ -1,0 +1,5 @@
+.application__text {
+  z-index: 4000;
+  color: #fff;
+  position: relative;
+}

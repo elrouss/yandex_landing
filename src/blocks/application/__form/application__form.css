@@ -1,12 +1,14 @@
 .application__form {
   max-width: 1015px;
-  padding-bottom: 56px;
+  padding-bottom: 62px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 20px;
+  row-gap: 28px;
   column-gap: 20px;
   grid-template:
   'name phone email'
-  'job department resume'
-  'agreement agreement button';
+  '. . button';
+  position: relative;
 }
+
+/* 'job department resume' */

@@ -1,7 +1,8 @@
 .application__agreement-data {
+  font-family: 'YS Text';
   max-width: 371px;
   margin: 0;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   font-size: 10px;
   line-height: calc(18 / 10 * 100%);
 }
