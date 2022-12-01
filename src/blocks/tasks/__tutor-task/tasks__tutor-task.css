@@ -1,10 +1,29 @@
 .tasks__tutor-task {
   max-width: 453px;
-  display: flex;
-  column-gap: 27px;
+  column-gap: 31px;
+}
+
+.tasks__tutor-task:nth-child(1) {
+  list-style-image: url(../../../images/Vector.svg);
+}
+
+.tasks__tutor-task:nth-child(2n) {
+  list-style-image: url(../../../images/Ellipse.svg);
+}
+
+.tasks__tutor-task:nth-child(3) {
+  list-style-image: url(../../../images/Vector-1.svg);
 }
 
 .tasks__tutor-task > p {
   margin: 0;
-  max-width: 300px;
+  max-width: 400px;
+}
+
+@media screen and (max-width: 1439px) {
+  .tasks__tutor-task > p {
+    font-size: calc(15px + (5 + 5 * .7) * (100vw - 768px) / 1439);
+    line-height: 140%;
+    column-gap: 23px;
+  }
 }

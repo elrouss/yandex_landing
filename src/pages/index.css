@@ -89,9 +89,6 @@
 @import url(../blocks/tasks/__tutor-task/tasks__tutor-task.css);
 @import url(../blocks/tasks/__mentor/tasks__mentor.css);
 @import url(../blocks/tasks/__reviewer/tasks__reviewer.css);
-@import url(../blocks/tasks/__tutor-task-icon/tasks__tutor-task-icon.css);
-@import url(../blocks/tasks/__tutor-task-icon/_type/tasks__tutor-task-icon_type_vector-right.css);
-@import url(../blocks/tasks/__tutor-task-icon/_type/tasks__tutor-task-icon_type_vector-left.css);
 
 /* TEAM-HELPS */
 @import url(../blocks/team-helps/team-helps.css);

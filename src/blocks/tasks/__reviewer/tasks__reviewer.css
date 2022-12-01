@@ -1,9 +1,31 @@
 .tasks__reviewer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: var(--basic-first-tint-color);
   border-radius: 25px 0 0 25px;
   color: #fff;
 }
+
+.tasks__reviewer > .tasks__title {
+  padding-left: 109px;
+  padding-top: 81px;
+}
+
+.tasks__reviewer > .tasks__tutor-tasks {
+  padding-top: 170px;
+  padding-left: 17px;
+  row-gap: 14px;
+}
+
+/* @media screen and (max-width: 1439px) {
+  .tasks__reviewer > .tasks__title {
+    padding-left: 32px;
+    padding-top: 61px;
+  }
+
+  .tasks__reviewer > .tasks__tutor-tasks {
+    padding-left: 32px;
+    padding-top: 47px;
+    row-gap: 8px;
+  }
+} */

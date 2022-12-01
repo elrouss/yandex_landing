@@ -1,9 +1,31 @@
 .tasks__mentor {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: var(--basic-first-tint-color);
   border-radius: 0 25px 25px 0;
   color: #fff;
+}
+
+.tasks__mentor > .tasks__title {
+  padding-left: 144px;
+  padding-top: 81px;
+}
+
+.tasks__mentor > .tasks__tutor-tasks {
+  padding-top: 41px;
+  padding-left: 154px;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .tasks__mentor > .tasks__title {
+    padding-left: calc(60px + (84 + 84 * .7) * (100vw - 768px) / 1439);
+    padding-top: calc(62px + (19 + 19 * .7) * (100vw - 768px) / 1439);
+  }
+
+  .tasks__mentor > .tasks__tutor-tasks {
+    padding-top: 49px;
+    padding-left: 60px;
+    row-gap: 8px;
+  }
 }
