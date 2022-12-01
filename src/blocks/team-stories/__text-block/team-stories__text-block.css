@@ -5,9 +5,15 @@
   height: 50%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .team-stories__text-block {
     padding-top: 22px;
-    padding-bottom: 47px;
+    padding-bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .team-stories__text-block {
+    padding-bottom: 46px;
   }
 }
