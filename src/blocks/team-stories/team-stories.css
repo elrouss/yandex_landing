@@ -3,7 +3,7 @@
   margin-left: calc(159 / 1440 * 100%);
   display: grid;
   grid-template-rows: minmax(min-content, auto);
-  grid-template-columns: minmax(min-content, auto);
+  grid-template-columns: 337px auto;
   grid-template-areas:
   'text slider'
   'btn slider'
@@ -13,7 +13,7 @@
 
 .team-stories > .btn_size_l {
   grid-area: btn;
-  margin-bottom: 41px;
+  margin-top: 71px;
 }
 
 @media screen and (max-width: 1439px) {
