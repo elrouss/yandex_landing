@@ -1,20 +1,4 @@
 .header__logo {
-<<<<<<< HEAD
   width: 160px;
   z-index: 3;
-=======
-  max-width: 160px;
-}
-
-@media screen and (max-width: 1439px) {
-  .header__logo {
-    max-width: calc(142px + (18 + 18 * .7) * (100vw - 768px) / 1439);
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header__logo {
-    max-width: 142px;
-  }
->>>>>>> ea53522b4cddc81d75b0221506af210af3f26d9f
 }

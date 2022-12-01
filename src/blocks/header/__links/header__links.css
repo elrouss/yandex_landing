@@ -9,8 +9,8 @@
   font-size: var(--additional-16-font-size);
   line-height: var(--additional-16-line-height);
   max-width: 457px;
-  width: 100%;
   font-family: 'YS Text';
+  gap: 40px;
 }
 
 .header__links li {

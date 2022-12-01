@@ -1,11 +1,10 @@
 .header__nav {
   display: flex;
   max-width: 809px;
-  width: 100%;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1275px) {
+/* @media screen and (max-width: 1275px) {
   .header__nav {
     max-width: calc(682px + (127 + 127 * .7) * (100vw - 1000px) / 1275);
   }
@@ -15,4 +14,4 @@
   .header__nav {
     width: max-content;
   }
-}
+} */
