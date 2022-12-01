@@ -5,7 +5,7 @@
     align-items: flex-start;
     margin-top: 72px;
     /* overflow-x: scroll; */
-    overflow: auto;
+    overflow: scroll;
     gap: 30px;
     padding: 0 calc((100vw - 1150px)/2);
 }

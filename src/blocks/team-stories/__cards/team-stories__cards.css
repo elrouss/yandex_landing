@@ -2,5 +2,5 @@
   margin-left: calc(34 / 1440 * 100%);
   display: flex;
   column-gap: 30px;
-  overflow: hidden;
+  overflow: scroll;
 }
