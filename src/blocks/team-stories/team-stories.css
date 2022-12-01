@@ -1,6 +1,6 @@
 .team-stories {
   padding: 120px 0 154px;
-  margin-left: calc(159 / 1440 * 100%);
+  padding-left: calc(159 / 1440 * 100%);
   display: grid;
   grid-template-rows: minmax(min-content, auto);
   grid-template-columns: 337px auto;
@@ -13,14 +13,15 @@
 
 .team-stories > .btn_size_l {
   grid-area: btn;
-  margin-top: 71px;
+  margin-top: 91px;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1439px) {
   .team-stories {
     padding-top: calc(80px + (40 + 40 * .7) * (100vw - 768px) / 1439);
-    padding-bottom: calc(175px + (-21 + (-21 * .7)) * (100vw - 768px) / 1439);;
-    margin-left: 73px;
+    padding-bottom: calc(119.05323px - 2.48089vw);
+    padding-left: calc(73px + (55 + 55 * .7) * (100vw - 768px) / 1439);
   }
 }
 
@@ -30,18 +31,21 @@
     'text text'
     'slider slider'
     'btn btn';
+
+    /* padding: 0; */
+    /* margin-left: calc(73px + (55 + 55 * .7) * (100vw - 390px) / 768); */
   }
 
   .team-stories > .btn_size_l {
     margin-bottom: 0;
-    margin-top: 40px;
+    margin-top: 61px;
     max-width: 325px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 390px) {
   .team-stories {
-    margin-left: 18px;
+    padding-left: 18px;
   }
 
   .team-stories > .btn_size_l {
