@@ -1,5 +1,6 @@
 .section-subheader {
-    font-size: var(--body-regular-22-font-size);
+    /* font-size: var(--body-regular-22-font-size); */
+    font-size: var(--body-regular-22-font-size-adopt);
     font-weight: 400;
     line-height: 1.29;
     text-align: left;

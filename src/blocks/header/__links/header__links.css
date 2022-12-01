@@ -3,14 +3,33 @@
   padding: 0;
   list-style-type: none;
   display: flex;
-  column-gap: 51px;
+  justify-content: space-between;
+  align-items: center;
   color: var(--basic-second-tint-color);
   font-size: var(--additional-16-font-size);
   line-height: var(--additional-16-line-height);
+  max-width: 457px;
+  width: 100%;
+  font-family: 'YS Text';
 }
 
+<<<<<<< HEAD
 .header__links li {
   list-style: none;
   position: relative;
   z-index: 3000005;
 }
+=======
+/* @media screen and (max-width: 1150px) {
+  .header__links {
+    padding-right: calc(60px + (95 + 95 * .7) * (100vw - 1000px) / 1150);
+  }
+} */
+
+@media screen and (max-width: 1000px) {
+  .header__links {
+    display: none;
+  }
+}
+
+>>>>>>> ea53522b4cddc81d75b0221506af210af3f26d9f

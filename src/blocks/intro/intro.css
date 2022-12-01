@@ -1,13 +1,10 @@
 .intro {
-  padding-top: 158px;
-  padding-bottom: 77px;
-  padding-left: calc(243 / 1440 * 100%);
-  padding-right: calc(243 / 1440 * 100%);
+  padding: 172px 60px 77px 60px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   z-index: 500;
-  row-gap: 553px;
 }

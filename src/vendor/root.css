@@ -33,6 +33,7 @@
   --h1-line-height: calc(75 / 64 * 100%);
   /* H2 */
   --h2-font-size: 48px;
+  --h2-font-size-adopt: 48px;
   --h2-line-height: calc(55 / 48 * 100%);
   /* H3 */
   --h3-font-size: 36px;
@@ -50,9 +51,11 @@
   --body-bold-line-height: calc(25.78 / 22 * 100%);
   /* Body Regular 22 */
   --body-regular-22-font-size: 22px;
+  --body-regular-22-font-size-adopt: 22px;
   --body-regular-22-line-height: calc(28.6 / 22 * 100%);
   /* Body Regular 20 */
   --body-regular-20-font-size: 20px;
+  --body-regular-20-font-size-adopt: 20px;
   --body-regular-20-line-height: calc(26 / 20 * 100%);
   /* Body Small */
   --body-small-font-size: 18px;
@@ -66,3 +69,26 @@
   --additional-16-font-size: 16px;
   --additional-16-line-height: calc(24 / 16 * 100%);
 }
+
+@media screen and (max-width: 1270px) {
+  :root {
+    --h2-font-size-adopt: calc(30px + (100vw - 860px)/(1270 - 860)*18);
+    --body-regular-22-font-size-adopt: calc(17px + (100vw - 860px)/(1270 - 860)*5);
+    --body-regular-20-font-size-adopt: calc(15px + (100vw - 860px)/(1270 - 860)*5);
+  }
+}
+
+@media screen and (max-width: 860px) {
+  :root {
+    --h2-font-size-adopt: 30px;
+    --body-regular-22-font-size-adopt: 17px;
+    --body-regular-20-font-size-adopt: 15px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  :root {
+    --h2-font-size-adopt: 25px;
+  }
+}
+

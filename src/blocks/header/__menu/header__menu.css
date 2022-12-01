@@ -1,7 +1,14 @@
 .header__menu {
+<<<<<<< HEAD
   /* padding-left: calc(145 / 1440 * 100%);
   padding-right: calc(145 / 1440 * 100%); */
   position: relative;
+=======
+  padding-top: 26px;
+  padding-bottom: 19px;
+  padding-left: calc(152 / 1440 * 100%);
+  padding-right: calc(152 / 1440 * 100%);
+>>>>>>> ea53522b4cddc81d75b0221506af210af3f26d9f
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,4 +16,24 @@
 
 }
 
+<<<<<<< HEAD
 
+=======
+@media screen and (max-width: 1439px) {
+  .header__menu {
+    padding-top: 10px;
+    padding-bottom: calc(9px + (10 + 10 * .7) * (100vw - 768px) / 1439);
+    padding-left: calc(60px + (85 + 85 * .7) * (100vw - 768px) / 1439);
+    padding-right: calc(72px + (-12 + (-12 * .7)) * (100vw - 768px) / 1439);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu {
+    padding-top: calc(17.48px + (-7.48 + (-7.48 * .7)) * (100vw - 390px) / 767);
+    padding-bottom: calc(18.25px + (-9.25 + (-9.25 * .7)) * (100vw - 390px) / 767);
+    padding-left: calc(18px + (42 + 42 * .7) * (100vw - 390px) / 767);
+    padding-right: calc(30px + (42 + 42 * .7) * (100vw - 390px) / 767);
+  }
+}
+>>>>>>> ea53522b4cddc81d75b0221506af210af3f26d9f
