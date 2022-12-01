@@ -39,7 +39,8 @@
         </p>
         <button class="btn">Хочу делиться знаниями</button>
       </intro>
-      <div class="intro__background-image"></div>
+      <!-- <div class="intro__background-image"></div> -->
+      <img src="<%=require('./images/main.png')%>" alt="" class="intro__background-image">
       <ul class="intro__tags">
         <li class="intro__tag">#для мидлов</li>
         <li class="intro__tag">#для сениоров</li>
@@ -696,6 +697,14 @@
           </div>
       </div>
   </template>
+  <div class="popup">
+    <div class="popup-about">
+      <h3 class="popup-about__header">Программирование</h3>
+      <p class="popup-about__text">Учим разработке и тестированию в условиях, которые имитируют реальную работу: с проектами, спринтами и дедлайнами. Мы за честный взгляд на программирование: без клише и ложных ожиданий. Наши студенты изучают Java, Java Script и Python, HTML и CSS</p>
+      <button class="btn btn_size_l popup-about__button">К предложениям</button>
+      <button class="popup-about__close-button"></button>
+    </div>
+  </div>
   <script src="scripts/index.js" type="module"></script>
 
 </body>
