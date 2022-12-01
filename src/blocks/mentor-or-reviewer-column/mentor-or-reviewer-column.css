@@ -6,4 +6,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 350px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .mentor-or-reviewer-column {
+        min-height: 241px;
+        padding-right: 0;
+        align-items: center;
+        width: 100%;
+        min-width: auto;
+    }
 }

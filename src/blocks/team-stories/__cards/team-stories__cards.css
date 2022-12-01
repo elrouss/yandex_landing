@@ -3,6 +3,7 @@
   display: flex;
   column-gap: 30px;
   grid-area: slider;
+  overflow: scroll;
 }
 
 @media screen and (max-width: 1439px) {

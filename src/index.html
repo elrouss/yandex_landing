@@ -183,14 +183,15 @@
     <section class="mentor-or-reviewer">
       <div class="mentor-or-reviewer-container">
         <div class="mentor-or-reviewer-column">
-          <h2 class="section-header">Наставник или ревьюер, вот в чем вопрос</h2>
+          <h2 class="section-header">Наставник или ревьюер, вот&nbsp;в&nbsp;чем вопрос</h2>
           <h3 class="section-subheader mentor-or-reviewer-column__subheader">Пройдите опрос и узнайте, какая роль
             подойдет вам больше</h3>
-          <button type="button" aria-label="Кнопка для прохождения опроса" class="btn btn_size_s">Пройти опрос</button>
+          <button type="button" aria-label="Кнопка для прохождения опроса" class="btn btn_size_s mentor-or-reviewer-column__button">Пройти опрос</button>
         </div>
-        <img src="<%=require('./images/dilemma.png')%>" alt="" class="mentor-or-reviewer-container__image">
+        <!-- <img src="<%=require('./images/mentor-or-reviewer.png')%>" alt="" class="mentor-or-reviewer-container__image"> -->
+        <div class="mentor-or-reviewer-container__image"></div>
       </div>
-      <div class="quiz">
+      <div class="quiz" style="display: none;">
         <h4 class="quiz__header">Что вам нравится больше?</h4>
         <label class="radio-container">
           <input class="radio-container__radio" type="radio" checked="checked" name="radio">
@@ -208,10 +209,10 @@
       </div>
 
       <!-- ДЛЯ РАЗРАБОТКИ -->
-      <div style="margin: 0 auto; padding: 0; height: 50px; width: 100%;"></div>
+      <!-- <div style="margin: 0 auto; padding: 0; height: 50px; width: 100%;"></div> -->
       <!-- ДЛЯ РАЗРАБОТКИ -->
 
-      <div class="quiz quiz-result">
+      <div class="quiz quiz-result" style="display: none;">
         <h4 class="quiz__header quiz-result__header">Вот это&nbsp;да!<br><span
             class="quiz-result__header_accent">Вы&nbsp;на&nbsp;100% ревьюер</span></h4>
         <button class="btn">Что вы&nbsp;можете мне предложить?</button>
@@ -281,17 +282,17 @@
             </div>
             <div class="offers__card-container">
                 <div class="offers__card card">
-                    <div class="card__popup">
-                        <div class="card__popup-title-button">
-                            <input checked type="radio" name="popup-button" id="button-offer">
-                            <label for="button-offer">
-                                Я подхожу. Что вы можете мне предложить?
-                            </label>
-                        </div>
-                        <p class="card__popup-text">
-                            Наставник помогает студентам учиться: отвечает на вопросы и помогает с трудностями. Каждый наставник курирует группу из 50 студентов: общается с ними в Slack, проводит групповые звонки на протяжении 4 месяцев обучения и постоянно улучшает образовательный опыт
-                        </p>
+                  <!-- <div class="card__popup">
+                    <div class="card__popup-title-button">
+                        <input type="radio" name="popup-button" id="button-offer">
+                        <label for="button-offer">
+                            Что делает наставник?
+                        </label>
                     </div>
+                    <p class="card__popup-text">
+                        Наставник помогает студентам учиться: отвечает на вопросы и помогает с трудностями. Каждый наставник курирует группу из 50 студентов: общается с ними в Slack, проводит групповые звонки на протяжении 4 месяцев обучения и постоянно улучшает образовательный опыт
+                    </p>
+                </div>
                     <div class="card__popup">
                         <div class="card__popup-title-button">
                             <input type="radio" name="popup-button" id="button-want">
@@ -343,12 +344,9 @@
                     </div>
                     <div class="card__button-container">
                         <button class="card__submit-button">
-                            Откликнуться на вакансию
+                            Откликнуться на предложение
                         </button>
-                        <button class="card__share-button">
-                            <img src="<%=require('./images/share-button.svg')%>" alt="Поделиться">
-                        </button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -606,11 +604,12 @@
   </footer>
 
   <template class="template-card-to-list">
-    <li>
-        <div class="offers__list-button content">
+    <li class="offers__list-item content">
+        <div class="offers__list-button">
             <input checked class="offers__list-input" type="radio" name="list-button" id="list-button">
             <label class="offers__menu-label" for="">
                 Наставник на курс «Мидл фронтенд-разработчик»
+                <img class="offers__list-button-image" src="<%=require('./images/offers-plus.svg')%>" alt="Плюс">
             </label>
         </div>
     </li>
@@ -618,12 +617,84 @@
 
   <template class="template-card">
       <div class="card__content content">
+        <button class="card__share-button">
+          <img src="<%=require('./images/card-share-button.svg')%>" alt="Поделиться">
+          <p>Скопировать ссылку</p>
+        </button>
           <h3 class="card__title">
               Наставник на курс «Мидл фронтенд-разработчик»
           </h3>
           <p class="card__salary">
               от 35 000₽
           </p>
+          <p class="card__popup-text card__popup-text_active">
+            Наставник помогает студентам учиться: отвечает на вопросы и помогает с трудностями. Каждый наставник курирует группу из 50 студентов: общается с ними в Slack, проводит групповые звонки на протяжении 4 месяцев обучения и постоянно улучшает образовательный опыт
+        </p>
+        <div class="card__popup">
+          <div class="card__popup-title-button">
+              <input type="radio" name="popup-button" id="button-offer">
+              <label for="button-offer">
+                  Что делает наставник?
+              </label>
+          </div>
+          <p class="card__popup-text">
+              Наставник помогает студентам учиться: отвечает на вопросы и помогает с трудностями. Каждый наставник курирует группу из 50 студентов: общается с ними в Slack, проводит групповые звонки на протяжении 4 месяцев обучения и постоянно улучшает образовательный опыт
+          </p>
+      </div>
+          <div class="card__popup">
+              <div class="card__popup-title-button">
+                  <input type="radio" name="popup-button" id="button-want">
+                  <label for="button-want">
+                      Я хочу стать наставником. Меня возьмут?
+                  </label>
+              </div>
+              <p class="card__popup-text">
+                  Скорее всего — да, если вы:
+                  имеете опыт работы программистом больше трех лет;
+                  знаете HTML, CSS;
+                  работали с JavaScript, React, TypeScript, Node.js;
+                  готовы посвящать проекту от 8 до 12 часов в неделю.
+                  Удобное для вас время будем рады обсудить лично.
+              </p>
+          </div>
+          <div class="card__popup">
+              <div class="card__popup-title-button">
+                  <input type="radio" name="popup-button" id="button-match">
+                  <label for="button-match">
+                      Я подхожу. Что вы можете мне предложить?
+                  </label>
+              </div>
+              <p class="card__popup-text">
+                  Наставник помогает студентам учиться: отвечает на вопросы и помогает с трудностями. Каждый наставник курирует группу из 50 студентов: общается с ними в Slack, проводит групповые звонки на протяжении 4 месяцев обучения и постоянно улучшает образовательный опыт.
+              </p>
+          </div>
+          <div class="card__popup">
+              <div class="card__popup-title-button">
+                  <input type="radio" name="popup-button" id="button-expert">
+                  <label for="button-expert">
+                      Как я пойму, что у меня достаточно экспертизы?
+                  </label>
+              </div>
+              <p class="card__popup-text">
+                  Наставник помогает студентам учиться: отвечает на вопросы и помогает с трудностями. Каждый наставник курирует группу из 50 студентов: общается с ними в Slack, проводит групповые звонки на протяжении 4 месяцев обучения и постоянно улучшает образовательный опыт.
+              </p>
+          </div>
+          <div class="card__popup">
+              <div class="card__popup-title-button">
+                  <input type="radio" name="popup-button" id="button-school">
+                  <label for="button-school">
+                      Что такое Школа наставников и сколько времени она занимает?
+                  </label>
+              </div>
+              <p class="card__popup-text">
+                  Наставник помогает студентам учиться: отвечает на вопросы и помогает с трудностями. Каждый наставник курирует группу из 50 студентов: общается с ними в Slack, проводит групповые звонки на протяжении 4 месяцев обучения и постоянно улучшает образовательный опыт.
+              </p>
+          </div>
+          <div class="card__button-container">
+              <button class="card__submit-button">
+                  Откликнуться на предложение
+              </button>
+          </div>
       </div>
   </template>
   <script src="scripts/index.js" type="module"></script>
