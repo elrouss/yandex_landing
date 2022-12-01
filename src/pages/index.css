@@ -64,6 +64,7 @@
 @import url(../blocks/mentor-or-reviewer-container/__image/mentor-or-reviewer-container__image.css);
 @import url(../blocks/mentor-or-reviewer-column/mentor-or-reviewer-column.css);
 @import url(../blocks/mentor-or-reviewer-column/__subheader/mentor-or-reviewer-column__subheader.css);
+@import url(../blocks/mentor-or-reviewer-column/__button/mentor-or-reviewer-column__button.css);
 /* quiz */
 @import url(../blocks/quiz/quiz.css);
 @import url(../blocks/quiz/__header/quiz__header.css);
