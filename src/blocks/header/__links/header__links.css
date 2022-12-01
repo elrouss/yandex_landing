@@ -8,3 +8,9 @@
   font-size: var(--additional-16-font-size);
   line-height: var(--additional-16-line-height);
 }
+
+.header__links li {
+  list-style: none;
+  position: relative;
+  z-index: 3000005;
+}

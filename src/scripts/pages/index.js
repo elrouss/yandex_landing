@@ -556,6 +556,11 @@ const analystReviewers = [
     }
 ];
 
+const burgerButton = document.querySelector('.header__burger');
+const burgerMenu = document.querySelector('.header__nav');
+const body = document.querySelector('.page');
+const header = document.querySelector('.header');
+
 
 const cardList = document.querySelector('.offers__list');
 const menuButtonsList = Array.from(document.querySelectorAll('.offers__menu-input'));
@@ -734,3 +739,11 @@ document.querySelectorAll("a[href^='#']").forEach(link => {
 });
 
 
+burgerButton.addEventListener('click', () => {
+
+  burgerButton.classList.toggle('active');
+  burgerMenu.classList.toggle('active');
+  body.classList.toggle('lock');
+  // header.classList.toggle('active');
+
+});
