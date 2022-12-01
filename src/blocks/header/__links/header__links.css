@@ -13,23 +13,8 @@
   font-family: 'YS Text';
 }
 
-<<<<<<< HEAD
 .header__links li {
   list-style: none;
   position: relative;
   z-index: 3000005;
 }
-=======
-/* @media screen and (max-width: 1150px) {
-  .header__links {
-    padding-right: calc(60px + (95 + 95 * .7) * (100vw - 1000px) / 1150);
-  }
-} */
-
-@media screen and (max-width: 1000px) {
-  .header__links {
-    display: none;
-  }
-}
-
->>>>>>> ea53522b4cddc81d75b0221506af210af3f26d9f

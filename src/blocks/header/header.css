@@ -1,16 +1,12 @@
 .header {
-<<<<<<< HEAD
   /* padding-top: 18px;
   padding-bottom: 19px; */
-=======
->>>>>>> ea53522b4cddc81d75b0221506af210af3f26d9f
   box-shadow: 0 2px 14px rgba(0, 0, 0, .05);
   position: fixed;
   top: 0;
   z-index: 10000;
   background-color: #fff;
   width: 100%;
-<<<<<<< HEAD
   z-index: 3000050;
 }
 
@@ -40,7 +36,4 @@
   .header.active:after {
     bottom: -772px;
   }
-=======
-  align-items: center;
->>>>>>> ea53522b4cddc81d75b0221506af210af3f26d9f
 }
