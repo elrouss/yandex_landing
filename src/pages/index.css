@@ -155,6 +155,14 @@
 @import url(../blocks/copyright/copyright.css);
 @import url(../blocks/copyright/__item/copyright__item.css);
 
+/*POPUP*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup-about/__close-button/popup-about__close-button.css);
+@import url(../blocks/popup-about/popup-about.css);
+@import url(../blocks/popup-about/__header/popup-about__header.css);
+@import url(../blocks/popup-about/__text/popup-about__text.css);
+@import url(../blocks/popup-about/__button/popup-about__button.css);
 
 .offers {
   color: #1A1B21;

@@ -55,6 +55,7 @@
   --body-regular-22-line-height: calc(28.6 / 22 * 100%);
   /* Body Regular 20 */
   --body-regular-20-font-size: 20px;
+  --body-regular-20-font-size-adopt: 20px;
   --body-regular-20-line-height: calc(26 / 20 * 100%);
   /* Body Small */
   --body-small-font-size: 18px;
@@ -73,6 +74,7 @@
   :root {
     --h2-font-size-adopt: calc(30px + (100vw - 860px)/(1270 - 860)*18);
     --body-regular-22-font-size-adopt: calc(17px + (100vw - 860px)/(1270 - 860)*5);
+    --body-regular-20-font-size-adopt: calc(15px + (100vw - 860px)/(1270 - 860)*5);
   }
 }
 
@@ -80,6 +82,7 @@
   :root {
     --h2-font-size-adopt: 30px;
     --body-regular-22-font-size-adopt: 17px;
+    --body-regular-20-font-size-adopt: 15px;
   }
 }
 
