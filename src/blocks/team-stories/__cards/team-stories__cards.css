@@ -1,6 +1,21 @@
 .team-stories__cards {
-  margin-left: calc(34 / 1440 * 100%);
+  margin-left: calc(35 / 1440 * 100%);
   display: flex;
   column-gap: 30px;
+  grid-area: slider;
   overflow: scroll;
+}
+
+@media screen and (max-width: 1439px) {
+  .team-stories__cards {
+    column-gap: calc(20px + (10 + 10 * .7) * (100vw - 768px) / 1439);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team-stories__cards {
+    margin-left: 0;
+    column-gap: 18px;
+    padding-top: 28px;
+  }
 }

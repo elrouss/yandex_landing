@@ -11,3 +11,21 @@
   line-height: var(--body-regular-20-line-height);
   color: var(--basic-second-tint-color);
 }
+
+@media screen and (max-width: 1439px) {
+  .intro__tags{
+    max-width: calc(538px + (416 + 416 * .7) * (100vw - 768px) / 1439);
+    font-size: calc(15px + (5 + 5 * .7) * (100vw - 768px) / 1439);
+    column-gap: calc(34px + (51 + 51 * .7) * (100vw - 768px) / 1439);
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .intro__tags{
+    line-height: 126%;
+    font-size: 15px;
+    column-gap: calc(34px + (51 + 51 * .7) * (100vw - 768px) / 1439);
+    max-width: none;
+  }
+}

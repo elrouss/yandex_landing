@@ -1,3 +1,17 @@
 .intro__tag {
   max-width: 167px;
 }
+
+@media screen and (max-width: 500px) {
+  .intro__tag:nth-child(4) {
+    position: absolute;
+    top: -22px;
+  }
+}
+
+/* @media screen and (max-width: 390px) {
+  .intro__tag:nth-child(4) {
+    top: -8px;
+    right: 192px;
+  }
+} */

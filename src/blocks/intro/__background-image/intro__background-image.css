@@ -2,11 +2,31 @@
   background: url(../../../images/intro-decorative-image.png) center no-repeat;
   background-size: cover;
   width: 100%;
-  max-width: 1151px;
-	max-height: 666.68px;
+  max-width: 1157px;
+	max-height: 491px;
   height: 100%;
   position: absolute;
-  top: 456px;
-  left: 144px;
+  top: 478px;
+  left: 157px;
   z-index: -1;
+}
+
+@media screen and (max-width: 1439px) {
+  .intro__background-image {
+    background-image: url(../../../images/decorative-image-tablet.png);
+    max-width: calc(648px + (503 + 503 * .7) * (100vw - 768px) / 1439);
+    max-height: calc(395.5px + (271.18 + 271.18 * .7) * (100vw - 768px) / 1439);
+    top: calc(407px + (49 + 49 * .7) * (100vw - 768px) / 1439);
+    left: calc(74px + (146 + 146 * .7) * (100vw - 768px) / 1439);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__background-image {
+    background-image: url(../../../images/decorative-image-mobile.png);
+    max-width: calc(470px + (-106 + (-106 * .7)) * (100vw - 390px) / 767);
+    max-height: calc(313.59px + (2.41 + 2.41 * .7) * (100vw - 390px) / 767);
+    top: calc(477px + (-90 + (-90 * .7)) * (100vw - 390px) / 767);
+    left: calc(0 + (240 + 240 * .7) * (100vw - 390px) / 767);
+  }
 }

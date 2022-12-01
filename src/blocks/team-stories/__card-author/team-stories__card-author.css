@@ -4,3 +4,10 @@
   font-size: var(--body-regular-20-font-size);
   line-height: var(--body-regular-20-line-height);
 }
+
+@media screen and (max-width: 1439px) {
+  .team-stories__card-author {
+    font-size: 17px;
+    line-height: calc(21.59 / 17 * 100%);
+  }
+}
