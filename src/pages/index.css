@@ -63,6 +63,7 @@
 @import url(../blocks/mentor-or-reviewer-container/mentor-or-reviewer-container.css);
 @import url(../blocks/mentor-or-reviewer-container/__image/mentor-or-reviewer-container__image.css);
 @import url(../blocks/mentor-or-reviewer-column/mentor-or-reviewer-column.css);
+@import url(../blocks/mentor-or-reviewer-column/__header/mentor-or-reviewer-column__header.css);
 @import url(../blocks/mentor-or-reviewer-column/__subheader/mentor-or-reviewer-column__subheader.css);
 @import url(../blocks/mentor-or-reviewer-column/__button/mentor-or-reviewer-column__button.css);
 /* quiz */

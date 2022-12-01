@@ -15,7 +15,7 @@
 </head>
 
 <body class="page">
-  <header class="header">
+  <header class="header" style="display: none;">
     <div class="header__menu">
       <a href="https://practicum.yandex.ru/" class="link" target="_blank">
         <img src="<%=require('./images/logo-yandex.svg')%>" alt="Логотип Яндекс Практикума" class="header__logo">
@@ -31,7 +31,7 @@
   </header>
 
   <main>
-    <section class="intro">
+    <section class="intro" style="display: none;">
       <intro class="intro__container">
         <h1 class="intro__title">Обучайте студентов вместе с&nbsp;Яндекс Практикумом</h1>
         <p class="intro__paragraph">
@@ -49,7 +49,7 @@
       </ul>
     </section>
 
-    <section class="about">
+    <section class="about" style="display: none;">
       <div class="about-container">
         <h2 class="section-header about__header">О&nbsp;Яндекс Практикуме и&nbsp;факультетах</h2>
         <div class="about-grid">
@@ -134,7 +134,7 @@
 
     </section>
 
-    <section class="tasks" id="tasks">
+    <section class="tasks" id="tasks" style="display: none;">
       <div class="tasks__mentor">
         <h2 class="tasks__title">Задачи наставника</h2>
         <ul class="tasks__tutor-tasks">
@@ -183,12 +183,11 @@
     <section class="mentor-or-reviewer">
       <div class="mentor-or-reviewer-container">
         <div class="mentor-or-reviewer-column">
-          <h2 class="section-header">Наставник или ревьюер, вот&nbsp;в&nbsp;чем вопрос</h2>
+          <h2 class="section-header mentor-or-reviewer-column__header">Наставник или ревьюер, вот&nbsp;в&nbsp;чем вопрос</h2>
           <h3 class="section-subheader mentor-or-reviewer-column__subheader">Пройдите опрос и узнайте, какая роль
             подойдет вам больше</h3>
           <button type="button" aria-label="Кнопка для прохождения опроса" class="btn btn_size_s mentor-or-reviewer-column__button">Пройти опрос</button>
         </div>
-        <!-- <img src="<%=require('./images/mentor-or-reviewer.png')%>" alt="" class="mentor-or-reviewer-container__image"> -->
         <div class="mentor-or-reviewer-container__image"></div>
       </div>
       <div class="quiz" style="display: none;">
@@ -220,7 +219,7 @@
       </div>
     </section>
 
-    <section class="offers" id="offers">
+    <section class="offers" id="offers" style="display: none;">
       <div class="offers__content">
         <h2 class="offers__title">
             Открытые предложения
@@ -353,7 +352,7 @@
       </div>
     </section>
 
-    <section class="team-helps">
+    <section class="team-helps" style="display: none;">
       <div class="team-helps-container">
         <h2 class="section-header team-helps-container__header">Практикум — это команда, которая помогает:</h2>
         <div class="team-card-section">
@@ -398,7 +397,7 @@
       </div>
     </section>
 
-    <section class="team-stories">
+    <section class="team-stories" style="display: none;">
       <div class="team-stories__intro">
         <h2 class="section-header">
           Истории ребят из&nbsp;нашей команды
@@ -492,7 +491,7 @@
       </div>
     </section>
 
-    <section class="application" id="application">
+    <section class="application" id="application" style="display: none;">
       <div class="application__text">
         <h2 class="application__title application__title_padding-left">Как стать экспертом?</h2>
         <div class="application__text-steps">

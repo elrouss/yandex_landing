@@ -11,8 +11,16 @@
     background-size: contain;
 }
 
+@media screen and (max-width: 860px) {
+    .mentor-or-reviewer-container__image {
+        background-image: url('../../../images/mentor-or-reviever-vertical.png');
+        width: 45%;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .mentor-or-reviewer-container__image {
+        background-image: url('../../../images/mentor-or-reviewer.png');
         flex-direction: column;
         height: auto;
         min-height: 251px;
