@@ -1,9 +1,13 @@
 .about-praktikum {
     grid-area: about-praktikum;
-    /* background-color: #F0F2F3;
-    border-radius: 25px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 24px;
+}
+
+@media screen and (max-width: 700px) {
+    .about-praktikum {
+        justify-content: center;
+    }
 }

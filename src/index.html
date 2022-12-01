@@ -183,14 +183,15 @@
     <section class="mentor-or-reviewer">
       <div class="mentor-or-reviewer-container">
         <div class="mentor-or-reviewer-column">
-          <h2 class="section-header">Наставник или ревьюер, вот в чем вопрос</h2>
+          <h2 class="section-header">Наставник или ревьюер, вот&nbsp;в&nbsp;чем вопрос</h2>
           <h3 class="section-subheader mentor-or-reviewer-column__subheader">Пройдите опрос и узнайте, какая роль
             подойдет вам больше</h3>
-          <button type="button" aria-label="Кнопка для прохождения опроса" class="btn btn_size_s">Пройти опрос</button>
+          <button type="button" aria-label="Кнопка для прохождения опроса" class="btn btn_size_s mentor-or-reviewer-column__button">Пройти опрос</button>
         </div>
-        <img src="<%=require('./images/dilemma.png')%>" alt="" class="mentor-or-reviewer-container__image">
+        <!-- <img src="<%=require('./images/mentor-or-reviewer.png')%>" alt="" class="mentor-or-reviewer-container__image"> -->
+        <div class="mentor-or-reviewer-container__image"></div>
       </div>
-      <div class="quiz">
+      <div class="quiz" style="display: none;">
         <h4 class="quiz__header">Что вам нравится больше?</h4>
         <label class="radio-container">
           <input class="radio-container__radio" type="radio" checked="checked" name="radio">
@@ -208,10 +209,10 @@
       </div>
 
       <!-- ДЛЯ РАЗРАБОТКИ -->
-      <div style="margin: 0 auto; padding: 0; height: 50px; width: 100%;"></div>
+      <!-- <div style="margin: 0 auto; padding: 0; height: 50px; width: 100%;"></div> -->
       <!-- ДЛЯ РАЗРАБОТКИ -->
 
-      <div class="quiz quiz-result">
+      <div class="quiz quiz-result" style="display: none;">
         <h4 class="quiz__header quiz-result__header">Вот это&nbsp;да!<br><span
             class="quiz-result__header_accent">Вы&nbsp;на&nbsp;100% ревьюер</span></h4>
         <button class="btn">Что вы&nbsp;можете мне предложить?</button>
