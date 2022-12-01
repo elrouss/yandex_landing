@@ -15,15 +15,14 @@
   list-style-image: url(../../../images/Vector-1.svg);
 }
 
-.tasks__tutor-task > p {
-  margin: 0;
-  max-width: 400px;
+.tasks__tutor-task {
+  padding-top: 10px;
 }
 
-@media screen and (max-width: 1439px) {
+/* @media screen and (max-width: 1439px) {
   .tasks__tutor-task > p {
     font-size: calc(15px + (5 + 5 * .7) * (100vw - 768px) / 1439);
     line-height: 140%;
     column-gap: 23px;
   }
-}
+} */
