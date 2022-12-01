@@ -1,8 +1,7 @@
 .intro {
-  padding-top: 158px;
+  padding-top: 172px;
   padding-bottom: 77px;
-  padding-left: calc(243 / 1440 * 100%);
-  padding-right: calc(243 / 1440 * 100%);
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,4 +9,18 @@
   position: relative;
   z-index: 500;
   row-gap: 553px;
+}
+
+@media screen and (max-width: 1439px) {
+  .intro {
+    padding-top: calc(136px + (22 + 22 * .7) * (100vw - 768px) / 1439);
+    row-gap: calc(366px + (187 + 187 * .7) * (100vw - 768px) / 1439);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding-top: calc(114px + (22 + 22 * .7) * (100vw - 390px) / 767);
+    row-gap: calc(412px + (-46 + (-46 * .7)) * (100vw - 390px) / 767);
+  }
 }

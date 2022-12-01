@@ -1,4 +1,22 @@
 .team-stories__paragraph {
   padding-top: 43px;
-  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1439px) {
+  .team-stories__paragraph {
+    max-width: calc(445px + (-110 + (-110 * .7)) * (100vw - 768px) / 1439);
+    font-size: calc(17px + (5 + 5 * .7) * (100vw - 768px) / 1439);
+    line-height: calc(23.8px + (4.8 + 4.8 * .7) * (100vw - 768px) / 1439);
+    padding-top: calc(12px + (31 + 31 * .7) * (100vw - 768px) / 1439);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team-stories__paragraph {
+    max-width: calc(313px + (132 + (132 * .7)) * (100vw - 390px) / 767);
+    font-size: 15px;
+    line-height: 21px;
+    padding-top: calc(26px + (-14 + (-14 * .7)) * (100vw - 390px) / 767);
+    padding-bottom: calc(11px + (-11 + (-11 * .7)) * (100vw - 390px) / 767);
+  }
 }

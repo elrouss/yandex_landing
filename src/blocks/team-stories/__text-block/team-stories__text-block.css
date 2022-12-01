@@ -4,3 +4,10 @@
   flex-direction: column;
   height: 50%;
 }
+
+@media screen and (max-width: 767px) {
+  .team-stories__text-block {
+    padding-top: 22px;
+    padding-bottom: 47px;
+  }
+}

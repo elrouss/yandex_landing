@@ -1,5 +1,5 @@
 .tasks {
-  padding-top: 88px;
+  padding-top: 15px;
   display: grid;
   grid-template-columns: minmax(300px, 1500px) minmax(300px, 1500px);
   column-gap: 30px;

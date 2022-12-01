@@ -104,7 +104,6 @@
 
 /* TEAM-STORIES */
 @import url(../blocks/team-stories/team-stories.css);
-@import url(../blocks/team-stories/__container/team-stories__container.css);
 @import url(../blocks/team-stories/__intro/team-stories__intro.css);
 @import url(../blocks/team-stories/__paragraph/team-stories__paragraph.css);
 @import url(../blocks/team-stories/__cards/team-stories__cards.css);
