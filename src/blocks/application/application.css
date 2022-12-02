@@ -3,4 +3,12 @@
   background-color: var(--basic-first-tint-color);
   margin: 0 auto;
   overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 738px) {
+  .application {
+    width: 100%;
+    padding: 80px 18px;
+  }
 }

@@ -10,3 +10,12 @@
     font-size: calc(30px + (6 + 6 * .7) * (100vw - 768px) / 1230);
   }
 }
+
+@media screen and (max-width: 738px) {
+  .application__title {
+    display: inline;
+    width: 100%;
+    padding: 0;
+    font-size: 30px;
+  }
+}

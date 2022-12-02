@@ -16,3 +16,14 @@
   left: 0;
   top: -299px;
 }
+
+
+@media screen and (max-width: 738px) {
+  .application__container:after {
+    content: '';
+  }
+
+  .application__container {
+    padding: 60px 18px;
+  }
+}

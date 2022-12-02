@@ -5,3 +5,27 @@
   padding-top: 122px;
   padding-bottom: 105px;
 }
+
+
+@media screen and (max-width: 738px) {
+  .application__text-steps {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 60px 0 90px 0;
+    justify-content: flex-end;
+  }
+
+  .application__text-steps::before {
+    content: url(../../../images/mobile-number.svg);
+    position: absolute;
+    left: -20px;
+    bottom: -53px;
+  }
+
+  .application__text-steps p {
+    max-width: 190px;
+    padding: 0;
+    font-size: 17px;
+  }
+}
