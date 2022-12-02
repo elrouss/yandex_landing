@@ -2,6 +2,26 @@ import '../../pages/index.css';
 
 import Card from "./Card.js";
 import CardToList from "./CardToList.js";
+import QuizCard from './quizCard';
+
+const initialQuizCards = [
+  {
+    mentorAnswer: 'Помогать студентам ставить цели, рефлексировать и делать выводы',
+    reviewerAnswer:'Проверять код и проекты студентов'
+  },
+  {
+    reviewerAnswer:'Простыми словами объяснять студентам их ошибки',
+    mentorAnswer: 'Отвечать на вопросы студентов в чате'
+  },
+  {
+    mentorAnswer: 'Проводить вебинары 2 раза в месяц и давать студентам обратную связь',
+    reviewerAnswer:'Давать корректирующую обратную связь по проектам'
+  },
+  {
+    reviewerAnswer:'Оценивать проектные работы студентов по системе "зачет / незачет"',
+    mentorAnswer: 'Делиться ценным опытом и мотивировать'
+  }
+]
 
 const initialCards = [
     {
@@ -574,6 +594,9 @@ const popupButtonsList = document.querySelectorAll('.card__popup-title-button');
 const popupText = document.querySelector('.card__popup-text');
 const showMoreButton = document.querySelector('.offers__show-more-button');
 
+const starQuizButton = document.querySelector('.mentor-or-reviewer-column__button');
+
+
 
 const [mentorFrontend, mentorCPlusPlus, mentorAlgoritms, mentorAndroid] = programmingMentor;
 const [mentorAnalyst, mentorAnalystPlus, mentorAnalystAlgoritm, mentorAnalystThree] = analystMentor;
@@ -586,8 +609,6 @@ const findCheckedButton = buttonsList => {
             return item
         };
     });
-
-    console.log(checkedButton);
 };
 
 // const checkedButton = menuButtons.find(item => {
@@ -624,8 +645,6 @@ const renderDefaultCard = () => {
     const menuButton = findCheckedButton(menuButtonsList);
     const offerButtonsList = Array.from(cardList.querySelectorAll('.offers__list-input'));
     const offerButton = findCheckedButton(offerButtonsList);
-
-    console.log(findCheckedButton(menuButtonsList));
 
 
 }
@@ -720,7 +739,6 @@ renderDefaultCard();
 createCard(mentorAndroid);
 
 
-
 document.querySelectorAll("a[href^='#']").forEach(link => {
   link.addEventListener("click", function (e) {
       e.preventDefault();
@@ -747,3 +765,28 @@ burgerButton.addEventListener('click', () => {
   // header.classList.toggle('active');
 
 });
+
+
+// ----------------------QUIZ------------------------------------
+const [quetion1, quetion2, quetion3, quetion4] = initialQuizCards;
+
+const createQuizCard = (quizData) => {
+  const quizCard = new QuizCard (quizData, '.template-quiz');
+
+  document.querySelector('.quiz-container').append(quizCard.renderCard());
+}
+
+// Вызываем квиз
+starQuizButton.addEventListener('click', ()=> {
+  starQuizButton.disabled = true;
+  createQuizCard(quetion1);
+
+  
+})
+
+
+
+
+
+
+// ----------------------QUIZ------------------------------------

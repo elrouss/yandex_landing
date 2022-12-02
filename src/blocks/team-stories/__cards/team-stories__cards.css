@@ -1,5 +1,5 @@
 .team-stories__cards {
-  margin-left: calc(85 / 1440 * 100%);
+  padding: 0 145px;
   display: flex;
   column-gap: 30px;
   grid-area: slider;

@@ -196,22 +196,61 @@
         </div>
         <div class="mentor-or-reviewer-container__image"></div>
       </div>
-      <div class="quiz" style="display: none;">
+
+
+      <div class="quiz-container">
+
+      </div>
+      <!-- <div class="quiz quiz__second">
         <h4 class="quiz__header">Что вам нравится больше?</h4>
         <label class="radio-container">
-          <input class="radio-container__radio" type="radio" checked="checked" name="radio">
+          <input class="radio-container__radio" type="radio" name="radio2">
           <span class="radio-container__checkmark"></span>
           <p class="radio-container__text">Помогать студентам ставить цели, рефлексировать и&nbsp;делать выводы</p>
         </label>
         <label class="radio-container">
-          <input class="radio-container__radio" type="radio" checked="checked" name="radio">
+          <input class="radio-container__radio" type="radio" name="radio2">
           <span class="radio-container__checkmark"></span>
           <p class="radio-container__text">Проверять код и&nbsp;проекты студентов</p>
         </label>
         <button class="quiz__close-button"></button>
-        <p class="quiz__page-number">1/4</p>
+        <p class="quiz__page-number">2/4</p>
         <button class="quiz__back-button"></button>
       </div>
+
+      <div class="quiz quiz__third">
+        <h4 class="quiz__header">Что вам нравится больше?</h4>
+        <label class="radio-container">
+          <input class="radio-container__radio" type="radio" name="radio3">
+          <span class="radio-container__checkmark"></span>
+          <p class="radio-container__text">Помогать студентам ставить цели, рефлексировать и&nbsp;делать выводы</p>
+        </label>
+        <label class="radio-container">
+          <input class="radio-container__radio" type="radio" name="radio3">
+          <span class="radio-container__checkmark"></span>
+          <p class="radio-container__text">Проверять код и&nbsp;проекты студентов</p>
+        </label>
+        <button class="quiz__close-button"></button>
+        <p class="quiz__page-number">3/4</p>
+        <button class="quiz__back-button"></button>
+      </div>
+
+      <div class="quiz quiz__fourth">
+        <h4 class="quiz__header">Что вам нравится больше?</h4>
+        <label class="radio-container">
+          <input class="radio-container__radio" type="radio" name="radio4">
+          <span class="radio-container__checkmark"></span>
+          <p class="radio-container__text">Помогать студентам ставить цели, рефлексировать и&nbsp;делать выводы</p>
+        </label>
+        <label class="radio-container">
+          <input class="radio-container__radio" type="radio" name="radio4">
+          <span class="radio-container__checkmark"></span>
+          <p class="radio-container__text">Проверять код и&nbsp;проекты студентов</p>
+        </label>
+        <button class="quiz__close-button"></button>
+        <p class="quiz__page-number">4/4</p>
+        <button class="quiz__back-button"></button>
+      </div> -->
 
       <!-- ДЛЯ РАЗРАБОТКИ -->
       <!-- <div style="margin: 0 auto; padding: 0; height: 50px; width: 100%;"></div> -->
@@ -618,6 +657,24 @@
             </label>
         </div>
     </li>
+  </template>
+  <template class="template-quiz">
+    <div class="quiz quiz__first">
+      <h4 class="quiz__header">Что вам нравится больше?</h4>
+      <label class="radio-container">
+        <input class="radio-container__radio" type="radio" name="radio1">
+        <span class="radio-container__checkmark"></span>
+        <p id="q1" class="radio-container__text">Помогать студентам ставить цели, рефлексировать и&nbsp;делать выводы</p>
+      </label>
+      <label class="radio-container">
+        <input class="radio-container__radio" type="radio" name="radio1">
+        <span class="radio-container__checkmark"></span>
+        <p id="q2" class="radio-container__text">Проверять код и&nbsp;проекты студентов</p>
+      </label>
+      <button class="quiz__close-button"></button>
+      <p class="quiz__page-number">1/4</p>
+      <!-- <button class="quiz__back-button"></button> -->
+    </div>
   </template>
 
   <template class="template-card">

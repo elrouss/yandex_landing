@@ -8,8 +8,6 @@ export default class CardToList extends Card {
     renderCard() {
         this._cardElement = this._getCardTemplate();
 
-        console.log(this._cardElement);
-
         this._cardElement.querySelector('.offers__menu-label').textContent = this._data.name;
 
         this._cardElement.querySelector('#list-button').id = `button-${this._data.id}`;
@@ -55,6 +53,8 @@ export default class CardToList extends Card {
             }
         });
     };
+
+    
 
 
 }

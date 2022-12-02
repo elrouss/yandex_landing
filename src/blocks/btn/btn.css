@@ -22,3 +22,7 @@
 .btn:active {
   background-color: var(--basic-second-tint-color);
 }
+
+.btn:disabled {
+  background-color: F8F8F8;
+}
