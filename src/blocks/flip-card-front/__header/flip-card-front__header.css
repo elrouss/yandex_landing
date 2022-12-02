@@ -1,26 +1,25 @@
 .flip-card-front__header {
-    font-family: 'YS Display', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: .86;
-    text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: .86;
+  text-align: center;
+  color: var(--basic-first-tint-color);
 }
 
 @media screen and (max-width: 1280px) {
-    .flip-card-front__header {
-        font-size: 25px;
-    }
+  .flip-card-front__header {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .flip-card-front__header {
-        font-size: 21px;
-    }
+  .flip-card-front__header {
+    font-size: 21px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .flip-card-front__header {
-        font-size: 17px;
-    }
+  .flip-card-front__header {
+    font-size: 17px;
+  }
 }
