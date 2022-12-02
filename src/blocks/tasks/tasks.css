@@ -1,7 +1,7 @@
 .tasks {
   padding-top: 15px;
   display: grid;
-  grid-template-columns: minmax(300px, 1500px) minmax(300px, 1500px);
+  grid-template-columns: 1fr 1fr;
   column-gap: 30px;
   grid-template-rows: minmax(463px, auto);
   justify-content: space-between;
@@ -17,12 +17,13 @@
 
 @media screen and (max-width: 767px) {
   .tasks {
-    grid-template-columns: 372px;
     grid-template-rows: 368px 368px;
+    grid-template-columns: 1fr 1fr;
     row-gap: 15px;
+    grid-template-areas:
+    'mentor mentor'
+    'reviewer reviewer';
   }
 
-  .tasks:nth-child(1) {
-    padding-left: 15px;
-  }
+
 }

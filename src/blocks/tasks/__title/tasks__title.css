@@ -8,6 +8,13 @@
 @media screen and (max-width: 1439px) {
   .tasks__title {
     font-size: calc(26px + (10 + 10 * .7) * (100vw - 768px) / 1439);
-    line-height: 24px;
+    line-height: calc(24 / 26 * 100%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tasks__title {
+    font-size: 26px;
+    line-height: calc(36 / 26 * 100%);
   }
 }

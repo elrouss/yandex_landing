@@ -12,20 +12,38 @@
 }
 
 .tasks__reviewer > .tasks__tutor-tasks {
-  padding-top: 17px;
-  padding-left: 170px;
+  padding-top: 32px;
+  padding-left: 108px;
   row-gap: 14px;
 }
 
-/* @media screen and (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .tasks__reviewer > .tasks__title {
-    padding-left: 32px;
-    padding-top: 61px;
+    padding-left: calc(32px + (76 + 76 * .7) * (100vw - 768px) / 1439);
+    padding-top: calc(61px + (-32 + (-32 * .7)) * (100vw - 768px) / 1439);
   }
 
   .tasks__reviewer > .tasks__tutor-tasks {
-    padding-left: 32px;
-    padding-top: 47px;
-    row-gap: 8px;
+    padding-left: calc(29px + (3 + 3 * .7) * (100vw - 768px) / 1439);
+    padding-top: calc(37px + (-5 + (-5 * .7)) * (100vw - 768px) / 1439);
+    row-gap: calc(8px + (6 + 6 * .7) * (100vw - 768px) / 1439);
   }
-} */
+}
+
+@media screen and (max-width: 767px) {
+  .tasks__reviewer {
+    margin-left: calc(18px + (282 + 282 * .7) * (100vw - 390px) / 767);
+    grid-area: reviewer;
+  }
+
+  .tasks__reviewer > .tasks__title {
+    padding-left: calc(43px + (18 + 18 * .7) * (100vw - 390px) / 767);
+    padding-top: calc(58px + (3 + 3 * .7) * (100vw - 390px) / 767);
+  }
+
+  .tasks__reviewer > .tasks__tutor-tasks {
+    padding-left: calc(42px + (-13 + (-13 * .7)) * (100vw - 390px) / 767);
+    padding-top: calc(28px + (9 + 9 * .7) * (100vw - 390px) / 767);
+    row-gap: 9px;
+  }
+}
