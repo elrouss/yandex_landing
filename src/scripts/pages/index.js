@@ -781,7 +781,7 @@ starQuizButton.addEventListener('click', ()=> {
   starQuizButton.disabled = true;
   createQuizCard(quetion1);
 
-  
+
 })
 
 

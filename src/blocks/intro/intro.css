@@ -7,4 +7,12 @@
   align-items: center;
   position: relative;
   z-index: 500;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    width: 100%;
+    padding: 150px 8px 48px;
+  }
 }

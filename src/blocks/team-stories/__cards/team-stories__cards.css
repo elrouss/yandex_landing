@@ -16,6 +16,7 @@
   .team-stories__cards {
     margin-left: 0;
     column-gap: 18px;
-    padding-top: 28px;
+    padding: 28px 0 0 0;
   }
+
 }

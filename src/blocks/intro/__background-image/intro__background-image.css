@@ -6,3 +6,17 @@
   object-fit: contain;
   margin-top: 10px;
 }
+
+/* .intro__background-image_mobile {
+ display: none;
+} */
+
+@media screen and (max-width: 767px) {
+  .intro__background-image {
+  }
+
+  /* .intro__background-image_mobile {
+    display: block;
+    width: 100%;
+   } */
+}

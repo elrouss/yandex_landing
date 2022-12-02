@@ -161,6 +161,8 @@
 @import url(../blocks/popup-about/__text/popup-about__text.css);
 @import url(../blocks/popup-about/__button/popup-about__button.css);
 
+@import url(../blocks/btn/_button/btn_button.css);
+
 
 
 .header__container {
@@ -318,7 +320,7 @@
 .offers__content {
   margin: 0 auto;
   max-width: 1150px;
-  padding: 100px 20px 130px 20px;
+  padding: 100px 20px 20px 20px;
 }
 
 .offers__title {
@@ -624,15 +626,9 @@ color: rgba(26, 27, 33, 1);
 }
 
 .card__submit-button {
-  cursor: pointer;
-  padding: 18px 55px;
-  border-style: none;
-  border-radius: 30px;
-  background-color: rgba(26, 27, 33, 1);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card__share-button {
