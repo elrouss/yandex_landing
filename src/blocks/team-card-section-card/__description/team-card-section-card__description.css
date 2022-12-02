@@ -4,6 +4,8 @@
   line-height: var(--additional-16-line-height);
   color: var(--basic-first-tint-color);
   font-family: 'YS Text';
+  max-width: 220px;
+  padding: 0 14px;
 }
 
 @media screen and (max-width: 860px) {

@@ -1,6 +1,6 @@
 .team-stories {
-  padding: 120px 0 154px;
-  padding-left: calc(159 / 1440 * 100%);
+  padding: 100px 0 154px;
+  padding-left: calc(145 / 1440 * 100%);
   display: grid;
   grid-template-rows: minmax(min-content, auto);
   grid-template-columns: 337px auto;
@@ -14,7 +14,7 @@
 .team-stories > .btn_size_l {
   grid-area: btn;
   margin-top: 91px;
-  margin-bottom: 40px;
+  margin-bottom: 137px;
 }
 
 @media screen and (max-width: 1439px) {

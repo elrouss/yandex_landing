@@ -1,10 +1,10 @@
 .about-container {
-    margin: 72px auto;
-    padding: 0 60px;
+  margin: 72px auto;
+  padding: 0 60px;
 }
 
 @media screen and (max-width: 768px) {
-    .about-container {
-        padding: 0 calc(18px + ((100vw - 390px)/(768 - 390) * 42));
-    }
+  .about-container {
+    padding: 0 calc(18px + ((100vw - 390px)/(768 - 390) * 42));
+  }
 }
