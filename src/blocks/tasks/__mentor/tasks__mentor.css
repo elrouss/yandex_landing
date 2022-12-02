@@ -1,9 +1,49 @@
 .tasks__mentor {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: var(--basic-first-tint-color);
   border-radius: 0 25px 25px 0;
   color: #fff;
+}
+
+.tasks__mentor > .tasks__title {
+  padding-left: 144px;
+  padding-top: 81px;
+}
+
+.tasks__mentor > .tasks__tutor-tasks {
+  padding-top: 34px;
+  padding-left: 144px;
+  row-gap: 12px;
+}
+
+@media screen and (max-width: 1439px) {
+  .tasks__mentor > .tasks__title {
+    padding-left: calc(60px + (84 + 84 * .7) * (100vw - 768px) / 1439);
+    padding-top: calc(61px + (20 + 20 * .7) * (100vw - 768px) / 1439);
+  }
+
+  .tasks__mentor > .tasks__tutor-tasks {
+    padding-top: calc(38px + (-4 + (-4 * .7)) * (100vw - 768px) / 1439);
+    padding-left: calc(59px + (85 + 85 * .7) * (100vw - 768px) / 1439);
+    row-gap: calc(0 + (-12 + (-12 * .7)) * (100vw - 768px) / 1439);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tasks__mentor {
+    margin-right: calc(18px + (282 + 282 * .7) * (100vw - 390px) / 767);
+    grid-area: mentor;
+  }
+
+  .tasks__mentor > .tasks__title {
+    padding-left: calc(18px + (41 + 41 * .7) * (100vw - 390px) / 767);
+    padding-top: 60px;
+  }
+
+  .tasks__mentor > .tasks__tutor-tasks {
+    padding-top: calc(-4.79661px + 6.87093vw);
+    padding-left: calc(28px + (31 + 31 * .7) * (100vw - 390px) / 767);
+    row-gap: calc(22.37288px - 2.65971vw);
+  }
 }

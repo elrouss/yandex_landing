@@ -24,7 +24,7 @@
   opacity: 1;
   transition: opacity .6s, visibility 0s;
   background-size: contain;
-  width: min(calc((100vw - 60px - 60px - 90px) * 560 / (4 * 251)), 560px);
+  width: min(calc((100vw - 60px - 60px - 90px) * 560 / (4 * 251)), 518px);
   height: min(calc((100vw - 60px - 60px - 90px)/4), 251px);
   background-repeat: no-repeat;
 }
