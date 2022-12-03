@@ -1,11 +1,18 @@
 .intro {
-  padding-top: 88px;
-  padding-bottom: 92px;
-  margin-left: calc(243 / 1440 * 100%);
-  margin-right: calc(243 / 1440 * 100%);
+  padding: 172px 60px 58px 60px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  row-gap: 30px;
+  position: relative;
+  z-index: 500;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    width: 100%;
+    padding: 150px 8px 48px;
+  }
 }

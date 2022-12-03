@@ -1,10 +1,13 @@
 .footer-container-column__item {
-    font-family: 'YS Display', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.33;
     /* margin-top: 6px; */
     margin-bottom: 12px;
     list-style-type: none;
+}
+
+@media screen and (max-width: 425px) {
+    .footer-container-column__item {
+        font-size: 15px;
+    }
 }

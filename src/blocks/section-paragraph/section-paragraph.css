@@ -1,0 +1,15 @@
+.section-paragraph {
+  margin: 0;
+  color: var(--basic-first-tint-color);
+  font-size: var(--body-regular-22-font-size);
+  line-height: calc(28.38 / 22 * 100%);
+}
+
+@media screen and (max-width: 738px) {
+  .section-paragraph {
+    margin: 0;
+    color: var(--basic-first-tint-color);
+    font-size: var(--body-regular-22-font-size);
+    line-height: calc(28.38 / 22 * 100%);
+  }
+}

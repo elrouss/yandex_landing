@@ -1,10 +1,9 @@
 .section-subheader {
-    font-family:'YS Display', Arial, sans-serif;
-    font-style: normal;
+    /* font-size: var(--body-regular-22-font-size); */
+    font-size: var(--body-regular-22-font-size-adopt);
     font-weight: 400;
-    font-size: 22px;
     line-height: 1.29;
     text-align: left;
-    max-width: 50%;
+    /* max-width: 50%; */
     margin: 0;
 }

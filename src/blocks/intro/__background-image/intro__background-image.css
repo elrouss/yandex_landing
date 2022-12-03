@@ -1,0 +1,22 @@
+.intro__background-image {
+  background-size: cover;
+  width: 100%;
+  max-width: 1150px;
+  z-index: -1;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+/* .intro__background-image_mobile {
+ display: none;
+} */
+
+@media screen and (max-width: 767px) {
+  .intro__background-image {
+  }
+
+  /* .intro__background-image_mobile {
+    display: block;
+    width: 100%;
+   } */
+}

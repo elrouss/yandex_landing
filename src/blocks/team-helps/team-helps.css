@@ -1,0 +1,19 @@
+.team-helps {
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: var(--basic-fifth-tint-color);
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1270px) {
+    .team-helps {
+        padding: calc(18px + ((100vw - 768px)/(1270 - 768) * 82)) 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team-helps {
+        padding: 82px 0;
+    }
+}
+

@@ -1,0 +1,14 @@
+.team-stories__card-job {
+  margin: 0;
+  color: var(--basic-second-tint-color);
+  font-size: var(--additional-16-font-size);
+  line-height: var(--additional-16-line-height);
+  font-family: 'YS Text';
+}
+
+/* @media screen and (max-width: 1439px) {
+  .team-stories__card-job {
+    font-size: 15px;
+    line-height: calc(21 / 15 * 100%);
+  }
+} */

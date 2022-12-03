@@ -1,0 +1,19 @@
+.team-stories__text-block {
+  padding: 17px 17px 40px;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .team-stories__text-block {
+    padding-top: 22px;
+    padding-bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .team-stories__text-block {
+    padding-bottom: 46px;
+  }
+}

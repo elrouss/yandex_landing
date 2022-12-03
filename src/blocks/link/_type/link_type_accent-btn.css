@@ -1,0 +1,19 @@
+.link_type_accent-btn {
+  padding: 13.25px 35.75px;
+  background-color: var(--basic-first-tint-color);
+  border-radius: 30px;
+  color: #fff;
+  font-family: 'YS Text';
+  font-weight: var(--font-weight-medium);
+  font-size: 16px;
+  line-height: calc(20 / 16 * 100%);
+  transition: background-color .3s ease;
+}
+
+.link_type_accent-btn:hover {
+  background-color: var(--complementary-fourth-tint-color);
+}
+
+.link_type_accent-btn:active {
+  background-color: var(--basic-second-tint-color);
+}

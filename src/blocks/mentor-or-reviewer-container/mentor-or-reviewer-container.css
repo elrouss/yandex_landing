@@ -1,0 +1,35 @@
+.mentor-or-reviewer-container {
+    height: 397px;
+    position: relative;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    align-items: center;
+
+    background: transparent;
+    /* background-image: url('../../images/mentor-or-reviewer.png'); */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1270px) {
+    .mentor-or-reviewer-container {
+        height: calc(247px + (100vw - 768px)/(1270 - 768)*150)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mentor-or-reviewer-container {
+        height: 247px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .mentor-or-reviewer-container {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+}

@@ -1,0 +1,32 @@
+.about__header {
+    display: none;
+    grid-area: about__header;
+    width: 48%;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1140px) {
+    .about__header {
+        display: block;
+        /* font-size: 42px; */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about__header {
+        /* font-size: 36px; */
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .about__header {
+        /* font-size: 30px; */
+        min-width: 312px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .about__header {
+        font-size: 26px;
+        min-width: 300px;
+    }
+}

@@ -1,9 +1,32 @@
 .footer-container {
     display: grid;
-    grid-column-gap: 98px;
-    grid-template-columns: 263px 197px 462px;
+    grid-column-gap: 15px;
+    grid-template-columns: minmax(min-content, 263px) minmax(min-content, 197px) minmax(min-content, 462px);
+    grid-template-areas: "item-1 item-2 disclaimer";
+           
     /* grid-template-columns: calc(((100% - 88px) / 12) * 6 + 40px) calc(((100% - 88px) / 12) * 3 + 16px) calc(((100% - 88px) / 12) * 3 + 16px); */
     padding: 24px 17px 16px;
     justify-content: space-between;
     grid-template-rows: max-content;
 }
+
+@media screen and (max-width: 967px) {
+    .footer-container {
+        grid-template-columns: minmax(min-content, 100fr) minmax(min-content, 110fr);
+        grid-template-areas:    "item-1 disclaimer"
+                                "item-2 disclaimer";
+        grid-column-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:    "item-1"
+                                "item-2"
+                                "disclaimer";
+           
+    }
+}
+
+

@@ -1,13 +1,11 @@
 .mentor-or-reviewer {
-    max-width: 1150px;
-    margin: 160px auto;
-    height: 467px;
-    /* background-image: url('../../images/dilemma.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: relative;
+    /* max-width: 1150px; */
+    margin: 0 auto;
+    padding: 215px 60px;
+    overflow-x: hidden;
+}
+@media screen and (max-width: 768px) {
+    .mentor-or-reviewer {
+        padding: 72px calc(18px + ((100vw - 390px)/(768 - 390) * 42));;
+    }
 }

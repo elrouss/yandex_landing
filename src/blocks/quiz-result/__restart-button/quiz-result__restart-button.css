@@ -1,0 +1,20 @@
+.quiz-result__restart-button {
+    position: absolute;
+    width: 28px;
+    height: 31px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    background-image: url('../../../images/restart-button.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 40px;
+    bottom: 40px;
+}
+
+.quiz-result__restart-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

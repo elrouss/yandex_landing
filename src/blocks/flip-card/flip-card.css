@@ -1,0 +1,9 @@
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  position: relative;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}

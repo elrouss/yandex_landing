@@ -1,4 +1,11 @@
 .disclaimer__text {
-    margin: 5px 0 24px 0;
+    color: rgba(26, 27, 33, .6);
+    margin: 0 0 29px 0;
     padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .disclaimer__text {
+        font-size: 15px;
+    }
 }

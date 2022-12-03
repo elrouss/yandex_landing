@@ -1,0 +1,16 @@
+.team-card-section-card__header {
+  font-weight: var(--font-weight-medium);
+  font-size: 22px;
+  line-height: 1.18;
+  height: 52px;
+  margin: 0 0 24px 0;
+  padding: 0 14px;
+}
+
+@media screen and (max-width: 860px) {
+  .team-card-section-card__header {
+    font-size: 17px;
+    height: 44px;
+    margin-bottom: 16px;
+  }
+}

@@ -1,14 +1,18 @@
 .contacts__phone {
-    font-family: 'YS Display', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 32px;
-    color: black;
+    color: inherit;
     margin-bottom: 12px;
     text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--h4-font-size);
+    line-height: var(--h4-line-height);
 }
 
 .contacts__phone:hover {
     color: black;
+}
+
+@media screen and (max-width: 669px) {
+    .contacts__phone {
+        font-size: 24px;
+    }
 }

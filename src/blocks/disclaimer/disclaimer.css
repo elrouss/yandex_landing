@@ -1,8 +1,6 @@
 .disclaimer {
-    font-family:'YS Display', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    grid-area: disclaimer;
     font-size: 16px;
     line-height: 1.5;
-    /* width: 49%; */
+    margin: 0 auto;
 }

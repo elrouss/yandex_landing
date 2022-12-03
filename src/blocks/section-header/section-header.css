@@ -1,9 +1,24 @@
 .section-header {
-    font-family:'YS Display', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    max-width: 50%;
-    margin: 0;
+  font-weight: var(--font-weight-bold);
+  /* font-size: var(--h2-font-size); */
+  font-size: var(--h2-font-size-adopt);
+  line-height: var(--h2-line-height);
+  /* max-width: 50%; */
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .section-header {
+    max-width: calc(266px + (97 + 97 * .7) * (100vw - 768px) / 1439);
+    font-size: calc(30px + (18 + 18 * .7) * (100vw - 768px) / 1439);
+    line-height: calc(35px + (20 + 20 * .7) * (100vw - 768px) / 1439);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-header {
+    max-width: 273px;
+    font-size: 30px;
+    line-height: 35.16px;
+  }
 }

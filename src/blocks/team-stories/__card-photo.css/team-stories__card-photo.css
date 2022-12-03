@@ -1,0 +1,19 @@
+.team-stories__card-photo {
+  max-width: 364px;
+  object-fit: cover;
+  border-radius: 25px 25px 0 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .team-stories__card-photo {
+    max-width: calc(314px + (50 + 50 * .7) * (100vw - 768px) / 1439);
+    min-width: calc(314px + (50 + 50 * .7) * (100vw - 768px) / 1439);
+    min-height: 224px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .team-stories__card-photo {
+    min-width: calc(306.63516px + 5.90688vw);
+  }
+}

@@ -2,10 +2,27 @@
   margin: 0;
   padding: 0;
   border: none;
-  background-color: var(--btn-bg-color);
-  color: var(--btn-txt-color);
-  width: var(--btn-width);
-  height: var(--btn-height);
-  border-radius: var(--btn-border-radius);
+  background-color: var(--basic-first-tint-color);
+  color: #fff;
+  max-width: 300px;
+  width: 100%;
+  height: 55px;
+  border-radius: 30px;
   cursor: pointer;
+  font-family: 'YS Text';
+  font-weight: var(--font-weight-medium);
+  font-size: 16px;
+  line-height: calc(20 / 16 * 100%);
+  text-decoration: none;
+  transition: background-color .3s ease;
+}
+.btn:hover {
+  background-color: var(--complementary-fourth-tint-color);
+}
+.btn:active {
+  background-color: var(--basic-second-tint-color);
+}
+
+.btn:disabled {
+  background-color: F8F8F8;
 }

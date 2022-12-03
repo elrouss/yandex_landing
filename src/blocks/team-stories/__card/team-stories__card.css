@@ -1,0 +1,22 @@
+.team-stories__card {
+  max-width: 364px;
+  padding-bottom: 50px;
+  background-color: var(--basic-fourth-tint-color);
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 1439px) {
+  .team-stories__card {
+    max-width: calc(314px + (50 + 50 * .7) * (100vw - 768px) / 1439);
+    min-width: calc(314px + (50 + 50 * .7) * (100vw - 768px) / 1439);
+    font-family: 'YS Text';
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team-stories__card {
+    max-width: calc(329px + (-15 + (-15 * .7)) * (100vw - 390px) / 768);
+    min-width: calc(306.63516px + 5.90688vw);
+    overflow: hidden;
+  }
+}

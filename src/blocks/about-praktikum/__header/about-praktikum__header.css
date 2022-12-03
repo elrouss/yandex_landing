@@ -1,0 +1,5 @@
+@media screen and (max-width: 1140px) {
+    .about-praktikum__header {
+        display: none;
+    }
+}

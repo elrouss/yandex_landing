@@ -1,0 +1,20 @@
+.quiz__close-button {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 30px;    
+    border: none;
+    background: transparent;
+    background-image: url('../../../images/close-button.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    right: 60px;
+    top: 60px;
+}
+
+.quiz__close-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

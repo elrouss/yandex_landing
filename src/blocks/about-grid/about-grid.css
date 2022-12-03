@@ -1,0 +1,44 @@
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+       "about-praktikum about-praktikum big-element big-element"
+       "item-1 item-2 item-3 item-3";
+    grid-gap: 30px;
+    /* grid-template-rows: 251px 251px; */
+    grid-template-rows: min(calc((100vw - 60px - 60px - 90px)/4), 251px) min(calc((100vw - 60px - 60px - 90px)/4), 251px);
+    /* margin: 72px auto 0 auto; */
+    margin: 0 auto;
+    max-width: 1150px;
+    padding: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .about-grid {
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about-grid {
+        /* grid-gap: 30px; */
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "about-praktikum about-praktikum"
+            "big-element big-element"
+            "item-1 item-2" 
+            "item-3 item-4";
+            grid-template-rows: 
+                min(calc((100vw - (18px + ((100vw - 390px)/(768 - 390) * 42)) * 2 - 10px)/2), 241px)
+                min(calc((100vw - (18px + ((100vw - 390px)/(768 - 390) * 42)) * 2 - 10px)/2), 241px)
+                min(calc((100vw - (18px + ((100vw - 390px)/(768 - 390) * 42)) * 2 - 10px)/2), 241px)
+                min(calc((100vw - (18px + ((100vw - 390px)/(768 - 390) * 42)) * 2 - 10px)/2), 241px);
+        max-width: 512px;
+    }
+}
+@media screen and (max-width: 478px) {
+    .about-grid {
+        grid-gap: 10px;
+    }
+}
+

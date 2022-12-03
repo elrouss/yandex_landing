@@ -4,5 +4,21 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  row-gap: 25px;
+  font-size: var(--body-regular-20-font-size);
+  line-height: var(--body-regular-20-line-height);
+}
+
+@media screen and (max-width: 1439px) {
+  .tasks__tutor-tasks {
+    font-size: calc(15px + (5 + 5 * .7) * (100vw - 768px) / 1439);
+    line-height: calc(21 / 15 * 100%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tasks__tutor-tasks {
+    font-size: 15px;
+    padding-left: calc(22px + (23 + 23 * .7) * (100vw - 390px) / 767);
+    padding-top: 35px;
+  }
 }

@@ -1,13 +1,6 @@
 .social-items__item {
-    color: black;
-    vertical-align: top;
-    text-decoration: none;
-}
-
-.social-items__item:hover {
-    text-decoration: underline;
-}
-
-.social-items__item:visited {
-    color: black;
+  color: inherit;
+  vertical-align: top;
+  text-decoration: none;
+  font-size: var(--body-small-font-size);
 }

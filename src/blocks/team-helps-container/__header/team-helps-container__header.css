@@ -1,0 +1,30 @@
+.team-helps-container__header {
+    margin: 0 calc((100vw - 1150px)/2);
+}
+
+@media screen and (max-width: 1270px) {
+    .team-helps-container__header {
+        margin: 0 60px;
+        /* font-size: 42px; */
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .team-helps-container__header {
+        /* font-size: 34px; */
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .team-helps-container__header {
+        /* font-size: 30px; */
+        max-width: 260px;
+        margin: 0 calc(18px + ((100vw - 425px)/(860 - 425) * 42));
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .team-helps-container__header {
+        margin: 0 18px;
+    }
+}
