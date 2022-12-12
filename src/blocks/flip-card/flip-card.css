@@ -7,3 +7,12 @@
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
+
+@media screen and (max-width: 1024px) {
+  .flip-card:hover .flip-card-inner {
+    transform: none;
+  }
+  .flip-card:hover {
+    opacity: .8;
+  }
+}

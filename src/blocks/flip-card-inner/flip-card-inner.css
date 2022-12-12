@@ -7,3 +7,9 @@
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
+
+@media screen and (max-width: 1024px) {
+    .flip-card-inner {
+        /* transition: none; */
+    }
+}

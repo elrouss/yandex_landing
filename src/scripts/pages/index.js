@@ -575,12 +575,77 @@ const analystReviewers = [
         tasks: 'Ревьюер помогает студентам учиться: отвечает на вопросы и помогает с трудностями. Каждый наставник курирует группу из 50 студентов: общается с ними в Slack, проводит групповые звонки на протяжении 4 месяцев обучения и постоянно улучшает образовательный опыт',
     }
 ];
+const flipCardsData = [
+    {
+        name: 'programming',
+        header: 'Программирование',
+        text: 'Учим разработке и тестированию в условиях, которые имитируют реальную работу: с проектами, спринтами и дедлайнами. Мы за честный взгляд на программирование: без клише и ложных ожиданий. Наши студенты изучают Java, Java Script и Python, HTML и CSS'
+    },
+    {
+        name: 'management',
+        header: 'Менеджмент',
+        text: 'Учим управлению людьми, проектами, продуктами и ресурсами с помощью данных и научно обоснованнных методик'
+    },
+    {
+        name: 'design',
+        header: 'Дизайн',
+        text: 'Учим приносить пользу бизнесу и пользователям с помощью композиции, цвета, типографики, текста и исследований'
+    },
+    {
+        name: 'data-analysis',
+        header: 'Анализ данных',
+        text: 'Обучаем предобработке и анализу, Data Science, Data Engineering, хранению и управлению данными'
+    },
+    {
+        name: 'marketing',
+        header: 'Маркетинг',
+        text: 'Обучаем маркетингу в интернете, запуску рекламы, управлению рекламными кампаниями'
+    }
+]
+
+//------------------------------------- FLIP-CARD ----------------------------------------
+const flipCards = document.querySelectorAll('.flip-card')
+const popupFlipCards = document.querySelector('.popup-flip-cards');
+const popupFlipCardsHeader = popupFlipCards.querySelector('.popup-about__header');
+const popupFlipCardsText = popupFlipCards.querySelector('.popup-about__text');
+const popupFlipCardsCloseButton = popupFlipCards.querySelector('.popup-about__close-button');
+const popupFlipCardsActionButtin = popupFlipCards.querySelector('.popup-about__button');
+const popups = document.querySelectorAll('.popup');
+
+if (document.documentElement.clientWidth < 1025) {
+    flipCards.forEach((flipcard) => {
+        flipcard.addEventListener('click', () => {
+            openFlipCardsPopup(flipcard.id);
+        })
+    });
+}
+
+const openFlipCardsPopup = (flipcardId) => {
+    const flipCard = flipCardsData.find(flipCard => flipCard.name === flipcardId);
+    popupFlipCardsHeader.textContent = flipCard.header;
+    popupFlipCardsText.textContent = flipCard.text;
+    popupFlipCards.classList.add('popup_opened');
+}
+popupFlipCardsCloseButton.addEventListener('click', () => {
+    closeAllPopups();
+});
+
+popupFlipCardsActionButtin.addEventListener('click', () => {
+    location.href='#offers';
+    closeAllPopups();
+});
+
+const closeAllPopups = () => {
+    popups.forEach((popup) => {
+        popup.classList.remove('popup_opened');
+    })
+}
+//---------------------------------------------------
 
 const burgerButton = document.querySelector('.header__burger');
 const burgerMenu = document.querySelector('.header__nav');
 const body = document.querySelector('.page');
 const header = document.querySelector('.header');
-
 
 const cardList = document.querySelector('.offers__list');
 const menuButtonsList = Array.from(document.querySelectorAll('.offers__menu-input'));
@@ -596,11 +661,8 @@ const showMoreButton = document.querySelector('.offers__show-more-button');
 
 const starQuizButton = document.querySelector('.mentor-or-reviewer-column__button');
 
-
-
 const [mentorFrontend, mentorCPlusPlus, mentorAlgoritms, mentorAndroid] = programmingMentor;
 const [mentorAnalyst, mentorAnalystPlus, mentorAnalystAlgoritm, mentorAnalystThree] = analystMentor;
-
 
 // Находит и возвращает нажатую кнопку из массива кнопок
 const findCheckedButton = buttonsList => {
@@ -618,15 +680,11 @@ const findCheckedButton = buttonsList => {
 //     };
 // });
 
-
 // const showPopupText = () => {
 //     popupText.closest.cardList.add
 // }
 
 showMoreButton.textContent = `Показать все ${programmingMentor.length} предложений`;
-
-
-
 
 const createCardToList = (menuButton, programmsListMentor) => {
     if (menuButton.checked) {
@@ -638,7 +696,6 @@ const createCardToList = (menuButton, programmsListMentor) => {
         });
     };
 }
-
 
 // Поиск карточки, которую нужно отрисовать
 const renderDefaultCard = () => {
@@ -783,10 +840,5 @@ starQuizButton.addEventListener('click', ()=> {
 
 
 })
-
-
-
-
-
 
 // ----------------------QUIZ------------------------------------
