@@ -8,7 +8,7 @@
   transform: rotateY(180deg);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1170px) {
   .flip-card:hover .flip-card-inner {
     transform: none;
   }

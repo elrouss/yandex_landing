@@ -8,19 +8,16 @@
 @media screen and (max-width: 1140px) {
     .about__header {
         display: block;
-        /* font-size: 42px; */
     }
 }
 
 @media screen and (max-width: 1024px) {
     .about__header {
-        /* font-size: 36px; */
     }
 }
 
 @media screen and (max-width: 925px) {
     .about__header {
-        /* font-size: 30px; */
         min-width: 312px;
     }
 }
