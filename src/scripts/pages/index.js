@@ -2,6 +2,7 @@ import '../../pages/index.css';
 import Card from "./Card.js";
 import CardToList from "./CardToList.js";
 import QuizCard from './quizCard';
+import QuizCard2 from './quizCard2';
 import PopupFlipCard from "./PopupFlipCard";
 import {
     initialQuizCards as initialQuizCards,
@@ -211,18 +212,25 @@ burgerButton.addEventListener('click', () => {
 // ----------------------QUIZ------------------------------------
 const [quetion1, quetion2, quetion3, quetion4] = initialQuizCards;
 
-const createQuizCard = (quizData) => {
-    const quizCard = new QuizCard(quizData, '.template-quiz');
+// const createQuizCard = (quizData) => {
+//     const quizCard = new QuizCard(quizData, '.template-quiz');
 
-    document.querySelector('.quiz-container').append(quizCard.renderCard());
-}
+//     document.querySelector('.quiz-container').append(quizCard.renderCard());
+// }
 
+// // Вызываем квиз
+// starQuizButton.addEventListener('click', () => {
+//     starQuizButton.disabled = true;
+//     createQuizCard(quetion1);
+// })
+
+const quizCard2 = new QuizCard2(starQuizButton);
+quizCard2.setEventListeners();
 // Вызываем квиз
 starQuizButton.addEventListener('click', () => {
-    starQuizButton.disabled = true;
-    createQuizCard(quetion1);
-
-
+    // starQuizButton.disabled = true;
+    starQuizButton.setAttribute('disabled', 'disabled');
+    quizCard2.fillCard(initialQuizCards[0]);
+    quizCard2.open();
 })
-
 // ----------------------QUIZ------------------------------------
