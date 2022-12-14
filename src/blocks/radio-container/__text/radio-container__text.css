@@ -3,6 +3,6 @@
     font-family:'YS Display', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--body-regular-22-font-size-adopt);
     line-height: 1.3;
 }

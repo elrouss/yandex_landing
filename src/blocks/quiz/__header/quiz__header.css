@@ -2,7 +2,7 @@
     font-family:'YS Display', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
+    font-size: var(--h3-font-size-adopt);
     line-height: 1.167;
     margin: 0 0 64px 0;
 }
