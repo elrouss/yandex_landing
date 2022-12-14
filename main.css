@@ -63,6 +63,7 @@
 .quiz-result{align-items:center;background-image:url(c15fac8f64c0b3ceb2e2.svg);background-position:top;background-repeat:no-repeat;background-size:contain;display:flex;flex-direction:column;justify-content:center;padding:95px 0 79px}
 .quiz-result__header{margin-bottom:33px;text-align:center}
 .quiz-result__header_accent{color:#275cf6}
+.quiz-result__button{align-items:center;display:flex;justify-content:center}
 .quiz-result__restart-button{background:transparent;background-image:url(b7f2e2e5399e7bb09eef.svg);background-position:50%;background-repeat:no-repeat;background-size:cover;border:none;bottom:40px;height:31px;left:40px;margin:0;padding:0;position:absolute;width:28px}.quiz-result__restart-button:hover{cursor:pointer;opacity:.6}
 .quiz_hidden{display:none;opacity:0;visibility:none}
 .tasks{-moz-column-gap:30px;column-gap:30px;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:minmax(463px,auto);justify-content:space-between;padding-top:15px}@media screen and (max-width:1439px){.tasks{-moz-column-gap:18px;column-gap:18px;grid-template-rows:minmax(320px,367px);padding-top:35px}}@media screen and (max-width:767px){.tasks{grid-template-areas:"mentor mentor" "reviewer reviewer";grid-template-columns:1fr 1fr;grid-template-rows:368px 368px;row-gap:15px}}
