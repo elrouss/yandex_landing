@@ -72,6 +72,7 @@
 @import url(../blocks/quiz/__close-button/quiz__close-button.css);
 @import url(../blocks/quiz/__page-number/quiz__page-number.css);
 @import url(../blocks/quiz/__back-button/quiz__back-button.css);
+@import url(../blocks/quiz/__back-button/_hidden/quiz__back-button_hidden.css);
 @import url(../blocks/radio-container/radio-container.css);
 @import url(../blocks/radio-container/__radio/radio-container__radio.css);
 @import url(../blocks/radio-container/__checkmark/radio-container__checkmark.css);

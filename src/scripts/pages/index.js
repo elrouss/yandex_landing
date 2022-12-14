@@ -43,7 +43,6 @@ const reviewerSwitcButton = document.querySelector('#button-reviewer');
 const popupButtonsList = document.querySelectorAll('.card__popup-title-button');
 const popupText = document.querySelector('.card__popup-text');
 const showMoreButton = document.querySelector('.offers__show-more-button');
-
 const starQuizButton = document.querySelector('.mentor-or-reviewer-column__button');
 
 const [mentorFrontend, mentorCPlusPlus, mentorAlgoritms, mentorAndroid] = programmingMentor;
@@ -230,7 +229,7 @@ quizCard2.setEventListeners();
 starQuizButton.addEventListener('click', () => {
     starQuizButton.setAttribute('disabled', 'disabled');
     quizCard2.fillCard(initialQuizCards[`${quizCard2.questionCount}`]);
-    quizCard2.open(quizCard2._form);
+    quizCard2.show(quizCard2._form, 'quiz_hidden');
     location.href = '#quiz-container';
 })
 // ----------------------QUIZ------------------------------------
