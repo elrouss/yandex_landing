@@ -178,7 +178,7 @@
       </div>
     </section>
 
-    <section class="mentor-or-reviewer">
+    <section class="mentor-or-reviewer" id="mentor-or-reviewer">
       <div class="mentor-or-reviewer-container">
         <div class="mentor-or-reviewer-column">
           <h2 class="section-header mentor-or-reviewer-column__header">Наставник или ревьюер, вот&nbsp;в&nbsp;чем вопрос</h2>
@@ -189,21 +189,28 @@
       </div>
 
 
-      <div class="quiz-container">
-        <div class="quiz">
+      <div class="quiz-container" id="quiz-container">
+        <form class="quiz quiz-survey quiz_hidden" id="quiz">
           <h4 class="quiz__header">Что вам нравится больше?</h4>
           <label class="radio-container">
-            <input class="radio-container__radio" type="radio" name="radio1">
+            <input class="radio-container__radio radio1" type="radio" name="radio1">
             <span class="radio-container__checkmark"></span>
             <p id="q1" class="radio-container__text q1">Помогать студентам ставить цели, рефлексировать и&nbsp;делать выводы</p>
           </label>
           <label class="radio-container">
-            <input class="radio-container__radio" type="radio" name="radio1">
+            <input class="radio-container__radio radio2" type="radio" name="radio2">
             <span class="radio-container__checkmark"></span>
             <p id="q2" class="radio-container__text q2">Проверять код и&nbsp;проекты студентов</p>
           </label>
           <button class="quiz__close-button"></button>
           <p class="quiz__page-number">1/4</p>
+        </form>
+        <div class="quiz quiz-result quiz_hidden">
+          <h4 class="quiz__header quiz-result__header">Вот это&nbsp;да!<br><span
+              class="quiz-result__header_accent">Вы&nbsp;на&nbsp;100% ревьюер</span></h4>
+          <button class="btn">Что вы&nbsp;можете мне предложить?</button>
+          <button class="quiz-result__restart-button"></button>
+          <!-- <button class="quiz__close-button"></button> -->
         </div>
       </div>
       <!-- <div class="quiz quiz__second">
@@ -261,12 +268,7 @@
       <!-- <div style="margin: 0 auto; padding: 0; height: 50px; width: 100%;"></div> -->
       <!-- ДЛЯ РАЗРАБОТКИ -->
 
-      <div class="quiz quiz-result" style="display: none;">
-        <h4 class="quiz__header quiz-result__header">Вот это&nbsp;да!<br><span
-            class="quiz-result__header_accent">Вы&nbsp;на&nbsp;100% ревьюер</span></h4>
-        <button class="btn">Что вы&nbsp;можете мне предложить?</button>
-        <button class="quiz-result__restart-button"></button>
-      </div>
+      
     </section>
 
     <section class="offers" id="offers">
@@ -658,12 +660,12 @@
     <div class="quiz quiz__first">
       <h4 class="quiz__header">Что вам нравится больше?</h4>
       <label class="radio-container">
-        <input class="radio-container__radio" type="radio" name="radio1">
+        <input class="radio-container__radio" type="radio" name="radio1" id="radio1">
         <span class="radio-container__checkmark"></span>
         <p id="q1" class="radio-container__text">Помогать студентам ставить цели, рефлексировать и&nbsp;делать выводы</p>
       </label>
       <label class="radio-container">
-        <input class="radio-container__radio" type="radio" name="radio1">
+        <input class="radio-container__radio" type="radio" name="radio1" id="radio2">
         <span class="radio-container__checkmark"></span>
         <p id="q2" class="radio-container__text">Проверять код и&nbsp;проекты студентов</p>
       </label>

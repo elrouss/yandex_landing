@@ -2,7 +2,6 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../vendor/root.css);
 @import url(../blocks/page/page.css);
-
 /* RECURRING ELEMENTS */
 /* Links */
 @import url(../blocks/link/link.css);
@@ -68,7 +67,7 @@
 @import url(../blocks/mentor-or-reviewer-column/__button/mentor-or-reviewer-column__button.css);
 /* quiz */
 @import url(../blocks/quiz/quiz.css);
-@import url(../blocks/quiz/_visible/quiz_visible.css);
+@import url(../blocks/quiz-container/quiz-container.css);
 @import url(../blocks/quiz/__header/quiz__header.css);
 @import url(../blocks/quiz/__close-button/quiz__close-button.css);
 @import url(../blocks/quiz/__page-number/quiz__page-number.css);
@@ -82,6 +81,7 @@
 @import url(../blocks/quiz-result/__header/quiz-result__header.css);
 @import url(../blocks/quiz-result/__header/_accent/quiz-result__header_accent.css);
 @import url(../blocks/quiz-result/__restart-button/quiz-result__restart-button.css);
+@import url(../blocks/quiz/_hidden/quiz_hidden.css);
 
 /* TASKS */
 @import url(../blocks/tasks/tasks.css);
@@ -386,10 +386,6 @@
   border-radius: 0 12px 12px 0;
   border-right: .5px solid black;
 }
-
-
-
-
 
 .offers__container {
   width: 100%;
