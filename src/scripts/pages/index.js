@@ -228,21 +228,9 @@ const quizCard2 = new QuizCard2(starQuizButton, initialQuizCards);
 quizCard2.setEventListeners();
 // Вызываем квиз
 starQuizButton.addEventListener('click', () => {
-    // starQuizButton.disabled = true;
-    // const i = 0;
     starQuizButton.setAttribute('disabled', 'disabled');
     quizCard2.fillCard(initialQuizCards[`${quizCard2.questionCount}`]);
     quizCard2.open(quizCard2._form);
     location.href = '#quiz-container';
 })
-// quizCard2._form.addEventListener('change', function (evt) {
-//     if (evt.target.tagName == 'INPUT' && evt.target.getAttribute('type') == 'radio') {
-//         // Создаём событие "click" и запускаем его, применительно к элементу "next"
-//         // debugger;
-//         quizCard2._form.reset();
-//         quizCard2.questionCount++;
-//         quizCard2.fillCard(initialQuizCards[`${quizCard2.questionCount}`]);
-//         console.log(quizCard2.questionCount);
-//     }
-// })
 // ----------------------QUIZ------------------------------------

@@ -7,7 +7,8 @@ export default class QuizCard2 {
     this._q1 = this._quizContainer.querySelector('.q1');
     this._q2 = this._quizContainer.querySelector('.q2');
     this._quizPageNumber = this._quizContainer.querySelector('.quiz__page-number');
-    this._closeButton = this._quizContainer.querySelector('.quiz__close-button');
+    this._closeButtonForm = this._quizContainer.querySelector('.quiz__close-button_form');
+    this._closeButtonResult = this._quizContainer.querySelector('.quiz__close-button_result');
     this.questionCount = 0;
     this.radio1 = this._quizContainer.querySelector('.radio1');
     this.radio2 = this._quizContainer.querySelector('.radio2');
@@ -27,14 +28,16 @@ export default class QuizCard2 {
   close = (element) => {
     element.classList.add('quiz_hidden'); 
   }
-  closeButtonAction = () => {
-    this.close(this._form);
+  closeButtonAction = (closedElement) => {
+    this.close(closedElement);
     this.starQuizButton.removeAttribute('disabled');
     this.questionCount = 0;
     location.href = '#mentor-or-reviewer';
   }
+
   setEventListeners = () => {
-    this._closeButton.addEventListener('mousedown', () => this.closeButtonAction()); // обработчик на кнопкe закрытия квиза
+    this._closeButtonForm.addEventListener('mousedown', () => this.closeButtonAction(this._form)); // обработчик на кнопкe закрытия квиза
+    this._closeButtonResult.addEventListener('mousedown', () => this.closeButtonAction(this.quizResult)); // обработчик на кнопкe закрытия результата квиза
     this._form.addEventListener('change', (evt) => {
       if (evt.target.tagName == 'INPUT' && evt.target.getAttribute('type') == 'radio') {
         // Создаём событие "click" и запускаем его, применительно к элементу "next"

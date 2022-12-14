@@ -80,6 +80,7 @@
 @import url(../blocks/quiz-result/quiz-result.css);
 @import url(../blocks/quiz-result/__header/quiz-result__header.css);
 @import url(../blocks/quiz-result/__header/_accent/quiz-result__header_accent.css);
+@import url(../blocks/quiz-result/__button/quiz-result__button.css);
 @import url(../blocks/quiz-result/__restart-button/quiz-result__restart-button.css);
 @import url(../blocks/quiz/_hidden/quiz_hidden.css);
 
