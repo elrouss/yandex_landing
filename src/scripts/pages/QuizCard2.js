@@ -13,8 +13,10 @@ export default class QuizCard2 {
     this.radio1 = this._quizContainer.querySelector('.radio1');
     this.radio2 = this._quizContainer.querySelector('.radio2');
     this.quizResult = this._quizContainer.querySelector('.quiz-result');
+    this.quizResultHeader = this.quizResult.querySelector('.quiz-result__header_accent');
     this.formBackButton = this._quizContainer.querySelector('.quiz__back-button');
     this.restartButton = this.quizResult.querySelector('.quiz-result__restart-button');
+    this.answers = [];
   }
 
   fillCard = (cardData) => {
@@ -36,6 +38,7 @@ export default class QuizCard2 {
     this.hide(closedElement, hiddenElementClass);
     this.starQuizButton.removeAttribute('disabled');
     this.questionCount = 0;
+    this.answers = [];
     location.href = '#mentor-or-reviewer';
   }
 
@@ -44,12 +47,14 @@ export default class QuizCard2 {
     this._closeButtonResult.addEventListener('mousedown', () => this.closeButtonAction(this.quizResult, 'quiz_hidden')); // обработчик на кнопкe закрытия результата квиза
     this.formBackButton.addEventListener('mousedown', () => {
       this.questionCount--;
+      this.answers.pop();
       this._form.reset();
       (this.questionCount < 1) ? this.hide(this.formBackButton, 'quiz__back-button_hidden') : this.show(this.formBackButton, 'quiz__back-button_hidden');
       this.fillCard(this.initialQuizCards[`${this.questionCount}`]);
     });
     this.restartButton.addEventListener('mousedown', () => {
       this.questionCount = 0;
+      this.answers = [];
       this.fillCard(this.initialQuizCards[`${this.questionCount}`]);
       (this.questionCount < 1) ? this.hide(this.formBackButton, 'quiz__back-button_hidden') : this.show(this.formBackButton, 'quiz__back-button_hidden');
 
@@ -59,6 +64,13 @@ export default class QuizCard2 {
     });
     this._form.addEventListener('change', (evt) => {
       if (evt.target.tagName == 'INPUT' && evt.target.getAttribute('type') == 'radio') {
+        if (evt.target.id == 'radio1') {
+          this.answers[`${this.questionCount}`] = 'mentorAnswer';
+          console.log(this.answers);
+        } else if (evt.target.id == 'radio2') {
+          this.answers[`${this.questionCount}`] = 'reviewerAnswer';
+          console.log(this.answers);
+        }
         // Создаём событие "click" и запускаем его, применительно к элементу "next"
         setTimeout(() => {
           this._form.reset();
@@ -69,6 +81,19 @@ export default class QuizCard2 {
             (this.questionCount < 1) ? this.hide(this.formBackButton, 'quiz__back-button_hidden') : this.show(this.formBackButton, 'quiz__back-button_hidden');
           } else {
             this.hide(this._form, 'quiz_hidden');
+            // прописать заполнение карточки результата
+            const resultReviewerScore = this.answers.filter(answer => answer == 'reviewerAnswer').length;
+            if (resultReviewerScore == 0) {
+              this.quizResultHeader.textContent = 'Вы на 100% наставник';
+            } else if (resultReviewerScore == 1) {
+              this.quizResultHeader.textContent = 'Вы на 3/4 наставник';
+            } else if (resultReviewerScore == 2) {
+              this.quizResultHeader.textContent = 'Вам подойдут обе позиции';
+            } else if (resultReviewerScore == 3) {
+              this.quizResultHeader.textContent = 'Вы на 3/4 ревьюер';
+            } else if (resultReviewerScore == 4) {
+              this.quizResultHeader.textContent = 'Вы на 100% ревьюер';
+            }
             this.show(this.quizResult, 'quiz_hidden');
           }
         }, 500);

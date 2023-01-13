@@ -229,6 +229,7 @@ quizCard2.setEventListeners();
 starQuizButton.addEventListener('click', () => {
     starQuizButton.setAttribute('disabled', 'disabled');
     quizCard2.fillCard(initialQuizCards[`${quizCard2.questionCount}`]);
+    quizCard2.answers = [];
     quizCard2.show(quizCard2._form, 'quiz_hidden');
     location.href = '#quiz-container';
 })
