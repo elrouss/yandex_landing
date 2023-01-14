@@ -1,0 +1,26 @@
+.quiz__close-button_form {
+    top: 50px;
+    right: 50px;
+    
+}
+@media screen and (max-width: 1280px) {
+    .quiz__close-button_form {
+        right: calc(24px + (100vw - 768px)/(1280 - 768)*26);
+        
+    }
+}
+@media screen and (max-width: 1100px) {
+    .quiz__close-button_form {
+        top: 28px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .quiz__close-button_form {
+        right: calc(16px + (100vw - 320px)/(768 - 320)*8);
+    }
+}
+@media screen and (max-width: 320px) {
+    .quiz__close-button_form {
+        right: 16px;
+    }
+}

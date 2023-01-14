@@ -22,7 +22,7 @@ export default class QuizCard2 {
   fillCard = (cardData) => {
     this._q1.textContent = cardData.mentorAnswer;
     this._q2.textContent = cardData.reviewerAnswer;
-    this._quizPageNumber.textContent = `${cardData.index}/4`
+    this._quizPageNumber.textContent = `${cardData.index} / 4`
   }
 
   show = (element, hiddenElementClass) => {

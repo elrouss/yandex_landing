@@ -10,8 +10,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    right: 60px;
-    top: 60px;
+    right: 50px;
+    top: 50px;
 }
 
 .quiz__close-button:hover {

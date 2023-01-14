@@ -1,0 +1,28 @@
+.quiz-survey {
+    padding: 62px 50px 69px 106px;
+}
+
+@media screen and (max-width: 1280px) {
+    .quiz-survey {
+        padding-right: calc(24px + (100vw - 768px)/(1280 - 768)*26);
+        padding-left: calc(29px + (100vw - 768px)/(1280 - 768)*77);
+        
+    }
+}
+@media screen and (max-width: 1100px) {
+    .quiz-survey {
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .quiz-survey {
+        padding-right: calc(16px + (100vw - 320px)/(768 - 320)*8);
+        padding-left: calc(16px + (100vw - 320px)/(768 - 320)*13);
+    }
+}
+@media screen and (max-width: 320px) {
+    .quiz-survey {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}

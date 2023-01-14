@@ -18,3 +18,15 @@
     opacity: 0.6;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1100px) {
+    .quiz__back-button {
+        left: calc(29px + (100vw - 768px)/(1100 - 768)*50);
+        top: 34px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .quiz__back-button {
+        left: 29px;
+    }
+}

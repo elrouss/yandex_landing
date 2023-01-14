@@ -6,3 +6,8 @@
     line-height: 1.167;
     margin: 0 0 64px 0;
 }
+@media screen and (max-width: 1100px) {
+    .quiz__header {
+        margin: 37px 0 28px 0;
+    }
+}

@@ -67,9 +67,11 @@
 @import url(../blocks/mentor-or-reviewer-column/__button/mentor-or-reviewer-column__button.css);
 /* quiz */
 @import url(../blocks/quiz/quiz.css);
+@import url(../blocks/quiz-survey/quiz-survey.css);
 @import url(../blocks/quiz-container/quiz-container.css);
 @import url(../blocks/quiz/__header/quiz__header.css);
 @import url(../blocks/quiz/__close-button/quiz__close-button.css);
+@import url(../blocks/quiz/__close-button/_form/quiz__close-button_form.css);
 @import url(../blocks/quiz/__page-number/quiz__page-number.css);
 @import url(../blocks/quiz/__back-button/quiz__back-button.css);
 @import url(../blocks/quiz/__back-button/_hidden/quiz__back-button_hidden.css);

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     background: transparent;
-    right: 60px;
+    right: 50px;
     bottom: 60px;
     font-family: 'YS Display', Arial, sans-serif;
     font-style: normal;
@@ -11,4 +11,19 @@
     font-size: var(--body-regular-22-font-size-adopt);
     line-height: 1.3;
     text-align: right;
+}
+@media screen and (max-width: 1280px) {
+    .quiz__page-number {
+        right: calc(24px + (100vw - 768px)/(1280 - 768)*26);
+    }
+}
+@media screen and (max-width: 768px) {
+    .quiz__page-number {
+        right: calc(16px + (100vw - 320px)/(768 - 320)*8);
+    }
+}
+@media screen and (max-width: 320px) {
+    .quiz__page-number {
+        right: 16px;
+    }
 }
