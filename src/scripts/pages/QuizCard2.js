@@ -8,7 +8,7 @@ export default class QuizCard2 {
     this._q2 = this._quizContainer.querySelector('.q2');
     this._quizPageNumber = this._quizContainer.querySelector('.quiz__page-number');
     this._closeButtonForm = this._quizContainer.querySelector('.quiz__close-button_form');
-    this._closeButtonResult = this._quizContainer.querySelector('.quiz__close-button_result');
+    // this._closeButtonResult = this._quizContainer.querySelector('.quiz__close-button_result');
     this.questionCount = 0;
     this.radio1 = this._quizContainer.querySelector('.radio1');
     this.radio2 = this._quizContainer.querySelector('.radio2');
@@ -44,7 +44,7 @@ export default class QuizCard2 {
 
   setEventListeners = () => {
     this._closeButtonForm.addEventListener('mousedown', () => this.closeButtonAction(this._form, 'quiz_hidden')); // обработчик на кнопкe закрытия квиза
-    this._closeButtonResult.addEventListener('mousedown', () => this.closeButtonAction(this.quizResult, 'quiz_hidden')); // обработчик на кнопкe закрытия результата квиза
+    // this._closeButtonResult.addEventListener('mousedown', () => this.closeButtonAction(this.quizResult, 'quiz_hidden')); // обработчик на кнопкe закрытия результата квиза
     this.formBackButton.addEventListener('mousedown', () => {
       this.questionCount--;
       this.answers.pop();
