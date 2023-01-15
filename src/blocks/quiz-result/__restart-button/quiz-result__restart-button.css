@@ -18,3 +18,16 @@
     opacity: 0.6;
     cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+    .quiz-result__restart-button {
+        position: relative;
+        left: unset;
+        bottom: unset;
+        margin-top: 26px;
+    }
+}
+@media screen and (max-width: 599px) {
+    .quiz-result__restart-button {
+        margin-top: 74px;
+    }
+}

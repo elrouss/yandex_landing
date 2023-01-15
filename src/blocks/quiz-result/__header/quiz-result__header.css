@@ -1,5 +1,10 @@
 .quiz-result__header {
     text-align: center;
-    /* margin-top: 33px; */
+    margin-top: 0;
     margin-bottom: 33px;
+}
+@media screen and (max-width: 768px) {
+    .quiz-result__header {
+        line-height: 1.4;
+    }
 }

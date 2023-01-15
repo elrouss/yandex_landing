@@ -8,5 +8,23 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    padding: 95px 0 79px 0;
+    padding: 95px 18px 79px 18px;
+}
+@media screen and (max-width: 1280px) {
+    .quiz-result {
+        padding-top: calc(87px + (100vw - 768px)/(1280 - 768)*8);
+    }
+}
+@media screen and (max-width: 768px) {
+    .quiz-result {
+        padding-top: 87px;
+        padding-bottom: 35px;
+    }
+}
+@media screen and (max-width: 599px) {
+    .quiz-result {
+        background-image: url('../../images/garland.png');
+        padding-top: 48%;
+        background-position-y: 12px;
+    }
 }
