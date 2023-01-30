@@ -3,7 +3,9 @@
 <br>
 
 <p align="center">
+  <a href="https://elrouss.github.io/yandex_landing/">
   <img width="600" alt="Снимок экрана 2022-12-02 в 19 16 23" src="https://user-images.githubusercontent.com/108838349/205341313-a1af4683-07cc-4df1-aaa0-28d2727b509a.png">
+  </a>
 </p>
 
 <h3 align="center">:wind_face: Команда &laquo;Унесенные кодом&raquo;</h1>
@@ -39,8 +41,10 @@
 <p>2. npm start - запустить приложение</p>
 
 <p align="center">
-  <img width="820" alt="Снимок экрана 2022-12-02 в 19 24 25" src="https://user-images.githubusercontent.com/108838349/205341400-f02c7ae1-dcb5-4303-9970-c6ef18cf8ff9.png">
+  <a href="https://elrouss.github.io/yandex_landing/"
+    <img width="820" alt="Снимок экрана 2022-12-02 в 19 24 25" src="https://user-images.githubusercontent.com/108838349/205341400-f02c7ae1-dcb5-4303-9970-c6ef18cf8ff9.png">
+  </a>
 </p>
 <h3>Ссылка на макет: https://www.figma.com/file/IiyqX9VfQhNM4ZzaUGIK16?node-id=696%3A33079</h3>
-<h3>Ссылка на проект: https://anastacia-tesli.github.io/yandex_landing/</h3>
+<h3>Ссылка на проект: https://elrouss.github.io/yandex_landing/</h3>
 <p><i>* Проект не входит в основную образовательную программу и является дополнительным</i></p>
