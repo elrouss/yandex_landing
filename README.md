@@ -41,7 +41,7 @@
 <p>2. npm start - запустить приложение</p>
 
 <p align="center">
-  <a href="https://elrouss.github.io/yandex_landing/"
+  <a href="https://elrouss.github.io/yandex_landing/">
     <img width="820" alt="Снимок экрана 2022-12-02 в 19 24 25" src="https://user-images.githubusercontent.com/108838349/205341400-f02c7ae1-dcb5-4303-9970-c6ef18cf8ff9.png">
   </a>
 </p>
