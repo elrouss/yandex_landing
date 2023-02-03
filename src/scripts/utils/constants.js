@@ -1,3 +1,7 @@
+// Секция "Team-Stories"
+export const teamStoriesCardsContainer = document.querySelector('.team-stories__cards');
+export const teamStoriesCardTemplate = document.querySelector('.team-stories__template-card').content;
+
 const flipCardsData = [
     {
         name: 'programming',
