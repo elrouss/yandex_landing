@@ -1,9 +1,16 @@
 .team-stories__cards {
-  padding: 0 145px;
-  display: flex;
-  column-gap: 30px;
+  margin: 0 0 0 30px;
+  height: 526px;
   grid-area: slider;
-  overflow: scroll;
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 30px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.team-stories__cards::-webkit-scrollbar {
+  display: none;
 }
 
 @media screen and (max-width: 1439px) {
@@ -15,8 +22,7 @@
 @media screen and (max-width: 768px) {
   .team-stories__cards {
     margin-left: 0;
-    column-gap: 18px;
+    column-gap: 20px;
     padding: 28px 0 0 0;
   }
-
 }

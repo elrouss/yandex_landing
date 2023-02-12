@@ -234,7 +234,7 @@ function createTemplateTeamStories({ name, job, review, photo }) {
   cardJob.textContent = job;
   cardReview.textContent = review;
   cardPhoto.src = photo;
-  cardPhoto.alt = name;
+  cardPhoto.alt = `Ребята из команды Яндекс Практикума: ${job[0].toLowerCase() + job.slice(1) + ' ' + name}`;
 
   return cardItem;
 };

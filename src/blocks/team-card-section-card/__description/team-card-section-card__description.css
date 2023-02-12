@@ -3,13 +3,12 @@
   font-size: var(--additional-16-font-size);
   line-height: var(--additional-16-line-height);
   color: var(--basic-first-tint-color);
-  font-family: 'YS Text';
-  max-width: 220px;
-  padding: 0 14px;
+  max-width: 100%;
+  padding: 0;
 }
 
 @media screen and (max-width: 860px) {
   .team-card-section-card__description {
-      font-size: 15px;
+    font-size: 15px;
   }
 }
