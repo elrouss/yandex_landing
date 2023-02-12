@@ -1,4 +1,4 @@
-import { flipCardsData as flipCardsData } from './constants';
+import { flipCardsData as flipCardsData } from '../utils/constants';
 
 export default class PopupFlipCard {
     constructor() {
@@ -26,9 +26,9 @@ export default class PopupFlipCard {
         }
     }
     setEventListeners() {
-        this._popup.addEventListener('mousedown', (evt) => { 
-            if (evt.target === evt.currentTarget || evt.target.classList.contains('popup-about__close-button')) { 
-                this.close(); 
+        this._popup.addEventListener('mousedown', (evt) => {
+            if (evt.target === evt.currentTarget || evt.target.classList.contains('popup-about__close-button')) {
+                this.close();
             };
         }); // обработчик на кнопки закрытия поп-ап и темной области поп-ап
         this._popupActionButton.addEventListener('click', () => {
