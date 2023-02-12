@@ -14,5 +14,6 @@
   .intro {
     width: 100%;
     padding: 150px 8px 48px;
+    box-sizing: border-box;
   }
 }

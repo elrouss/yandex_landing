@@ -32,8 +32,8 @@ if (document.documentElement.clientWidth < 1171) {
 }
 //----------------------------------------------------------------------------------------
 
-const burgerButton = document.querySelector('.header__burger');
-const burgerMenu = document.querySelector('.header__nav');
+// const burgerButton = document.querySelector('.header__burger');
+// const burgerMenu = document.querySelector('.header__nav');
 const body = document.querySelector('.page');
 const header = document.querySelector('.header');
 
@@ -184,14 +184,14 @@ document.querySelectorAll("a[href^='#']").forEach(link => {
   });
 });
 
-burgerButton.addEventListener('click', () => {
+// burgerButton.addEventListener('click', () => {
 
-  burgerButton.classList.toggle('active');
-  burgerMenu.classList.toggle('active');
-  body.classList.toggle('lock');
+//   burgerButton.classList.toggle('active');
+//   burgerMenu.classList.toggle('active');
+//   body.classList.toggle('lock');
   // header.classList.toggle('active');
 
-});
+// });
 
 // ----------------------QUIZ------------------------------------
 const [quetion1, quetion2, quetion3, quetion4] = initialQuizCards;

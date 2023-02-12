@@ -1,17 +1,13 @@
 .header__nav {
-  display: flex;
-  max-width: 809px;
-  justify-content: space-between;
+  background-color: #fff;
+  grid-column-start: 3;
+  text-align: center;
+  font-feature-settings: 'pnum', 'lnum' on;
 }
 
-/* @media screen and (max-width: 1275px) {
+@media screen and (max-width: 1063px) {
   .header__nav {
-    max-width: calc(682px + (127 + 127 * .7) * (100vw - 1000px) / 1275);
+    display: none;
+    grid-column-start: unset;
   }
 }
-
-@media screen and (max-width: 1000px) {
-  .header__nav {
-    width: max-content;
-  }
-} */

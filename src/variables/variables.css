@@ -27,7 +27,7 @@
   --font-weight-regular: 400;
   --font-weight-light: 300;
 
-  /* HEADER */
+  /* HEADING */
   /* H1 */
   --h1-font-size: 64px;
   --h1-line-height: calc(75 / 64 * 100%);
@@ -93,4 +93,3 @@
     --h2-font-size-adopt: 25px;
   }
 }
-

@@ -1,0 +1,18 @@
+.header__btn {
+  height: 45px;
+  width: 197px;
+  box-sizing: border-box;
+  grid-column-start: 5;
+}
+
+@media screen and (max-width: 1063px) {
+  .header__btn {
+    grid-column-start: 3;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .header__btn {
+    display: none;
+  }
+}
