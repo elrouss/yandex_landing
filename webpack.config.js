@@ -41,17 +41,6 @@ module.exports = {
         },
         'postcss-loader']
       },
-      {
-        test: /\.njk$/,
-        use: [
-          {
-            loader: 'simple-nunjucks-loader',
-            options: {
-
-            }
-          }
-        ]
-      }
     ]
   },
   plugins: [
