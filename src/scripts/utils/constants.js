@@ -1,4 +1,10 @@
-// Секция "Team-Stories"
+// HEADER
+export const header = document.querySelector('.header');
+export const headerNav = document.querySelector('.header__nav');
+export const headerBtn = document.querySelector('.header__btn');
+export const burgerBtn = document.querySelector('.header__burger');
+
+// TEAM-STORIES
 export const teamStoriesCardsContainer = document.querySelector('.team-stories__cards');
 export const teamStoriesCardTemplate = document.querySelector('.team-stories__template-card').content;
 

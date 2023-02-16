@@ -8,13 +8,22 @@
   color: var(--basic-second-tint-color);
   font-size: var(--additional-16-font-size);
   line-height: var(--additional-16-line-height);
-  max-width: 457px;
   font-family: 'YS Text';
-  gap: 40px;
 }
 
-.header__links li {
-  list-style: none;
-  position: relative;
-  z-index: 3000005;
+@media screen and (max-width: 1063px) {
+  .header__links {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 22px;
+    color: var(--basic-first-tint-color);
+    font-size: 17px;
+    line-height: calc(22 / 17 * 100%);
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .header__links {
+    row-gap: 19px;
+  }
 }

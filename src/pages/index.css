@@ -1,7 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-@import url(../vendor/root.css);
+@import url(../variables/variables.css);
 @import url(../blocks/page/page.css);
+
 /* RECURRING ELEMENTS */
 /* Links */
 @import url(../blocks/link/link.css);
@@ -17,7 +18,7 @@
 @import url(../blocks/btn/_size/btn_size_l.css);
 @import url(../blocks/btn/_size/btn_size_s.css);
 @import url(../blocks/btn/_size/btn_size_xs.css);
-/* Headers */
+/* Headings */
 @import url(../blocks/section-header/section-header.css);
 @import url(../blocks/section-subheader/section-subheader.css);
 
@@ -27,6 +28,10 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger-element/header__burger-element.css);
+@import url(../blocks/header/__btn/header__btn.css);
 
 /* INTRO */
 @import url(../blocks/intro/intro.css);
@@ -169,151 +174,11 @@
 @import url(../blocks/btn/_button/btn_button.css);
 
 
-
-.header__container {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 0 18px;
-}
-
-.header__burger {
-  display: none;
-  position: relative;
-  z-index: 3000003;
-}
-
-.header__button {
-  margin: 0 0 0 143px;
-  height: 45px;
-  width: 197px;
-  box-sizing: border-box;
-}
-
 @media screen and (max-width: 769px) {
   .page.lock {
       overflow: hidden;
   }
-
-  .header__container {
-      margin: 0;
-  }
-
-  .header__button {
-    margin: 0 0 0 18px;
-  }
-
-  .header__burger {
-      display: block;
-      position: relative;
-      width: 30px;
-      height: 24px;
-  }
-
-  .header__burger span {
-      position: absolute;
-      background-color: black;
-      left: 0;
-      width: 100%;
-      height: 4px;
-      top: 10px;
-      border-radius: 20px;
-  }
-
-  .header__burger:before,
-  .header__burger:after {
-      content: '';
-      background-color: black;
-      position: absolute;
-      width: 100%;
-      height: 4px;
-      left: 0;
-      border-radius: 20px;
-  }
-
-  .header__burger:before {
-      top: 4px;
-  }
-
-  .header__burger:after {
-      bottom: 4px;
-  }
-
-  .header__burger.active:before {
-      transform: rotate(-45deg);
-      top: 10px;
-      transition: all 0.5s ease 0s;
-  }
-
-  .header__burger.active:after {
-      transform: rotate(45deg);
-      bottom: 10px;
-      transition: all 0.5s ease 0s;
-  }
-
-
-  .header__nav {
-      position: fixed;
-      top: -150%;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      padding: 98px 0 0 0 ;
-      transition: all 0.5s ease 0s;
-      overflow: auto;
-      flex-direction: column;
-      justify-content: flex-start;
-  }
-
-  .header__nav.active {
-      top: 0;
-      z-index: 300000;
-  }
-
-  /* .header__nav.active:after {
-    content: '';
-    z-index: 3000050;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(26, 27, 33, 0.3);
-    position: absolute;
-    bottom: 120px;
-} */
-
-  .header__links {
-      display: block;
-      margin: 0 0 10px 0;
-  }
-
-  .header__links li {
-      margin: 0 0 30px 18px;
-  }
-
-  /* .header__list:last-child {
-      display: block;
-      margin: 0;
-  }
-
-  .header__list:last-child li {
-      text-decoration: underline;
-  } */
-
-
-  .header__link {
-      margin: 0 0 30px 0;
-      text-align: center;
-  }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .offers {
@@ -877,6 +742,4 @@ color: rgba(26, 27, 33, 1);
     line-height: 20px;
     color: white;
   }
-
 }
-

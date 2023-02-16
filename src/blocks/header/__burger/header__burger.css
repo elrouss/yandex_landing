@@ -1,0 +1,29 @@
+.header__burger {
+  margin: 0;
+  padding: 0;
+  width: 26px;
+  height: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.header__burger-element:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.header__burger.active > .header__burger-element:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.header__burger.active > .header__burger-element:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1063px) {
+  .header__burger {
+    display: block;
+    grid-column-start: 5;
+  }
+}

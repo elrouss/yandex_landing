@@ -1,0 +1,32 @@
+.header__btn {
+  height: 45px;
+  width: 197px;
+  box-sizing: border-box;
+  grid-column-start: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1063px) {
+  .header__btn {
+    grid-column-start: 3;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .header__btn {
+    position: fixed;
+    top: 220px;
+    height: 55px;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s ease, visibility .4s ease;
+  }
+
+  .header__btn.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
