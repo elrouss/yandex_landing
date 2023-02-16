@@ -1,9 +1,15 @@
 .header__menu {
-  margin-left: calc(145 / 1440 * 100%);
-  margin-right: calc(146 / 1440 * 100%);
+  margin: 0 auto;
+  max-width: 1150px;
   display: grid;
   align-items: center;
   grid-template-columns: max-content minmax(30px, 181px) minmax(max-content, 467px) minmax(30px, 144px) max-content;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu {
+    margin: 0 calc(145 / 1440 * 100%);
+  }
 }
 
 @media screen and (max-width: 1063px) {
@@ -11,6 +17,7 @@
     margin-left: calc(60 / 768 * 100%);
     margin-right: calc(71 / 768 * 100%);
     grid-template-columns: max-content 1fr max-content 35px 26px;
+    height: 64px;
   }
 }
 

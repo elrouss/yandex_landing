@@ -7,7 +7,24 @@
 
 @media screen and (max-width: 1063px) {
   .header__nav {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
     grid-column-start: unset;
+    transition: opacity .22s ease, visibility .22s ease;
+  }
+
+  .header__nav.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .header__nav {
+    top: 118px;
   }
 }

@@ -4,4 +4,5 @@
   height: 2px;
   background-color: var(--basic-first-tint-color);
   border-radius: 2px;
+  transition: transform .4s ease;
 }

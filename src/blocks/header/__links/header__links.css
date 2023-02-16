@@ -10,3 +10,20 @@
   line-height: var(--additional-16-line-height);
   font-family: 'YS Text';
 }
+
+@media screen and (max-width: 1063px) {
+  .header__links {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 22px;
+    color: var(--basic-first-tint-color);
+    font-size: 17px;
+    line-height: calc(22 / 17 * 100%);
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .header__links {
+    row-gap: 19px;
+  }
+}

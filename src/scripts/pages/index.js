@@ -1,6 +1,10 @@
 import '../../pages/index.css';
 
 import {
+  header,
+  headerNav,
+  headerBtn,
+  burgerBtn,
   teamStoriesCardsContainer,
   teamStoriesCardTemplate,
   initialQuizCards,
@@ -18,6 +22,14 @@ import QuizCard2 from '../utils/QuizCard2.js';
 import PopupFlipCard from "../utils/PopupFlipCard.js";
 import { initialCardsTeamStories } from '../utils/initialCardsTeamStories';
 
+// HEADER
+function toggleBurgerMenu() {
+  burgerBtn.classList.toggle('active');
+  header.classList.toggle('active');
+  headerNav.classList.toggle('active');
+  headerBtn.classList.toggle('active');
+};
+
 //------------------------------------- FLIP-CARD ----------------------------------------
 const flipCards = document.querySelectorAll('.flip-card')
 const popupFlipCard = new PopupFlipCard();
@@ -31,11 +43,6 @@ if (document.documentElement.clientWidth < 1171) {
   });
 }
 //----------------------------------------------------------------------------------------
-
-// const burgerButton = document.querySelector('.header__burger');
-// const burgerMenu = document.querySelector('.header__nav');
-const body = document.querySelector('.page');
-const header = document.querySelector('.header');
 
 const cardList = document.querySelector('.offers__list');
 const menuButtonsList = Array.from(document.querySelectorAll('.offers__menu-input'));
@@ -184,15 +191,6 @@ document.querySelectorAll("a[href^='#']").forEach(link => {
   });
 });
 
-// burgerButton.addEventListener('click', () => {
-
-//   burgerButton.classList.toggle('active');
-//   burgerMenu.classList.toggle('active');
-//   body.classList.toggle('lock');
-  // header.classList.toggle('active');
-
-// });
-
 // ----------------------QUIZ------------------------------------
 const [quetion1, quetion2, quetion3, quetion4] = initialQuizCards;
 
@@ -242,3 +240,6 @@ function createTemplateTeamStories({ name, job, review, photo }) {
 initialCardsTeamStories.forEach(card => {
   teamStoriesCardsContainer.append(createTemplateTeamStories(card));
 });
+
+// ОБРАБОТЧИКИ СОБЫТИЙ
+burgerBtn.addEventListener('click', toggleBurgerMenu);
