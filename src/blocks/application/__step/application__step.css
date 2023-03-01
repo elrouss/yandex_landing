@@ -1,0 +1,169 @@
+.application__step {
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  background-color: var(--accent-third-tint-color);
+  color: var(--basic-first-tint-color);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--h2-font-size);
+  line-height: var(--h2-line-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.application__step:nth-child(1) {
+  grid-area: num1;
+  position: relative;
+}
+
+.application__step:nth-child(1)::before {
+  content: '';
+  background-image: url(../../../images/Arrow-1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 128px;
+  width: 307px;
+  position: absolute;
+  top: -95px;
+  left: 54px;
+}
+
+.application__step:nth-child(3) {
+  grid-area: num2;
+  position: relative;
+}
+
+.application__step:nth-child(3)::before {
+  content: '';
+  background-image: url(../../../images/Arrow-2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 217px;
+  width: 356px;
+  position: absolute;
+  top: -55px;
+  left: 12px;
+}
+
+.application__step:nth-child(5) {
+  grid-area: num3;
+  position: relative;
+}
+
+.application__step:nth-child(5)::before {
+  content: '';
+  background-image: url(../../../images/Arrow-3.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 373px;
+  width: 368px;
+  position: absolute;
+  top: -124px;
+  left: 28px;
+}
+
+  @media screen and (max-width: 1220px) {
+  .application__step {
+    width: calc(46px + (33 + 33 * .7) * (100vw - 768px) / 1220);
+    height: calc(46px + (33 + 33 * .7) * (100vw - 768px) / 1220);
+    font-size: calc(27.7247px + (20.2753 + 20.2753 * .7) * (100vw - 768px) / 1220);
+  }
+
+  .application__step:nth-child(1)::before {
+    top: calc(-108px + (13 + 13 * .7) * (100vw - 1000px) / 1220);
+    left: calc(31px + (13 + 13 * .7) * (100vw - 1000px) / 1439);
+  }
+
+  .application__step:nth-child(5)::before {
+    height: calc(216px + (141 + 141 * .7) * (100vw - 768px) / 1220);
+    width: calc(240px + (130 + 130 * .7) * (100vw - 768px) / 1220);
+    top: calc(-75px + (-25 -25 * .7) * (100vw - 1000px) / 1220);
+    left: 26px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .application__step:nth-child(1)::before {
+    width: 178px;
+    height: 96px;
+    top: -56px;
+    left: 31px;
+  }
+
+  .application__step:nth-child(3)::before {
+    width: 207px;
+    height: 183px;
+    top: -35px;
+    left: -1px;
+  }
+
+  .application__step:nth-child(5)::before {
+    width: 211px;
+    height: 213px;
+    top: -71px;
+    left: 17px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .application__step {
+    width: 66px;
+    height: 66px;
+    font-size: 32.8101px;
+    line-height: 38px;
+  }
+
+  .application__step:nth-child(1)::before {
+    background-image: url(../../../images/Arrow-1_mobile.svg);
+    height: 200px;
+    width: 150px;
+    top: -16px;
+    left: -141px;
+  }
+
+  .application__step:nth-child(3)::before {
+    background-image: url(../../../images/Arrow-2_mobile.svg);
+    height: 113px;
+    width: 120px;
+    top: 33px;
+    left: -19px;
+  }
+
+  .application__step:nth-child(5)::before {
+    background-image: url(../../../images/Arrow-3_mobile.svg);
+    height: 184px;
+    width: 175px;
+    top: 35px;
+    left: -93px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .application__step {
+    width: 54px;
+    height: 54px;
+  }
+
+  .application__step:nth-child(1)::before {
+    height: 146px;
+    width: 110px;
+    top: -13px;
+    left: -99px;
+  }
+
+  .application__step:nth-child(3)::before {
+    height: 83px;
+    width: 73px;
+    top: 31px;
+    left: 5px;
+  }
+
+  .application__step:nth-child(5)::before {
+    height: 163px;
+    width: 151px;
+    top: 24px;
+    left: -93px;
+  }
+}

@@ -1,0 +1,13 @@
+.application__fieldset {
+  grid-area: fieldset;
+  display: flex;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .application__fieldset {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.application__form-heading {
+  grid-area: heading;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .application__form-heading {
+    max-width: 301px;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .application__form-heading {
+    padding-right: 16px;
+    row-gap: 20px;
+  }
+}

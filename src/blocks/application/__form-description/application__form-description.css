@@ -1,0 +1,14 @@
+.application__form-description {
+  margin: 0;
+  padding: 0;
+  font-size: var(--additional-font-size);
+  line-height: var(--additional-line-height);
+}
+
+@media screen and (max-width: 1439px) {
+  .application__form-description {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: calc(22 / 17 * 100%);
+  }
+}

@@ -1,14 +1,33 @@
 .application {
-  padding: 100px 0 120px;
-  background-color: var(--basic-first-tint-color);
   margin: 0 auto;
-  overflow-x: hidden;
-  box-sizing: border-box;
+  padding: 100px 145px 120px;
+  background-color: var(--basic-first-tint-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 1439px) {
   .application {
-    width: 100%;
-    padding: 80px 18px;
+    padding-left: calc(145 / 1440 * 100%);
+    padding-right: calc(145 / 1440 * 100%);
+    max-width: 1150px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .application {
+    padding-top: 80px;
+    padding-bottom: 81px;
+    padding-left: calc(60 / 768 * 100%);
+    padding-right: calc(60 / 768 * 100%);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .application {
+    padding-left: calc(18 / 390 * 100%);
+    padding-right: calc(18 / 390 * 100%);
   }
 }

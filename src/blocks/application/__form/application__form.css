@@ -1,25 +1,26 @@
 .application__form {
-  max-width: 1015px;
-  padding-bottom: 62px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 28px;
-  column-gap: 20px;
-  grid-template:
-  'name phone email'
-  '. . button';
-  position: relative;
+  margin-top: 98px;
+  padding: 62px 68px 62px 66.8px;
+  max-width: 1150px;
+  background-color: #fff;
+  border-radius: 25px;
 }
 
-/* 'job department resume' */
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 1000px) {
   .application__form {
+    margin-top: 51px;
+    padding: 80px 0 80px;
     width: 100%;
-    padding-bottom: 37px;
     display: flex;
-    grid-template-columns: repeat(3, 1fr);
     flex-direction: column;
-    column-gap: 20px;
-    position: relative;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .application__form {
+    margin-top: 90px;
+    padding-top: 61px;
+    padding-bottom: 61px;
   }
 }

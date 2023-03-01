@@ -11,7 +11,6 @@
 /* Titles and subtitles */
 /* Тут еще подумать!!! */
 @import url(../blocks/section-paragraph/section-paragraph.css);
-@import url(../blocks/section-paragraph/_color/section-paragraph_color_white.css);
 /* Buttons */
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/btn/_size/btn_size_xl.css);
@@ -124,21 +123,27 @@
 
 /* APPLICATION */
 @import url(../blocks/application/application.css);
-@import url(../blocks/application/__container/application__container.css);
-@import url(../blocks/application/__input/application__input.css);
-@import url(../blocks/application/__custom-select/application__custom-select.css);
-@import url(../blocks/application/__title/application__title.css);
-@import url(../blocks/application/__title/_padding/application__title_padding-left.css);
 @import url(../blocks/application/__text/application__text.css);
+@import url(../blocks/application/__title/application__title.css);
 @import url(../blocks/application/__text-steps/application__text-steps.css);
-@import url(../blocks/application/__title/_text/application__title_text_accent.css);
-@import url(../blocks/application/__description/application__description.css);
+@import url(../blocks/application/__step/application__step.css);
+@import url(../blocks/application/__step-text/application__step-text.css);
 @import url(../blocks/application/__form/application__form.css);
+@import url(../blocks/application/__form-wrapper/application__form-wrapper.css);
+@import url(../blocks/application/__form-heading/application__form-heading.css);
+@import url(../blocks/application/__form-title/application__form-title.css);
+@import url(../blocks/application/__form-title/_color/application__form-title_color_accent.css);
+@import url(../blocks/application/__form-description/application__form-description.css);
+@import url(../blocks/application/__fieldset/application__fieldset.css);
+@import url(../blocks/application/__input/application__input.css);
 @import url(../blocks/application/__form-counter/application__form-counter.css);
+@import url(../blocks/application/__submit-btn/application__submit-btn.css);
+
+/* @import url(../blocks/application/__custom-select/application__custom-select.css);
 @import url(../blocks/application/__agreement/application__agreement.css);
 @import url(../blocks/application/__agreement-checkbox/application__agreement-checkbox.css);
-@import url(../blocks/application/__agreement-data/application__agreement-data.css);
-@import url(../blocks/application/__submit-btn/application__submit-btn.css);
+@import url(../blocks/application/__agreement-data/application__agreement-data.css); */
+
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);

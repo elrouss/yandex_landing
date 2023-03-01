@@ -1,6 +1,7 @@
 .about-container {
   margin: 72px auto 100px;
   padding: 0 60px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {

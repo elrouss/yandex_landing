@@ -1,5 +1,10 @@
 .application__text {
-  z-index: 4000;
   color: #fff;
-  position: relative;
+  width: 1150px;
+}
+
+@media screen and (max-width: 1439px) {
+  .application__text {
+    width: 100%;
+  }
 }

@@ -1,31 +1,42 @@
 .application__text-steps {
-  position: relative;
-  z-index: 4100;
-  display: flex;
-  padding-top: 122px;
-  padding-bottom: 105px;
+  margin: 0;
+  padding: 108px 0 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: max-content 28px max-content 120px max-content 28px max-content 62px max-content 37px max-content;
+  grid-template-areas: 'num1 . step1 . num2 . step2 . num3 . step3';
+  align-items: center;
 }
 
-
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 1439px) {
   .application__text-steps {
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 70px;
-    padding: 60px 0 90px 0;
-    justify-content: flex-end;
+    grid-template-columns: max-content minmax(15px, 28px) max-content minmax(28px, 120px) max-content minmax(9px, 28px) max-content minmax(37px, 62px) max-content minmax(15px, 37px) max-content;
   }
+}
 
-  .application__text-steps::before {
-    content: url(../../../images/mobile-number.svg);
-    position: absolute;
-    left: -20px;
-    bottom: -53px;
+@media screen and (max-width: 1000px) {
+  .application__text-steps {
+    padding-top: 80px;
   }
+}
 
-  .application__text-steps p {
-    max-width: 190px;
-    padding: 0;
-    font-size: 17px;
+@media screen and (max-width: 700px) {
+  .application__text-steps {
+    padding-left: 66px;
+    grid-template-columns: max-content max-content;
+    grid-template-areas:
+    'num1 step1'
+    'num2 step2'
+    'num3 step3';
+    column-gap: 20px;
+    row-gap: 85px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .application__text-steps {
+    padding-top: 73px;
+    row-gap: 60px;
   }
 }

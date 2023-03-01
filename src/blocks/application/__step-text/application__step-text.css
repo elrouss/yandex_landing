@@ -1,0 +1,58 @@
+.application__step-text {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--body-regular-22-font-size);
+  line-height: calc(29 / 22 * 100%);
+  font-feature-settings: 'pnum', 'lnum' on;
+}
+
+.application__step-text:nth-child(2) {
+  max-width: 167px;
+  grid-area: step1;
+}
+
+.application__step-text:nth-child(4) {
+  max-width: 225px;
+  grid-area: step2;
+}
+
+.application__step-text:nth-child(6) {
+  max-width: 237px;
+  grid-area: step3;
+}
+
+@media screen and (max-width: 1439px) {
+  .application__step-text {
+    font-size: calc(15px + (7 + 7 * .7) * (100vw - 768px) / 1439);
+    line-height: calc(19 / 15 * 100%);
+  }
+
+  .application__step-text:nth-child(2) {
+    max-width: calc(123px + (44 + 44 * .7) * (100vw - 768px) / 1439);
+  }
+
+  .application__step-text:nth-child(4) {
+    max-width: calc(114px + (111 + 111 * .7) * (100vw - 768px) / 1439);
+  }
+
+  .application__step-text:nth-child(6) {
+    max-width: calc(125px + (112 + 112 * .7) * (100vw - 768px) / 1439);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .application__step-text {
+    font-size: 23px;
+    line-height: calc(22 / 17 * 100%);
+  }
+
+  .application__step-text:nth-child(2n) {
+    max-width: 186px
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .application__step-text {
+    font-size: 17px;
+    line-height: calc(22 / 17 * 100%);
+  }
+}

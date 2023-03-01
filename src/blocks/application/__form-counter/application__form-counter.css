@@ -3,7 +3,19 @@
   font-size: var(--additional-font-size);
   line-height: var(--additional-line-height);
   color: var(--basic-second-tint-color);
-  position: absolute;
-  top: 112px;
-  left: 590px;
+  grid-area: steps;
+  justify-self: end;
+  align-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .application__form-counter {
+    padding-top: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .application__form-counter {
+    justify-self: baseline;
+  }
 }

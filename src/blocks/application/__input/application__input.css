@@ -18,26 +18,15 @@
   color: var(--basic-second-tint-color);
 }
 
-.application__input:nth-child(1) {
-  grid-area: name;
+@media screen and (max-width: 1439px) {
+  .application__input {
+    width: 304px;
+  }
 }
 
-.application__input:nth-child(2) {
-  grid-area: phone;
-}
-
-.application__input:nth-child(3) {
-  grid-area: email;
-}
-
-.application__input:nth-child(4) {
-  grid-area: job;
-}
-
-.application__input:nth-child(5) {
-  grid-area: department;
-}
-
-.application__input:nth-child(6) {
-  grid-area: resume;
+@media screen and (max-width: 1000px) {
+  .application__input {
+    width: 301px;
+    height: 46px;
+  }
 }

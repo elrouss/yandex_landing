@@ -416,64 +416,75 @@
     </section>
 
     <section class="application" id="application">
+
       <div class="application__text">
-        <h2 class="application__title application__title_padding-left">Как стать экспертом?</h2>
-        <div class="application__text-steps">
-          <p class="section-paragraph section-paragraph_color_white">Выберите роль и&nbsp;оставьте заявку</p>
-          <p class="section-paragraph section-paragraph_color_white">Пройдите отбор и&nbsp;бесплатное обучение</p>
-          <p class="section-paragraph section-paragraph_color_white">Начните делиться знаниями со&nbsp;студентами</p>
-        </div>
+        <h2 class="application__title">Как стать экспертом?</h2>
+        <ul class="application__text-steps">
+          <li class="application__step">1</li>
+          <li class="application__step-text">Выберите роль и&nbsp;оставьте заявку</li>
+          <li class="application__step">2</li>
+          <li class="application__step-text">Пройдите отбор и&nbsp;бесплатное обучение</li>
+          <li class="application__step">3</li>
+          <li class="application__step-text">Начните делиться своими знаниями</li>
+        </ul>
       </div>
-      <div class="application__container">
-        <h3 class="application__title">Станьте <span class="application__title_text_accent">наставником или
-            ревьюером</span></h3>
-        <p class="application__description">Оставьте заявку, чтобы стать частью команды Яндекс Практикума</p>
-        <form name="applicationTutors" class="application__form">
-          <input id="input-name" name="applicationName" type="text" value="" placeholder="Имя" minlength="2"
-            maxlength="48" required class="application__input">
-          <input id="input-phone" name="applicationPhone" type="tel" value="" placeholder="Номер телефона"
-            minlength="16" maxlength="16" required class="application__input">
-          <input id="input-email" name="applicationEmail" type="email" value="" placeholder="ivanivanov@yandex.ru"
-            minlength="2" maxlength="48" required class="application__input">
+
+      <form name="applicationTutors" class="application__form">
+        <div class="application__form-wrapper">
+          <div class="application__form-heading">
+            <h3 class="application__form-title">Станьте <span class="application__form-title_color_accent">наставником
+                или&nbsp;ревьюером</span></h3>
+            <p class="application__form-description">Оставьте заявку, чтобы стать частью команды Яндекс Практикум</p>
+          </div>
+          <fiedset class="application__fieldset">
+            <input id="input-username" name="applicationName" type="text" value="" placeholder="Имя" minlength="2"
+              maxlength="48" required class="application__input">
+            <input id="input-phone" name="applicationPhone" type="tel" value="" placeholder="Номер телефона"
+              minlength="16" maxlength="16" required class="application__input">
+            <input id="input-email" name="applicationEmail" type="email" value="" placeholder="ivanivanov@yandex.ru"
+              minlength="2" maxlength="48" required class="application__input">
+          </fiedset>
 
           <!-- Для второй страницы формы! -->
           <!-- <div class="application__custom-select">
-            <select>
-              <option value="0" disabled selected>Какая роль вам ближе?</option>
-              <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
-              <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
-              <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
-              <option value="4">Наставник на курс &laquo;Android-разработчик&raquo;</option>
-            </select>
-          </div>
-          <div class="application__custom-select">
-            <select>
-              <option value="0" disabled selected>Выберите факультет</option>
-              <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
-              <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
-              <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
-              <option value="4">Наставник на курс &laquo;Android-разработчик&raquo;</option>
-            </select>
-          </div>
-          <input id="input-link" name="applicationLinkResume" type="url" value="" placeholder="Ссылка на резюме"
-            minlength="2" maxlength="120" required class="application__input"> -->
+              <select>
+                <option value="0" disabled selected>Какая роль вам ближе?</option>
+                <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
+                <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
+                <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
+                <option value="4">Наставник на курс &laquo;Android-разработчик&raquo;</option>
+              </select>
+            </div>
+            <div class="application__custom-select">
+              <select>
+                <option value="0" disabled selected>Выберите факультет</option>
+                <option value="1">Наставник на курс &laquo;Java-разработчик&raquo;</option>
+                <option value="2">Наставник на курс &laquo;Разработчик С++&raquo;</option>
+                <option value="3">Наставник на курс &laquo;Алгоритмы для разработчиков&raquo;</option>
+                <option value="4">Наставник на курс &laquo;Android-разработчик&raquo;</option>
+              </select>
+            </div>
+            <input id="input-link" name="applicationLinkResume" type="url" value="" placeholder="Ссылка на резюме"
+              minlength="2" maxlength="120" required class="application__input"> -->
           <!-- Для второй страницы формы! -->
 
           <!-- Для второй страницы формы! -->
           <!-- <div class="application__agreement">
-            <input type="checkbox" class="application__checkbox" required>
-            <p class="application__agreement-data">
-              Я&nbsp;даю согласие АНО ДПО &laquo;ШАД&raquo; и&nbsp;ООО &laquo;ЯНДЕКС&raquo; на&nbsp;<a href="" class="link link_type_underline">обработку указанных
-                данных</a> для целей рассмотрения анкеты и&nbsp;обратной связи по&nbsp;ней.
-            </p>
-          </div>-->
+              <input type="checkbox" class="application__checkbox" required>
+              <p class="application__agreement-data">
+                Я&nbsp;даю согласие АНО ДПО &laquo;ШАД&raquo; и&nbsp;ООО &laquo;ЯНДЕКС&raquo; на&nbsp;<a href="" class="link link_type_underline">обработку указанных
+                  данных</a> для целей рассмотрения анкеты и&nbsp;обратной связи по&nbsp;ней.
+              </p>
+            </div>-->
           <!-- Для второй страницы формы! -->
+
           <span class="application__form-counter">Шаг 1 из 2</span>
           <button type="button"
-            aria-label="Кнопка перехода ко второму шагу формы заявки для вступления в команду Практикума"
+            aria-label="Кнопка перехода ко второму шагу формы заявки для вступления в команду Яндекс Практикума"
             class="btn btn_size_xl application__submit-btn">Продолжить</button>
-        </form>
-      </div>
+        </div>
+      </form>
+
     </section>
   </main>
 
